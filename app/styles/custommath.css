@@ -1,0 +1,94 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.ui-accordion-header{
+  text-align: left;
+}
+
+
+.main-div {
+margin: 15px;
+width:760px;
+font-size: inherit;
+
+}
+
+.main-tabs {
+    /*display: none;*/
+    margin-top: 8px;
+}
+
+.figure-border {
+  background-color: #efefef;
+  border: 1px solid #7a7;
+}
+
+.figure-centered {
+  text-align: center;
+}
+
+.figure-trimwidth{
+   text-align: left;
+  display: inline-block;
+}
+
+
+#power-table {
+  font: 100% sans-serif;
+  background-color: #efefef;
+  border-collapse: collapse;
+  empty-cells: show;
+  border: 1px solid #7a7;
+  margin-right: .5em;
+  margin-bottom: 2.8em;
+
+}
+
+#power-table > caption {
+  text-align: left;
+  font-weight: bold;
+  font-size: 200%;
+  border-bottom: .2em solid #4ca;
+  margin-bottom: .5em;
+}
+
+
+/* basic shared rules */
+#power-table th,
+#power-table td {
+  text-align: right;
+  padding-right: .5em;
+}
+
+#power-table th {
+  font-weight: bold;
+  padding-left: .1em;
+}
+
+
+/* header */
+#power-table > thead > tr:first-child > th {
+  text-align: center;
+  color: blue;
+}
+
+#power-table > thead > tr + tr > th {
+  font-style: italic;
+  color: gray;
+}
+
+/* fix size of superscript */
+#power-table sup {
+  font-size: 75%;
+}
+
+/* body */
+#power-table td {
+  background-color: #efefef;
+  padding:.1em .5em .1em .5em;
+}
+
+.startsUgly { display: none; }
+
+
+

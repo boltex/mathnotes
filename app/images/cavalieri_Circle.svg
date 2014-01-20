@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="78"
+   height="85"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="cavalieri_Circle.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopM"
+       style="overflow:visible">
+      <path
+         id="path3938"
+         d="M 0,5.65 0,-5.65"
+         style="fill:none;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="StopL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopL"
+       style="overflow:visible">
+      <path
+         id="path3935"
+         d="M 0,5.65 0,-5.65"
+         style="fill:none;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="8"
+     inkscape:cx="51.920814"
+     inkscape:cy="49.237208"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="832"
+     inkscape:window-height="802"
+     inkscape:window-x="11"
+     inkscape:window-y="8"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-967.36218)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path4613"
+       d="m 72.547335,1039.2868 0,-36.2824"
+       style="fill:none;stroke:#808080;stroke-width:0.9676367;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.96763669, 0.96763669;stroke-dashoffset:0" />
+    <path
+       style="fill:none;stroke:#808080;stroke-width:0.95971984;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.95971984, 0.95971984;stroke-dashoffset:0"
+       d="m 4.25,1039.2945 0,-35.6913"
+       id="path4611"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4605"
+       sodipodi:cx="63.462833"
+       sodipodi:cy="47.700119"
+       sodipodi:rx="34.117901"
+       sodipodi:ry="34.117901"
+       d="m 97.580734,47.700119 a 34.117901,34.117901 0 1 1 -68.235801,0 34.117901,34.117901 0 1 1 68.235801,0 z"
+       transform="translate(-25.041631,955.33033)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.98414332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#StopM);marker-end:url(#StopM)"
+       d="m 72.558488,1003.0304 -33.759811,0"
+       id="path4607"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4592"
+       d="m 72.598052,1041.2333 -68.3446345,0"
+       style="fill:none;stroke:#000000;stroke-width:1.2438035;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#StopM);marker-end:url(#StopM)" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.19372177px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="22.51606"
+       y="1051.5818"
+       id="text4576"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4578"
+         x="22.51606"
+         y="1051.5818">D = 2r</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.19372177px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="53.469856"
+       y="1000.9474"
+       id="text4576-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4578-7"
+         x="53.469856"
+         y="1000.9474">r</tspan></text>
+  </g>
+</svg>
