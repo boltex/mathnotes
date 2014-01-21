@@ -44,6 +44,25 @@ font-size: inherit;
   margin-right: .5em;
   margin-bottom: 2.8em;
 
+    th, td {
+      text-align: right;
+      padding-right: .5em;
+    }
+
+    th {
+        font-weight: bold;
+        padding-left: .1em;
+    }
+    
+    sup {
+        font-size: 75%;
+    }
+    
+    td {
+        background-color: #efefef;
+        padding:.1em .5em .1em .5em;
+    }
+
 }
 
 #power-table > caption {
@@ -53,20 +72,6 @@ font-size: inherit;
   border-bottom: .2em solid #4ca;
   margin-bottom: .5em;
 }
-
-
-/* basic shared rules */
-#power-table th,
-#power-table td {
-  text-align: right;
-  padding-right: .5em;
-}
-
-#power-table th {
-  font-weight: bold;
-  padding-left: .1em;
-}
-
 
 /* header */
 #power-table > thead > tr:first-child > th {
@@ -79,16 +84,6 @@ font-size: inherit;
   color: gray;
 }
 
-/* fix size of superscript */
-#power-table sup {
-  font-size: 75%;
-}
-
-/* body */
-#power-table td {
-  background-color: #efefef;
-  padding:.1em .5em .1em .5em;
-}
 .div-caval-image-left{
 
     clear:both;

@@ -2,26 +2,26 @@
 <?xml-stylesheet ekr_test?>
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.242945629732">
-	<global_window_position top="22" left="119" height="760" width="1239"/>
+<globals body_outline_ratio="0.328490718321">
+	<global_window_position top="21" left="294" height="760" width="1239"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20130617203326"><vh>intro</vh></v>
-<v t="fil.20140120032538" a="ETV" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh></v>
-<v t="fil.20140120032538.2" a="E"><vh>Quadratic equation</vh>
+<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538.1" a="TV"><vh>Cavalieri's Principle</vh></v>
+<v t="fil.20140120032538.2"><vh>Quadratic equation</vh>
 <v t="fil.20140120032538.3"><vh>Factoring out first</vh></v>
 <v t="fil.20140120032538.4"><vh>Completing the square first</vh></v>
 </v>
 <v t="fil.20140120032538.5"><vh>Exponents and Logarithms</vh>
-<v t="fil.20140120032538.6"><vh>Identities and Properties</vh></v>
+<v t="fil.20140120032538.6" a="M"><vh>Identities and Properties</vh></v>
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
 <v t="fil.20140120032538.8"><vh>Law of cosines</vh></v>
-<v t="fil.20140120032538.9" a="E"><vh>Series</vh>
+<v t="fil.20140120032538.9"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
@@ -36,6 +36,11 @@
 <v t="fil.20140120032538.19"><vh>Euler's Identity</vh></v>
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
+</v>
+<v t="fil.20140120215236" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
+<v t="fil.20140120215510.1"><vh>series tables</vh></v>
+<v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
 </v>
 </vnodes>
 <tnodes>
@@ -159,63 +164,70 @@ This is also a test of jqmath !</t>
 </t>
 <t tx="fil.20140120032538.1">&lt;div class="main-tabs startsUgly" id="main6"&gt; 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#cavalieri"&gt;Cavalieri&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#cavalieri"&gt;Method of Indivisibles&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div id="cavalieri"&gt;
 
 
-&lt;div&gt;
+&lt;div class="div-caval-image-left"&gt;
 
-&lt;img src="images/cavalieri_Principle.svg" style="float:left; margin-right:15px"&gt;
+&lt;img src="images/cavalieri_Principle.svg" &gt;
 
 &lt;p&gt;
 A shape sliced by lines parallel to its base keeps the same area 
-when the pieces are translated parallel to this same base line. Similarly,
+when the pieces are moved parallel to this same base line. Similarly,
 a volume sliced by planes parallel to its base keeps the same volume
-while the pieces are translated parallel its base plane.
+when the pieces are moved parallel its base plane.
 &lt;/p&gt;
 &lt;p&gt;
-The area of a rectangle is the lenght of the base multiplied by its height, perpendicular to the base:
-$A=bh$. By increasing the number of slices to infinity, it is obvious that the area 
-of any parallelogram is also $A=bh$.
+The area of a rectangle is the lenght of the base, multiplied by its height perpendicular to the base:
+$A=bh$.
 &lt;/p&gt;
+&lt;p&gt;
+By increasing the number of slices to infinity, it is obvious that for any parallelogram, $A=bh$.
+&lt;/p&gt;
+&lt;p&gt;
+Half of a rectangle, split in a straight line from opposite vertices, is a right triangle.
+By Cavalieri's principle stated above, all triangles with the same base and height have the same area: Half a rectangle.
+$$A={1/2}bh$$
+&lt;/p&gt;
+&lt;/div&gt;
 
-$A={1/2}bh$
+&lt;div class="div-caval-image-left" &gt; 
+&lt;img src="images/cavalieri_n_sided_Polygon.svg" &gt; 
+&lt;p&gt;
+test
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="div-caval-image-left"&gt;
+&lt;img src="images/cavalieri_Circle.svg" &gt;
+&lt;p&gt;
+test
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="div-caval-image-left"&gt;
+&lt;img src="images/cavalieri_Pyramid_Area.svg" &gt; 
+&lt;/div&gt;
+
+&lt;div class="div-caval-image-left"&gt;
+&lt;img src="images/cavalieri_3d_base_to_point_linear_all.svg" &gt; 
+&lt;/div&gt;
+
+&lt;div class="div-caval-image-left"&gt;
+&lt;img src="images/cavalieri_rect_triang_prisms.svg" &gt; 
+&lt;/div&gt;
+
+&lt;div class="div-caval-image-left"&gt;
+&lt;img src="images/cavalieri_Cone_and_Hemisphere.svg" &gt;
+&lt;/div&gt;
 
 &lt;/div&gt;
 
-&lt;div style="clear:both;float:left;"&gt; 
-&lt;img src="images/cavalieri_n_sided_Polygon.svg" &gt; &lt;br /&gt;
 &lt;/div&gt;
-
-&lt;div style="float:left;"&gt;
-&lt;img src="images/cavalieri_Circle.svg" &gt; &lt;br /&gt;
-&lt;/div&gt;
-
-&lt;div style="clear:both;"&gt;
-&lt;img src="images/cavalieri_Pyramid_Area.svg" &gt; &lt;br /&gt;
-&lt;/div&gt;
-
-&lt;div style="clear:both;"&gt;
-&lt;img src="images/cavalieri_3d_base_to_point_linear_all.svg" &gt; &lt;br /&gt;
-&lt;/div&gt;
-
-&lt;div style="clear:both; text-align:center;"&gt;
-&lt;img src="images/cavalieri_rect_triang_prisms.svg" &gt; &lt;br /&gt;
-&lt;/div&gt;
-
-
-&lt;div style="clear:both;"&gt;
-&lt;img src="images/cavalieri_Cone_and_Hemisphere.svg" &gt; &lt;br /&gt;
-&lt;/div&gt;
-
-
-
-&lt;/div&gt;
-
-
-&lt;/div&gt;</t>
+</t>
 <t tx="fil.20140120032538.2">&lt;div class="main-tabs startsUgly" id="main1"&gt; 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#tabs-1"&gt;By factoring out first&lt;/a&gt;&lt;/li&gt;
@@ -1086,5 +1098,112 @@ Taking the log on both sides $\ln({e^{iπ/2}})=\ln(i)$, simplifies to $iπ/2=\ln
 Raising $e^{iπ/2}=i$ to the power of i gives $({e^{iπ/2}})^i=i^i$ or $e^{i^2π/2}=i^i$, thus $e^{-π/2}=i^i$, a real number.
 &lt;/p&gt;
 &lt;/div&gt;</t>
+<t tx="fil.20140120215236">@language css
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.ui-accordion-header{
+  text-align: left;
+}
+
+
+.main-div {
+margin: 15px;
+width:760px;
+font-size: inherit;
+
+}
+
+.main-tabs {
+    /*display: none;*/
+    margin-top: 8px;
+}
+
+.startsUgly { display: none; }
+
+@others
+
+
+
+
+
+
+</t>
+<t tx="fil.20140120215510">.figure-border {
+  background-color: #efefef;
+  border: 1px solid #7a7;
+}
+
+.figure-centered {
+  text-align: center;
+}
+
+.figure-trimwidth{
+   text-align: left;
+  display: inline-block;
+}
+</t>
+<t tx="fil.20140120215510.1">
+#power-table {
+  font: 100% sans-serif;
+  background-color: #efefef;
+  border-collapse: collapse;
+  empty-cells: show;
+  border: 1px solid #7a7;
+  margin-right: .5em;
+  margin-bottom: 2.8em;
+
+    th, td {
+      text-align: right;
+      padding-right: .5em;
+    }
+
+    th {
+        font-weight: bold;
+        padding-left: .1em;
+    }
+    
+    sup {
+        font-size: 75%;
+    }
+    
+    td {
+        background-color: #efefef;
+        padding:.1em .5em .1em .5em;
+    }
+
+}
+
+#power-table &gt; caption {
+  text-align: left;
+  font-weight: bold;
+  font-size: 200%;
+  border-bottom: .2em solid #4ca;
+  margin-bottom: .5em;
+}
+
+/* header */
+#power-table &gt; thead &gt; tr:first-child &gt; th {
+  text-align: center;
+  color: blue;
+}
+
+#power-table &gt; thead &gt; tr + tr &gt; th {
+  font-style: italic;
+  color: gray;
+}
+</t>
+<t tx="fil.20140120215510.2">
+.div-caval-image-left{
+
+    clear:both;
+    
+    img{
+        float:left;
+        margin-right:15px;
+    }
+
+}</t>
 </tnodes>
 </leo_file>
