@@ -8,10 +8,10 @@
 
 
 .main-div {
-margin: 15px;
 width:760px;
+/* width:100%; */
 font-size: inherit;
-
+margin-bottom:30px;
 }
 
 .main-tabs {
@@ -20,6 +20,22 @@ font-size: inherit;
 }
 
 .startsUgly { display: none; }
+
+.medium-spacer { 
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.centered-content {
+
+text-align: center;
+
+}
+
+.container{
+width: 790px;
+max-width: 790px;
+}
 
 .figure-border {
   background-color: #efefef;

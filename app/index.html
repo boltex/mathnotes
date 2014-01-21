@@ -12,14 +12,13 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
-        <link rel="stylesheet" href="styles/jquery-ui.css">
-        <link rel="stylesheet" href="styles/custommath.css">
         <link rel="stylesheet" href="styles/jqmath-0.4.0.css">
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
-
+        <link rel="stylesheet" href="styles/jquery-ui.css">
+        <link rel="stylesheet" href="styles/custommath.css">
         <!-- endbuild -->
         <script src="bower_components/modernizr/modernizr.js"></script>
         <noscript>
@@ -59,17 +58,17 @@
 </select>
 <br />
 <div class="main-tabs startsUgly" id="main6"> 
+
 <ul>
-<li><a href="#cavalieri">Method of Indivisibles</a></li>
+<li><a href="#cavalieri1">In two dimension</a></li>
+<li><a href="#cavalieri2">In three dimensions</a></li>
 </ul>
 
-<div id="cavalieri">
+<div id="cavalieri1">
 
 
 <div class="div-caval-image-left">
-
 <img src="images/cavalieri_Principle.svg" >
-
 <p>
 A shape sliced by lines parallel to its base keeps the same area 
 when the pieces are moved parallel to this same base line. Similarly,
@@ -77,53 +76,76 @@ a volume sliced by planes parallel to its base keeps the same volume
 when the pieces are moved parallel its base plane.
 </p>
 <p>
-The area of a rectangle is the lenght of the base, multiplied by its height perpendicular to the base:
-$A=bh$.
-</p>
-<p>
-By increasing the number of slices to infinity, it is obvious that for any parallelogram, $A=bh$.
+The area of a rectangle is the lenght of the base, multiplied by its height perpendicular to the base,
+$\b⋅\h$. By increasing the number of slices to infinity, it is obvious that for any parallelogram,
+the formula is also:
+$$A=\b\h$$
 </p>
 <p>
 Half of a rectangle, split in a straight line from opposite vertices, is a right triangle.
-By Cavalieri's principle stated above, all triangles with the same base and height have the same area: Half a rectangle.
-$$A={1/2}bh$$
+By Cavalieri's principle stated above, all triangles with the same base and height
+ have the same area: Half a parallelogram.
+$$A={1/2}\b\h$$
 </p>
 </div>
-
-<div class="div-caval-image-left" > 
-<img src="images/cavalieri_n_sided_Polygon.svg" > 
-<p>
-test
-</p>
-</div>
-
 <div class="div-caval-image-left">
 <img src="images/cavalieri_Circle.svg" >
 <p>
-test
+The constant $π$ is defined as the ratio between the perimeter P and the diameter D.
+</p>
+<p class="centered-content" >
+$\D=2\r$ &nbsp;&nbsp;&nbsp;&nbsp; $π=\P/\D$ &nbsp;&nbsp;&nbsp;&nbsp; $\P=2π\r$
+</p>
+<p>
+For a regular <i>n</i>-sided polygon the perimeter is the lenght of a base b, times n: $\P=\b⋅{n}$
+<br />
+Factor the area of one of its triangles to get $A={1/2}\b\h⋅{n}$, equivalent to $A={1/2}\h⋅\P$.
+<br />
+Letting n reach infinity to get a circle, sides s and b become a radius r, so $A={1/2}\r⋅\P$.
+<br />
+Using the formula for the perimeter of a circle, we can write the area as
+</p>
+<p class="centered-content" >
+$A={1/2}\r⋅2π\r$ &nbsp;&nbsp;&nbsp;&nbsp; which simplifies as &nbsp;&nbsp;&nbsp;&nbsp; $A=π\r^2$.
 </p>
 </div>
 
-<div class="div-caval-image-left">
-<img src="images/cavalieri_Pyramid_Area.svg" > 
+
+
 </div>
+<div id="cavalieri2">
+
+
+
+<div class="div-caval-image-left">
+<img src="images/cavalieri_Pyramid_Area.svg" > <br />
+</div>
+
+
+<div class="div-caval-image-left">
+<img src="images/cavalieri_rect_triang_prisms.svg" > 
+<p>
+The volume of a pyramid is a third of the volume of a regular prism with the same base.
+</p>
+
+</div>
+
 
 <div class="div-caval-image-left">
 <img src="images/cavalieri_3d_base_to_point_linear_all.svg" > 
 </div>
 
-<div class="div-caval-image-left">
-<img src="images/cavalieri_rect_triang_prisms.svg" > 
-</div>
+
 
 <div class="div-caval-image-left">
 <img src="images/cavalieri_Cone_and_Hemisphere.svg" >
 </div>
-
+<br style="clear:both;" />
+</div>
 </div>
 
-</div>
 <div class="main-tabs startsUgly" id="main1"> 
+
 <ul>
 <li><a href="#tabs-1">By factoring out first</a></li>
 <li><a href="#tabs-2">By completing the square first</a></li>
@@ -937,7 +959,8 @@ It is then easy to see, using Taylor's formula, that $\e^x ≈ 1+x+{x^2}/2!+{x^3
 </p>
 
 <p>
-The Taylor series approximation of $\e^x$ seems to be the sum of those of sin(x) and cos(x) but the signs do not match perfectly, they alternate two by two.
+The Taylor series approximation of $\e^x$ seems to be the sum of those of sin(x) and cos(x) 
+but the signs do not match exactly, they alternate two by two.
 </p>
 <p>
 A pattern that matches this sign rotation is the consecutive powers of i :<br />

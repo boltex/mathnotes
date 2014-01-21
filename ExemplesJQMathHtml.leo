@@ -3,16 +3,19 @@
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.328490718321">
-	<global_window_position top="21" left="294" height="760" width="1239"/>
+	<global_window_position top="17" left="251" height="760" width="1239"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20130617203326"><vh>intro</vh></v>
-<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1" a="TV"><vh>Cavalieri's Principle</vh></v>
-<v t="fil.20140120032538.2"><vh>Quadratic equation</vh>
+<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140121031006"><vh>In two dimensions</vh></v>
+<v t="fil.20140121031006.1" a="TV"><vh>In three dimensions</vh></v>
+</v>
+<v t="fil.20140120032538.2" a="E"><vh>Quadratic equation</vh>
 <v t="fil.20140120032538.3"><vh>Factoring out first</vh></v>
 <v t="fil.20140120032538.4"><vh>Completing the square first</vh></v>
 </v>
@@ -21,12 +24,12 @@
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
 <v t="fil.20140120032538.8"><vh>Law of cosines</vh></v>
-<v t="fil.20140120032538.9"><vh>Series</vh>
+<v t="fil.20140120032538.9" a="E"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
 </v>
-<v t="fil.20140120032538.13"><vh>Undoing Trig Substitution</vh>
+<v t="fil.20140120032538.13" a="E"><vh>Undoing Trig Substitution</vh>
 <v t="fil.20140120032538.14"><vh>cos(arcsin)</vh></v>
 <v t="fil.20140120032538.15"><vh>sec2(arctan)</vh></v>
 </v>
@@ -64,14 +67,13 @@ This is also a test of jqmath !</t>
         &lt;!-- Place favicon.ico and apple-touch-icon.png in the root directory --&gt;
         &lt;!-- build:css styles/vendor.css --&gt;
         &lt;!-- bower:css --&gt;
-        &lt;link rel="stylesheet" href="styles/jquery-ui.css"&gt;
-        &lt;link rel="stylesheet" href="styles/custommath.css"&gt;
         &lt;link rel="stylesheet" href="styles/jqmath-0.4.0.css"&gt;
         &lt;!-- endbower --&gt;
         &lt;!-- endbuild --&gt;
         &lt;!-- build:css(.tmp) styles/main.css --&gt;
         &lt;link rel="stylesheet" href="styles/main.css"&gt;
-
+        &lt;link rel="stylesheet" href="styles/jquery-ui.css"&gt;
+        &lt;link rel="stylesheet" href="styles/custommath.css"&gt;
         &lt;!-- endbuild --&gt;
         &lt;script src="bower_components/modernizr/modernizr.js"&gt;&lt;/script&gt;
         &lt;noscript&gt;
@@ -163,72 +165,19 @@ This is also a test of jqmath !</t>
 &lt;/html&gt;
 </t>
 <t tx="fil.20140120032538.1">&lt;div class="main-tabs startsUgly" id="main6"&gt; 
+
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#cavalieri"&gt;Method of Indivisibles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#cavalieri1"&gt;In two dimension&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#cavalieri2"&gt;In three dimensions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div id="cavalieri"&gt;
-
-
-&lt;div class="div-caval-image-left"&gt;
-
-&lt;img src="images/cavalieri_Principle.svg" &gt;
-
-&lt;p&gt;
-A shape sliced by lines parallel to its base keeps the same area 
-when the pieces are moved parallel to this same base line. Similarly,
-a volume sliced by planes parallel to its base keeps the same volume
-when the pieces are moved parallel its base plane.
-&lt;/p&gt;
-&lt;p&gt;
-The area of a rectangle is the lenght of the base, multiplied by its height perpendicular to the base:
-$A=bh$.
-&lt;/p&gt;
-&lt;p&gt;
-By increasing the number of slices to infinity, it is obvious that for any parallelogram, $A=bh$.
-&lt;/p&gt;
-&lt;p&gt;
-Half of a rectangle, split in a straight line from opposite vertices, is a right triangle.
-By Cavalieri's principle stated above, all triangles with the same base and height have the same area: Half a rectangle.
-$$A={1/2}bh$$
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class="div-caval-image-left" &gt; 
-&lt;img src="images/cavalieri_n_sided_Polygon.svg" &gt; 
-&lt;p&gt;
-test
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class="div-caval-image-left"&gt;
-&lt;img src="images/cavalieri_Circle.svg" &gt;
-&lt;p&gt;
-test
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class="div-caval-image-left"&gt;
-&lt;img src="images/cavalieri_Pyramid_Area.svg" &gt; 
-&lt;/div&gt;
-
-&lt;div class="div-caval-image-left"&gt;
-&lt;img src="images/cavalieri_3d_base_to_point_linear_all.svg" &gt; 
-&lt;/div&gt;
-
-&lt;div class="div-caval-image-left"&gt;
-&lt;img src="images/cavalieri_rect_triang_prisms.svg" &gt; 
-&lt;/div&gt;
-
-&lt;div class="div-caval-image-left"&gt;
-&lt;img src="images/cavalieri_Cone_and_Hemisphere.svg" &gt;
-&lt;/div&gt;
+@others
 
 &lt;/div&gt;
 
-&lt;/div&gt;
 </t>
 <t tx="fil.20140120032538.2">&lt;div class="main-tabs startsUgly" id="main1"&gt; 
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#tabs-1"&gt;By factoring out first&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#tabs-2"&gt;By completing the square first&lt;/a&gt;&lt;/li&gt;
@@ -1068,7 +1017,8 @@ It is then easy to see, using Taylor's formula, that $\e^x ≈ 1+x+{x^2}/2!+{x^3
 &lt;/p&gt;
 
 &lt;p&gt;
-The Taylor series approximation of $\e^x$ seems to be the sum of those of sin(x) and cos(x) but the signs do not match perfectly, they alternate two by two.
+The Taylor series approximation of $\e^x$ seems to be the sum of those of sin(x) and cos(x) 
+but the signs do not match exactly, they alternate two by two.
 &lt;/p&gt;
 &lt;p&gt;
 A pattern that matches this sign rotation is the consecutive powers of i :&lt;br /&gt;
@@ -1109,10 +1059,10 @@ Raising $e^{iπ/2}=i$ to the power of i gives $({e^{iπ/2}})^i=i^i$ or $e^{i^2π
 
 
 .main-div {
-margin: 15px;
 width:760px;
+/* width:100%; */
 font-size: inherit;
-
+margin-bottom:30px;
 }
 
 .main-tabs {
@@ -1121,6 +1071,22 @@ font-size: inherit;
 }
 
 .startsUgly { display: none; }
+
+.medium-spacer { 
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.centered-content {
+
+text-align: center;
+
+}
+
+.container{
+width: 790px;
+max-width: 790px;
+}
 
 @others
 
@@ -1205,5 +1171,84 @@ font-size: inherit;
     }
 
 }</t>
+<t tx="fil.20140121031006">&lt;div id="cavalieri1"&gt;
+
+
+&lt;div class="div-caval-image-left"&gt;
+&lt;img src="images/cavalieri_Principle.svg" &gt;
+&lt;p&gt;
+A shape sliced by lines parallel to its base keeps the same area 
+when the pieces are moved parallel to this same base line. Similarly,
+a volume sliced by planes parallel to its base keeps the same volume
+when the pieces are moved parallel its base plane.
+&lt;/p&gt;
+&lt;p&gt;
+The area of a rectangle is the lenght of the base, multiplied by its height perpendicular to the base,
+$\b⋅\h$. By increasing the number of slices to infinity, it is obvious that for any parallelogram,
+the formula is also:
+$$A=\b\h$$
+&lt;/p&gt;
+&lt;p&gt;
+Half of a rectangle, split in a straight line from opposite vertices, is a right triangle.
+By Cavalieri's principle stated above, all triangles with the same base and height
+ have the same area: Half a parallelogram.
+$$A={1/2}\b\h$$
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="div-caval-image-left"&gt;
+&lt;img src="images/cavalieri_Circle.svg" &gt;
+&lt;p&gt;
+The constant $π$ is defined as the ratio between the perimeter P and the diameter D.
+&lt;/p&gt;
+&lt;p class="centered-content" &gt;
+$\D=2\r$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $π=\P/\D$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $\P=2π\r$
+&lt;/p&gt;
+&lt;p&gt;
+For a regular &lt;i&gt;n&lt;/i&gt;-sided polygon the perimeter is the lenght of a base b, times n: $\P=\b⋅{n}$
+&lt;br /&gt;
+Factor the area of one of its triangles to get $A={1/2}\b\h⋅{n}$, equivalent to $A={1/2}\h⋅\P$.
+&lt;br /&gt;
+Letting n reach infinity to get a circle, sides s and b become a radius r, so $A={1/2}\r⋅\P$.
+&lt;br /&gt;
+Using the formula for the perimeter of a circle, we can write the area as
+&lt;/p&gt;
+&lt;p class="centered-content" &gt;
+$A={1/2}\r⋅2π\r$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; which simplifies as &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $A=π\r^2$.
+&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+</t>
+<t tx="fil.20140121031006.1">&lt;div id="cavalieri2"&gt;
+
+
+
+&lt;div class="div-caval-image-left"&gt;
+&lt;img src="images/cavalieri_Pyramid_Area.svg" &gt; &lt;br /&gt;
+&lt;/div&gt;
+
+
+&lt;div class="div-caval-image-left"&gt;
+&lt;img src="images/cavalieri_rect_triang_prisms.svg" &gt; 
+&lt;p&gt;
+The volume of a pyramid is a third of the volume of a regular prism with the same base.
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;div class="div-caval-image-left"&gt;
+&lt;img src="images/cavalieri_3d_base_to_point_linear_all.svg" &gt; 
+&lt;/div&gt;
+
+
+
+&lt;div class="div-caval-image-left"&gt;
+&lt;img src="images/cavalieri_Cone_and_Hemisphere.svg" &gt;
+&lt;/div&gt;
+&lt;br style="clear:both;" /&gt;
+&lt;/div&gt;</t>
 </tnodes>
 </leo_file>
