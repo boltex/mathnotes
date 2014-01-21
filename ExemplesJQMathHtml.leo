@@ -9,13 +9,13 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="fil.20130617203326"><vh>intro</vh></v>
+<v t="fil.20130617203326" a="TV" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
 <v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>In two dimensions</vh></v>
-<v t="fil.20140121031006.1" a="TV"><vh>In three dimensions</vh></v>
+<v t="fil.20140121031006.1"><vh>In three dimensions</vh></v>
 </v>
-<v t="fil.20140120032538.2" a="E"><vh>Quadratic equation</vh>
+<v t="fil.20140120032538.2"><vh>Quadratic equation</vh>
 <v t="fil.20140120032538.3"><vh>Factoring out first</vh></v>
 <v t="fil.20140120032538.4"><vh>Completing the square first</vh></v>
 </v>
@@ -24,7 +24,7 @@
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
 <v t="fil.20140120032538.8"><vh>Law of cosines</vh></v>
-<v t="fil.20140120032538.9" a="E"><vh>Series</vh>
+<v t="fil.20140120032538.9"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
@@ -47,11 +47,36 @@
 </v>
 </vnodes>
 <tnodes>
-<t tx="fil.20130617203326">@
-
+<t tx="fil.20130617203326">@nocolor
 Math in html format.
+====================
 
-This is also a test of jqmath !</t>
+This is also a test of jqmath !
+-------------------------------
+
+These are famous theorems and identities written in HTML, JQuery, JQueryui and other libraries.
+
+Styling guide : http://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Mathematics
+
+I intend to use this to test using *MathJax* instead of *JQmath*.
+
+TODO
+----
+- Add relevant portraits of famous mathematicians in the background for each selection.
+    - Cavalieri's Principle : Bonaventura Cavalieri
+    - Quadratic : Brahmagupta
+    - Exponents &amp; Logs : Michael Stifel, John Napier
+    - Law of cosines : Euclid
+    - Series : Johann Faulhaber
+    - undoing Trig Substitution : Pythagoras 
+    - Min/max : Wallis? Barrow?
+    - Newton's Method : Isaac Newton
+    - Euler's Identity : Leonhard Euler
+- Visualy animate content changes and coresponding portraits and decoration.
+- Make selection of content other than by use of a &lt;select&gt; control.
+
+
+</t>
 <t tx="fil.20140120032538">@language html
 &lt;!doctype html&gt;
 &lt;!--[if lt IE 7]&gt;      &lt;html class="no-js lt-ie9 lt-ie8 lt-ie7"&gt; &lt;![endif]--&gt;
