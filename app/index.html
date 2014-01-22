@@ -60,8 +60,9 @@
 <div class="main-tabs startsUgly" id="main6"> 
 
 <ul>
-<li><a href="#cavalieri1">In two dimension</a></li>
-<li><a href="#cavalieri2">In three dimensions</a></li>
+<li><a href="#cavalieri1">Shapes and Surfaces</a></li>
+<li><a href="#cavalieri2">Prisms and Pyramids</a></li>
+<li><a href="#cavalieri3">Cones and Spheres</a></li>
 </ul>
 
 <div id="cavalieri1">
@@ -70,7 +71,7 @@
 <div class="div-caval-image-left">
 <img src="images/cavalieri_Principle.svg" >
 <p>
-A shape sliced by lines parallel to its base keeps the same area 
+<b>Cavalieri's principle</b> is the concept that a shape sliced by lines parallel to its base keeps the same area 
 when the pieces are moved parallel to this same base line. Similarly,
 a volume sliced by planes parallel to its base keeps the same volume
 when the pieces are moved parallel its base plane.
@@ -118,17 +119,48 @@ $A={1/2}\r⋅2π\r$ &nbsp;&nbsp;&nbsp;&nbsp; which simplifies as &nbsp;&nbsp;&nb
 
 
 <div class="div-caval-image-left">
-<img src="images/cavalieri_Pyramid_Area.svg" > <br />
+<img src="images/cavalieri_Pyramid_Area.svg" >
+<p>
+An open pyramid, with a regular <i>n</i>-sided polygon base has an area $A={1/2}\b{s}⋅n$
+<br />
+The perimeter of the base can be written as $\P=\b{n}$ so the area is also $A={1/2}\P{s}$
+<br />
+Letting n reach infinity to get a cone, the perimeter of the base is then $\P=2π\r$
+<br />
+So the surface area of an open cone is then $A={1/2}⋅2π\r⋅\s$, or $A=π\r\s$
+<br />
+When a cone is flat like a circle, s is then equal to r, so its area is $A=π\r⋅\r$, which is $A = π\r^2$
+</p>
 </div>
-
 
 <div class="div-caval-image-left">
-<img src="images/cavalieri_rect_triang_prisms.svg" > 
-<p>
-The volume of a pyramid is a third of the volume of a regular prism with the same base.
+<img src="images/cavalieri_pyramid_steps.svg" > 
+<p>We can approximate a pyramid with $n$ regular polygonal prisms.
+<br />
+With rectangular prisms, each slice x has volume $V=x\L/{n}⋅x\W/{n}⋅{\H/n}$ 
+<br />
+The sum is then $V=1^2{LW}/n^2{H/n}+2^2{LW}/n^2{H/n}+...+n^2{LW}/n^2{H/n}$
+<br />
+Factor out $V={LWH}/n^3$ to get ${LWH}/n^3⋅(1^2+2^2+...+n^2)$
+<br />
+Recognize the sum of power series $∑↙{i=1}↖n i^2 = {n(2n+1)(n+1)}/6$
+<br />
+So that $V={LWH}/n^3⋅{n(2n+1)(n+1)}/6$, cancel an $n$ to get 
+<br />
+$V={LWH}/n^2⋅{(2n+1)(n+1)}/6$, multiply out the binomes,
+<br />
+$V={LWH}/n^2⋅{2n^2+3n+1}/6$, separate as $V={LWH}/n^2⋅({n^2}/3+n/2+1/6)$,
+and cancel $1/{n^2}$ to get
+<br >
+$V={LWH}⋅(1/3+1/{2n}+1/{6n^2})$. By increasing the number of slices, n, reach infinity, 
+$V={LWH}⋅(1/3+1/{2∞}+1/{6∞^2})$ which is $V={LWH}⋅1/3$ where $LW$ is the area of the base.
 </p>
-
 </div>
+
+
+<br style="clear:both;" />
+</div><div id="cavalieri3">
+
 
 
 <div class="div-caval-image-left">
@@ -140,6 +172,9 @@ The volume of a pyramid is a third of the volume of a regular prism with the sam
 <div class="div-caval-image-left">
 <img src="images/cavalieri_Cone_and_Hemisphere.svg" >
 </div>
+
+
+
 <br style="clear:both;" />
 </div>
 </div>

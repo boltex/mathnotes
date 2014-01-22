@@ -2,18 +2,19 @@
 <?xml-stylesheet ekr_test?>
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.328490718321">
-	<global_window_position top="17" left="251" height="760" width="1239"/>
+<globals body_outline_ratio="0.40652173913">
+	<global_window_position top="22" left="96" height="758" width="920"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="fil.20130617203326" a="TV" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
-<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
-<v t="fil.20140121031006"><vh>In two dimensions</vh></v>
-<v t="fil.20140121031006.1"><vh>In three dimensions</vh></v>
+<v t="fil.20130617203326" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
+<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
+<v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
+<v t="fil.20140122010741" a="TV"><vh>Cones and Spheres</vh></v>
 </v>
 <v t="fil.20140120032538.2"><vh>Quadratic equation</vh>
 <v t="fil.20140120032538.3"><vh>Factoring out first</vh></v>
@@ -24,12 +25,12 @@
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
 <v t="fil.20140120032538.8"><vh>Law of cosines</vh></v>
-<v t="fil.20140120032538.9"><vh>Series</vh>
+<v t="fil.20140120032538.9" a="E"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
 </v>
-<v t="fil.20140120032538.13" a="E"><vh>Undoing Trig Substitution</vh>
+<v t="fil.20140120032538.13"><vh>Undoing Trig Substitution</vh>
 <v t="fil.20140120032538.14"><vh>cos(arcsin)</vh></v>
 <v t="fil.20140120032538.15"><vh>sec2(arctan)</vh></v>
 </v>
@@ -192,8 +193,9 @@ TODO
 <t tx="fil.20140120032538.1">&lt;div class="main-tabs startsUgly" id="main6"&gt; 
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#cavalieri1"&gt;In two dimension&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#cavalieri2"&gt;In three dimensions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#cavalieri1"&gt;Shapes and Surfaces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#cavalieri2"&gt;Prisms and Pyramids&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#cavalieri3"&gt;Cones and Spheres&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 @others
@@ -1202,7 +1204,7 @@ max-width: 790px;
 &lt;div class="div-caval-image-left"&gt;
 &lt;img src="images/cavalieri_Principle.svg" &gt;
 &lt;p&gt;
-A shape sliced by lines parallel to its base keeps the same area 
+&lt;b&gt;Cavalieri's principle&lt;/b&gt; is the concept that a shape sliced by lines parallel to its base keeps the same area 
 when the pieces are moved parallel to this same base line. Similarly,
 a volume sliced by planes parallel to its base keeps the same volume
 when the pieces are moved parallel its base plane.
@@ -1251,17 +1253,49 @@ $A={1/2}\r⋅2π\r$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; which simplifies as
 
 
 &lt;div class="div-caval-image-left"&gt;
-&lt;img src="images/cavalieri_Pyramid_Area.svg" &gt; &lt;br /&gt;
+&lt;img src="images/cavalieri_Pyramid_Area.svg" &gt;
+&lt;p&gt;
+An open pyramid, with a regular &lt;i&gt;n&lt;/i&gt;-sided polygon base has an area $A={1/2}\b{s}⋅n$
+&lt;br /&gt;
+The perimeter of the base can be written as $\P=\b{n}$ so the area is also $A={1/2}\P{s}$
+&lt;br /&gt;
+Letting n reach infinity to get a cone, the perimeter of the base is then $\P=2π\r$
+&lt;br /&gt;
+So the surface area of an open cone is then $A={1/2}⋅2π\r⋅\s$, or $A=π\r\s$
+&lt;br /&gt;
+When a cone is flat like a circle, s is then equal to r, so its area is $A=π\r⋅\r$, which is $A = π\r^2$
+&lt;/p&gt;
 &lt;/div&gt;
-
 
 &lt;div class="div-caval-image-left"&gt;
-&lt;img src="images/cavalieri_rect_triang_prisms.svg" &gt; 
-&lt;p&gt;
-The volume of a pyramid is a third of the volume of a regular prism with the same base.
+&lt;img src="images/cavalieri_pyramid_steps.svg" &gt; 
+&lt;p&gt;We can approximate a pyramid with $n$ regular polygonal prisms.
+&lt;br /&gt;
+With rectangular prisms, each slice x has volume $V=x\L/{n}⋅x\W/{n}⋅{\H/n}$ 
+&lt;br /&gt;
+The sum is then $V=1^2{LW}/n^2{H/n}+2^2{LW}/n^2{H/n}+...+n^2{LW}/n^2{H/n}$
+&lt;br /&gt;
+Factor out $V={LWH}/n^3$ to get ${LWH}/n^3⋅(1^2+2^2+...+n^2)$
+&lt;br /&gt;
+Recognize the sum of power series $∑↙{i=1}↖n i^2 = {n(2n+1)(n+1)}/6$
+&lt;br /&gt;
+So that $V={LWH}/n^3⋅{n(2n+1)(n+1)}/6$, cancel an $n$ to get 
+&lt;br /&gt;
+$V={LWH}/n^2⋅{(2n+1)(n+1)}/6$, multiply out the binomes,
+&lt;br /&gt;
+$V={LWH}/n^2⋅{2n^2+3n+1}/6$, separate as $V={LWH}/n^2⋅({n^2}/3+n/2+1/6)$,
+and cancel $1/{n^2}$ to get
+&lt;br &gt;
+$V={LWH}⋅(1/3+1/{2n}+1/{6n^2})$. By increasing the number of slices, n, reach infinity, 
+$V={LWH}⋅(1/3+1/{2∞}+1/{6∞^2})$ which is $V={LWH}⋅1/3$ where $LW$ is the area of the base.
 &lt;/p&gt;
-
 &lt;/div&gt;
+
+
+&lt;br style="clear:both;" /&gt;
+&lt;/div&gt;</t>
+<t tx="fil.20140122010741">&lt;div id="cavalieri3"&gt;
+
 
 
 &lt;div class="div-caval-image-left"&gt;
@@ -1273,6 +1307,9 @@ The volume of a pyramid is a third of the volume of a regular prism with the sam
 &lt;div class="div-caval-image-left"&gt;
 &lt;img src="images/cavalieri_Cone_and_Hemisphere.svg" &gt;
 &lt;/div&gt;
+
+
+
 &lt;br style="clear:both;" /&gt;
 &lt;/div&gt;</t>
 </tnodes>
