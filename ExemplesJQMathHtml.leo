@@ -2,16 +2,16 @@
 <?xml-stylesheet ekr_test?>
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.40652173913">
-	<global_window_position top="6" left="367" height="758" width="995"/>
+<globals body_outline_ratio="0.267632850242">
+	<global_window_position top="25" left="332" height="817" width="1600"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="fil.20130617203326" a="TV" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
-<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
+<v t="fil.20130617203326" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
+<v t="fil.20140120032538" a="TV" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
@@ -89,6 +89,7 @@ TODO
         &lt;!-- build:css(.tmp) styles/main.css --&gt;
         &lt;link rel="stylesheet" href="styles/main.css"&gt;
         &lt;link rel="stylesheet" href="styles/jquery-ui.css"&gt;
+        
         &lt;link rel="stylesheet" href="styles/custommath.css"&gt;
         &lt;!-- endbuild --&gt;
         &lt;script src="bower_components/modernizr/modernizr.js"&gt;&lt;/script&gt;
@@ -100,7 +101,9 @@ TODO
         &lt;!--[if lt IE 10]&gt;
             &lt;p class="browsehappy"&gt;You are using an &lt;strong&gt;outdated&lt;/strong&gt; browser. Please &lt;a href="http://browsehappy.com/"&gt;upgrade your browser&lt;/a&gt; to improve your experience.&lt;/p&gt;
         &lt;![endif]--&gt;
+        
     &lt;div id="backgroundmask"&gt;&lt;/div&gt;
+    
     ​&lt;div class="container"&gt;
             &lt;div class="header"&gt;
                 &lt;ul class="nav nav-pills pull-right"&gt;
@@ -129,11 +132,6 @@ TODO
 &lt;br /&gt;
 @others
 &lt;/div&gt;&lt;!--main-div--&gt;
-
-            &lt;div class="footer"&gt;
-                &lt;p&gt;Felix's Workshop&lt;/p&gt;
-            &lt;/div&gt;
-
 
         &lt;/div&gt;
 
@@ -1203,7 +1201,7 @@ max-width: 790px;
 &lt;div class="div-caval-image-left"&gt;
 &lt;img src="images/cavalieri_Principle.svg" &gt;
 &lt;p&gt;
-&lt;b&gt;Cavalieri's principle&lt;/b&gt; is the concept that a shape sliced by lines parallel to its base keeps the same area 
+A shape sliced by lines parallel to its base keeps the same area 
 when the pieces are moved parallel to this same base line. Similarly,
 a volume sliced by planes parallel to its base keeps the same volume
 when the pieces are moved parallel its base plane.

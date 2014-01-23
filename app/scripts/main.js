@@ -38,7 +38,7 @@ $(function() {
             //of background image
             var mathindex=$('#combobox').prop('selectedIndex');
             var mathstring= arraymathematicians[mathindex];
-            $(imgmath).attr('src', 'images/backgrounds/'+mathstring+'.jpg');
+            $(imgmath).attr('src', 'images/backcrop/'+mathstring+'.jpg');
         } );
         return 0;
     }
