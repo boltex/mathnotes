@@ -12,17 +12,7 @@ I intend to use this to test using *MathJax* instead of *JQmath*.
 
 TODO
 ----
-- Add relevant portraits of famous mathematicians in the background for each selection.
-    - Cavalieri's Principle : Bonaventura Cavalieri
-    - Quadratic : Brahmagupta
-    - Exponents & Logs : Michael Stifel, John Napier
-    - Law of cosines : Euclid
-    - Series : Johann Faulhaber
-    - undoing Trig Substitution : Pythagoras 
-    - Min/max : Wallis? Barrow?
-    - Newton's Method : Isaac Newton
-    - Euler's Identity : Leonhard Euler
-- Visualy animate content changes and coresponding portraits and decoration.
+- Fix sizes and crop the portraits of mathematicians in the background.
 - Make selection of content other than by use of a <select> control.
 
 

@@ -3,18 +3,18 @@
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.40652173913">
-	<global_window_position top="22" left="96" height="758" width="920"/>
+	<global_window_position top="6" left="367" height="758" width="995"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="fil.20130617203326" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
+<v t="fil.20130617203326" a="TV" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
 <v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
-<v t="fil.20140122010741" a="TV"><vh>Cones and Spheres</vh></v>
+<v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
 </v>
 <v t="fil.20140120032538.2"><vh>Quadratic equation</vh>
 <v t="fil.20140120032538.3"><vh>Factoring out first</vh></v>
@@ -25,7 +25,7 @@
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
 <v t="fil.20140120032538.8"><vh>Law of cosines</vh></v>
-<v t="fil.20140120032538.9" a="E"><vh>Series</vh>
+<v t="fil.20140120032538.9"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
@@ -41,7 +41,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" a="E" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -63,17 +63,7 @@ I intend to use this to test using *MathJax* instead of *JQmath*.
 
 TODO
 ----
-- Add relevant portraits of famous mathematicians in the background for each selection.
-    - Cavalieri's Principle : Bonaventura Cavalieri
-    - Quadratic : Brahmagupta
-    - Exponents &amp; Logs : Michael Stifel, John Napier
-    - Law of cosines : Euclid
-    - Series : Johann Faulhaber
-    - undoing Trig Substitution : Pythagoras 
-    - Min/max : Wallis? Barrow?
-    - Newton's Method : Isaac Newton
-    - Euler's Identity : Leonhard Euler
-- Visualy animate content changes and coresponding portraits and decoration.
+- Fix sizes and crop the portraits of mathematicians in the background.
 - Make selection of content other than by use of a &lt;select&gt; control.
 
 
@@ -110,9 +100,8 @@ TODO
         &lt;!--[if lt IE 10]&gt;
             &lt;p class="browsehappy"&gt;You are using an &lt;strong&gt;outdated&lt;/strong&gt; browser. Please &lt;a href="http://browsehappy.com/"&gt;upgrade your browser&lt;/a&gt; to improve your experience.&lt;/p&gt;
         &lt;![endif]--&gt;
-
-
-        &lt;div class="container"&gt;
+    &lt;div id="backgroundmask"&gt;&lt;/div&gt;
+    ​&lt;div class="container"&gt;
             &lt;div class="header"&gt;
                 &lt;ul class="nav nav-pills pull-right"&gt;
                     &lt;li class="active"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
@@ -1083,7 +1072,10 @@ Raising $e^{iπ/2}=i$ to the power of i gives $({e^{iπ/2}})^i=i^i$ or $e^{i^2π
 .ui-accordion-header{
   text-align: left;
 }
-
+html {
+overflow: -moz-scrollbars-vertical; 
+overflow-y: scroll;
+}
 
 .main-div {
 width:760px;
@@ -1113,6 +1105,13 @@ text-align: center;
 .container{
 width: 790px;
 max-width: 790px;
+}
+
+#backgroundmask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:-1;
 }
 
 @others

@@ -5,7 +5,10 @@
 .ui-accordion-header{
   text-align: left;
 }
-
+html {
+overflow: -moz-scrollbars-vertical; 
+overflow-y: scroll;
+}
 
 .main-div {
 width:760px;
@@ -35,6 +38,13 @@ text-align: center;
 .container{
 width: 790px;
 max-width: 790px;
+}
+
+#backgroundmask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:-1;
 }
 
 .figure-border {
