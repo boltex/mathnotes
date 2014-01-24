@@ -3,7 +3,7 @@
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.267632850242">
-	<global_window_position top="25" left="332" height="817" width="1600"/>
+	<global_window_position top="46" left="18" height="705" width="963"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
@@ -84,12 +84,13 @@ TODO
         &lt;!-- build:css styles/vendor.css --&gt;
         &lt;!-- bower:css --&gt;
         &lt;link rel="stylesheet" href="styles/jqmath-0.4.0.css"&gt;
+        
+        &lt;link rel="stylesheet" href="styles/jquery-ui.css"&gt;
+        &lt;link rel="stylesheet" href="styles/selectric-custom.css"&gt;
         &lt;!-- endbower --&gt;
         &lt;!-- endbuild --&gt;
         &lt;!-- build:css(.tmp) styles/main.css --&gt;
         &lt;link rel="stylesheet" href="styles/main.css"&gt;
-        &lt;link rel="stylesheet" href="styles/jquery-ui.css"&gt;
-        
         &lt;link rel="stylesheet" href="styles/custommath.css"&gt;
         &lt;!-- endbuild --&gt;
         &lt;script src="bower_components/modernizr/modernizr.js"&gt;&lt;/script&gt;
@@ -106,12 +107,14 @@ TODO
     
     ​&lt;div class="container"&gt;
             &lt;div class="header"&gt;
+            &lt;!--
                 &lt;ul class="nav nav-pills pull-right"&gt;
                     &lt;li class="active"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
                     &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
                     &lt;li&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
                 &lt;h3 class="text-muted"&gt;Math with JQMath and JQueryUI&lt;/h3&gt;
+            --&gt;    
             &lt;/div&gt;
 
 
@@ -169,6 +172,7 @@ TODO
         &lt;script src="bower_components/sass-bootstrap/js/scrollspy.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/sass-bootstrap/js/collapse.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/sass-bootstrap/js/tab.js"&gt;&lt;/script&gt;
+        &lt;script src="bower_components/jquery-selectric/js/jquery.selectric.js"&gt;&lt;/script&gt;
         &lt;!-- endbuild --&gt;
 
         &lt;!-- build:js({app,.tmp}) scripts/main.js --&gt;

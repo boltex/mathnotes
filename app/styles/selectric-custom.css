@@ -1,0 +1,22 @@
+/*======================================================================
+	Selectric
+======================================================================*/.selectricWrapper { position: relative; margin: 0 0 10px; width: 300px; cursor: pointer; }
+.selectricDisabled { filter: alpha(opacity=50); opacity: 0.5; cursor: default; -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.selectricOpen { z-index: 9999; }
+.selectricHideSelect { position: relative; overflow: hidden; }
+.selectricHideSelect select { position: absolute; left: -100%; }
+.selectric { border: 1px solid #654b24; background: #eae8dd; position: relative; border-radius: 8px; }
+.selectricOpen .selectric { border-color: #cbc7bd; background: #fbfbfb; z-index: 9999; }
+.selectric .label { height: 35px; display: block; white-space: nowrap; overflow: hidden; margin: 0 37px 0 0; padding: 6px 12px; font-size: 12px; line-height: 25px; color: #140f06; }
+.selectric .button { position: absolute; right: 0; top: 0; color: #654b24; text-align: center; font: normal 22px/30px sans-serif; width: 36px; height: 35px; line-height: 36px; background: #fbfbfb; border-radius: 7px; }
+.selectricHover .selectric { border-color: #cbc7bd; }
+.selectricHover .selectric .button { color: #cbc7bd; }
+.selectricTempShow { position: absolute !important; visibility: hidden !important; display: block !important; }
+/* Items box */
+.selectricItems ul,
+.selectricItems li { list-style: none; padding: 0; margin: 0; min-height: 20px; line-height: 20px; font-size: 12px; }
+.selectricItems { display: none; position: absolute; overflow: auto; top: 100%; left: 0; background: #F9F9F9; border: 1px solid #CCC; z-index: 9998; box-shadow: 0 0 10px -6px; }
+.selectricOpen .selectricItems { display: block; }
+.selectricItems li { padding: 5px; cursor: pointer; display: block; border-bottom: 1px solid #EEE; color: #666; border-top: 1px solid #FFF; }
+.selectricItems .selected { background: #EFEFEF; color: #444; border-top-color: #E0E0E0; }
+.selectricItems li:hover { background: #F0F0F0; color: #444; }

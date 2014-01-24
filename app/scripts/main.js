@@ -38,7 +38,7 @@ $(function() {
             //of background image
             var mathindex=$('#combobox').prop('selectedIndex');
             var mathstring= arraymathematicians[mathindex];
-            $(imgmath).attr('src', 'images/backcrop/'+mathstring+'.jpg');
+            $(imgmath).removeAttr('width').removeAttr('height').attr('src', 'images/backcrop/'+mathstring+'.jpg');
         } );
         return 0;
     }
@@ -61,6 +61,8 @@ $(function() {
         hide: { effect: 'slideUp', duration: 200 },
         show: { effect: 'slideDown', duration: 200 }
     } );
+
+    $('#combobox').selectric();
     $('#combobox').change(function() { getComboMenu(this); });
 
 
