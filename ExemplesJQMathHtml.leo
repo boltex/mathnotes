@@ -2,15 +2,15 @@
 <?xml-stylesheet ekr_test?>
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.267632850242">
-	<global_window_position top="46" left="18" height="705" width="963"/>
+<globals body_outline_ratio="0.345794392523">
+	<global_window_position top="72" left="82" height="705" width="963"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20130617203326" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
-<v t="fil.20140120032538" a="TV" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
 <v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
@@ -41,7 +41,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" a="E" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" a="ETV" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -84,7 +84,6 @@ TODO
         &lt;!-- build:css styles/vendor.css --&gt;
         &lt;!-- bower:css --&gt;
         &lt;link rel="stylesheet" href="styles/jqmath-0.4.0.css"&gt;
-        
         &lt;link rel="stylesheet" href="styles/jquery-ui.css"&gt;
         &lt;link rel="stylesheet" href="styles/selectric-custom.css"&gt;
         &lt;!-- endbower --&gt;
@@ -106,7 +105,7 @@ TODO
     &lt;div id="backgroundmask"&gt;&lt;/div&gt;
     
     ​&lt;div class="container"&gt;
-            &lt;div class="header"&gt;
+            &lt;div class="header" &gt;
             &lt;!--
                 &lt;ul class="nav nav-pills pull-right"&gt;
                     &lt;li class="active"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
@@ -115,25 +114,31 @@ TODO
                 &lt;/ul&gt;
                 &lt;h3 class="text-muted"&gt;Math with JQMath and JQueryUI&lt;/h3&gt;
             --&gt;    
+            
+            &lt;h3 class="text-muted"&gt;Math with JQMath and JQueryUI&lt;/h3&gt;
+            
+            &lt;div id="combocontainer"&gt;
+            &lt;select id="combobox"&gt;
+                &lt;option value="main0"&gt;Choose a Mathematical Subject&lt;/option&gt;
+                &lt;option value="main6"&gt;Cavalieri's Principle&lt;/option&gt;
+                &lt;option value="main1"&gt;Quadratic Equation&lt;/option&gt;
+                &lt;option value="main8"&gt;Exponents and Logarithms&lt;/option&gt;
+                &lt;option value="main2"&gt;Law of Cosine&lt;/option&gt;
+                &lt;option value="main25"&gt;Series&lt;/option&gt;
+                &lt;option value="main3"&gt;Undoing Trig Substitution&lt;/option&gt;
+                &lt;option value="main4"&gt;Min/Max Optimization&lt;/option&gt;
+                &lt;option value="main5"&gt;Newton's Method&lt;/option&gt;
+                &lt;option value="main7"&gt;Euler's Identity&lt;/option&gt;
+            &lt;/select&gt;
+            &lt;/div&gt;
+            
             &lt;/div&gt;
 
-
             &lt;div class="main-div"&gt;
-
-&lt;select id="combobox"&gt;
-  &lt;!--&lt;option value="main0"&gt;Choose one&lt;/option&gt;--&gt;
-  &lt;option value="main6"&gt;Cavalieri's Principle&lt;/option&gt;
-  &lt;option value="main1"&gt;Quadratic Equation&lt;/option&gt;
-  &lt;option value="main8"&gt;Exponents and Logarithms&lt;/option&gt;
-  &lt;option value="main2"&gt;Law of Cosine&lt;/option&gt;
-  &lt;option value="main25"&gt;Series&lt;/option&gt;
-  &lt;option value="main3"&gt;Undoing Trig Substitution&lt;/option&gt;
-  &lt;option value="main4"&gt;Min/Max Optimization&lt;/option&gt;
-  &lt;option value="main5"&gt;Newton's Method&lt;/option&gt;
-  &lt;option value="main7"&gt;Euler's Identity&lt;/option&gt;
-&lt;/select&gt;
-&lt;br /&gt;
+            
+&lt;div id="main0"&gt; &lt;/div&gt;
 @others
+
 &lt;/div&gt;&lt;!--main-div--&gt;
 
         &lt;/div&gt;
@@ -180,6 +185,7 @@ TODO
         &lt;!-- endbuild --&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+
 </t>
 <t tx="fil.20140120032538.1">&lt;div class="main-tabs startsUgly" id="main6"&gt; 
 
@@ -914,7 +920,8 @@ $${\d y}/{\d x} = 1/{\sec^2(\tan^{-1}(x))} = 1/{1+x^2}$$
 
 &lt;div id="minmax"&gt;
 &lt;p&gt;
-Starting with ...
+Starting with ... &lt;br /&gt;
+Todo ! &lt;br /&gt;
 
 &lt;/p&gt;
 &lt;/div&gt;
@@ -1080,15 +1087,16 @@ overflow-y: scroll;
 }
 
 .main-div {
+clear:both;
 width:760px;
 /* width:100%; */
 font-size: inherit;
-margin-bottom:30px;
+/*margin-bottom:30px;*/
 }
 
 .main-tabs {
     /*display: none;*/
-    margin-top: 8px;
+   /* margin-top: 8px;*/
 }
 
 .startsUgly { display: none; }
@@ -1114,6 +1122,13 @@ max-width: 790px;
     top: 0;
     left: 0;
     z-index:-1;
+}
+
+#combocontainer{
+float:right;
+
+width:310px;
+
 }
 
 @others

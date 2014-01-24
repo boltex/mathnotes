@@ -4,7 +4,10 @@ $(function() {
 
     var imgmath = new Image();
 
+    //var flagNeverChose = 1;
+
     var arraymathematicians=[
+        'descartes',
         'cavalieri',
         'brahmagupta',
         'napier',
@@ -14,11 +17,18 @@ $(function() {
         'barrow',
         'newton',
         'euler',
-        'descartes',
         'wallis'
     ];
 
-    var current=$('#main6');
+    var current=$('#main0');
+
+/*    function openComboMenu(){
+        if (flagNeverChose===1){
+            flagNeverChose=0;
+            //$('#combobox').filter('[value=\'main0\']').remove();
+           //$('#combobox').selectric('refresh');
+        }
+    }*/
 
     function getComboMenu(sel) {
         var options = {};
@@ -62,7 +72,11 @@ $(function() {
         show: { effect: 'slideDown', duration: 200 }
     } );
 
-    $('#combobox').selectric();
+    $('#combobox').removeClass('startsUgly');
+
+    //$('#combobox').selectric( {onOpen: openComboMenu } );
+    $('#combobox').selectric( {maxHeight:600} );
+
     $('#combobox').change(function() { getComboMenu(this); });
 
 

@@ -11,15 +11,16 @@ overflow-y: scroll;
 }
 
 .main-div {
+clear:both;
 width:760px;
 /* width:100%; */
 font-size: inherit;
-margin-bottom:30px;
+/*margin-bottom:30px;*/
 }
 
 .main-tabs {
     /*display: none;*/
-    margin-top: 8px;
+   /* margin-top: 8px;*/
 }
 
 .startsUgly { display: none; }
@@ -45,6 +46,13 @@ max-width: 790px;
     top: 0;
     left: 0;
     z-index:-1;
+}
+
+#combocontainer{
+float:right;
+
+width:310px;
+
 }
 
 .figure-border {
