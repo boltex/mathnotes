@@ -72,12 +72,17 @@ $(function() {
         show: { effect: 'slideDown', duration: 200 }
     } );
 
-    $('#combobox').removeClass('startsUgly');
+    //$('#combobox').removeClass('startsUgly');
 
     //$('#combobox').selectric( {onOpen: openComboMenu } );
-    $('#combobox').selectric( {maxHeight:600} );
-
+    //$('#combobox').selectric( {maxHeight:600} );
+    //$('#combobox').fancySelect();
     $('#combobox').change(function() { getComboMenu(this); });
+
+    var mySelect = $('#combobox');
+    mySelect.fancySelect(); // currently disabled because of html property
+    // later…
+    //mySelect.trigger('enable');
 
 
     current.show();

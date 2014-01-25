@@ -3,15 +3,15 @@
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.345794392523">
-	<global_window_position top="72" left="82" height="705" width="963"/>
+	<global_window_position top="48" left="160" height="705" width="963"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20130617203326" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
-<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140120032538" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
@@ -41,11 +41,12 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" a="ETV" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
 </v>
+<v t="fil.20140124235038" a="TV"><vh>colors pepper</vh></v>
 </vnodes>
 <tnodes>
 <t tx="fil.20130617203326">@nocolor
@@ -85,7 +86,7 @@ TODO
         &lt;!-- bower:css --&gt;
         &lt;link rel="stylesheet" href="styles/jqmath-0.4.0.css"&gt;
         &lt;link rel="stylesheet" href="styles/jquery-ui.css"&gt;
-        &lt;link rel="stylesheet" href="styles/selectric-custom.css"&gt;
+        &lt;link rel="stylesheet" href="styles/fancySelect.css"&gt;
         &lt;!-- endbower --&gt;
         &lt;!-- endbuild --&gt;
         &lt;!-- build:css(.tmp) styles/main.css --&gt;
@@ -119,7 +120,7 @@ TODO
             
             &lt;div id="combocontainer"&gt;
             &lt;select id="combobox"&gt;
-                &lt;option value="main0"&gt;Choose a Mathematical Subject&lt;/option&gt;
+                &lt;option value&gt;Choose a Mathematical Subject&lt;/option&gt;
                 &lt;option value="main6"&gt;Cavalieri's Principle&lt;/option&gt;
                 &lt;option value="main1"&gt;Quadratic Equation&lt;/option&gt;
                 &lt;option value="main8"&gt;Exponents and Logarithms&lt;/option&gt;
@@ -177,7 +178,7 @@ TODO
         &lt;script src="bower_components/sass-bootstrap/js/scrollspy.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/sass-bootstrap/js/collapse.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/sass-bootstrap/js/tab.js"&gt;&lt;/script&gt;
-        &lt;script src="bower_components/jquery-selectric/js/jquery.selectric.js"&gt;&lt;/script&gt;
+        &lt;script src="bower_components/fancyselect/fancySelect.js"&gt;&lt;/script&gt;
         &lt;!-- endbuild --&gt;
 
         &lt;!-- build:js({app,.tmp}) scripts/main.js --&gt;
@@ -1126,9 +1127,7 @@ max-width: 790px;
 
 #combocontainer{
 float:right;
-
-width:310px;
-
+margin-bottom:10px;
 }
 
 @others
@@ -1328,5 +1327,24 @@ $V={LWH}⋅(1/3+1/{2∞}+1/{6∞^2})$ which is $V={LWH}⋅1/3$ where $LW$ is the
 
 &lt;br style="clear:both;" /&gt;
 &lt;/div&gt;</t>
+<t tx="fil.20140124235038">border    d4d1bf
+
+Main content back and selected header
+ : #e8e7dc
+
+
+white header : fbfbfb
+
+unselected header : f6f5f4
+
+
+sel text     140f06
+unsel text   654b24
+
+
+border    d4d1bf
+
+
+background: #eceadf url(images/ui-bg_fine-grain_10_eceadf_60x60.png) ;</t>
 </tnodes>
 </leo_file>
