@@ -9,7 +9,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="fil.20130617203326" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
+<v t="fil.20130617203326" a="TV" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
 <v t="fil.20140120032538" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
 <v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
@@ -41,7 +41,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" a="TV" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -56,16 +56,24 @@ Math in html format.
 This is also a test of jqmath !
 -------------------------------
 
-These are famous theorems and identities written in HTML, JQuery, JQueryui and other libraries.
+These are famous theorems and identities written in HTML, JQuery, JQueryui 
+
+Other libraries and web technologies :
+        - @media screen size dependant CSS
+        - Compiled SASS css stylesheets
+        - Yeoman, Grunt and bower 
+        - Google fonts
+        - FancySelect
+        - Animations and callback
 
 Styling guide : http://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Mathematics
 
-I intend to use this to test using *MathJax* instead of *JQmath*.
+I intend to use this to test using *MathJax* in the future instead of *JQmath*.
 
 TODO
 ----
-- Fix sizes and crop the portraits of mathematicians in the background.
-- Make selection of content other than by use of a &lt;select&gt; control.
+- Fix sizes, colors and crop the portraits of mathematicians in the background.
+
 
 
 </t>
