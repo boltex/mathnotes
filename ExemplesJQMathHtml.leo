@@ -3,7 +3,7 @@
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.345794392523">
-	<global_window_position top="48" left="160" height="705" width="963"/>
+	<global_window_position top="48" left="160" height="705" width="1385"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
@@ -41,12 +41,12 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" a="TV" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
 </v>
-<v t="fil.20140124235038" a="TV"><vh>colors pepper</vh></v>
+<v t="fil.20140124235038"><vh>colors pepper</vh></v>
 </vnodes>
 <tnodes>
 <t tx="fil.20130617203326">@nocolor
@@ -93,6 +93,7 @@ TODO
         &lt;link rel="stylesheet" href="styles/main.css"&gt;
         &lt;link rel="stylesheet" href="styles/custommath.css"&gt;
         &lt;!-- endbuild --&gt;
+        &lt;link href='http://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'&gt;
         &lt;script src="bower_components/modernizr/modernizr.js"&gt;&lt;/script&gt;
         &lt;noscript&gt;
            &lt;style type="text/css"&gt;.startsUgly { display: block; }&lt;/style&gt;
@@ -106,7 +107,7 @@ TODO
     &lt;div id="backgroundmask"&gt;&lt;/div&gt;
     
     ​&lt;div class="container"&gt;
-            &lt;div class="header" &gt;
+            &lt;div class="header" style="text-align:right;"&gt;
             &lt;!--
                 &lt;ul class="nav nav-pills pull-right"&gt;
                     &lt;li class="active"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
@@ -116,7 +117,7 @@ TODO
                 &lt;h3 class="text-muted"&gt;Math with JQMath and JQueryUI&lt;/h3&gt;
             --&gt;    
             
-            &lt;h3 class="text-muted"&gt;Math with JQMath and JQueryUI&lt;/h3&gt;
+            &lt;h1 class="text-muted"&gt;Mathematics with JQmath&lt;/h1&gt; 
             
             &lt;div id="combocontainer"&gt;
             &lt;select id="combobox"&gt;
@@ -1093,6 +1094,8 @@ width:760px;
 /* width:100%; */
 font-size: inherit;
 /*margin-bottom:30px;*/
+
+
 }
 
 .main-tabs {
@@ -1113,11 +1116,6 @@ text-align: center;
 
 }
 
-.container{
-width: 790px;
-max-width: 790px;
-}
-
 #backgroundmask{
     position: fixed;
     top: 0;
@@ -1126,9 +1124,30 @@ max-width: 790px;
 }
 
 #combocontainer{
+width:400px;
 float:right;
-margin-bottom:10px;
+margin-bottom:20px;
+margin-right:0px;
 }
+
+
+.container h1 {
+margin-top:0;
+margin-bottom:15px;
+font-family: 'IM Fell English', serif;
+color:#7C6849;
+
+}
+
+
+
+@media (min-width: 768px){
+.container {
+width: 790px;
+}
+}
+
+
 
 @others
 
