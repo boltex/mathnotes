@@ -3,14 +3,14 @@
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.239436619718">
-	<global_window_position top="84" left="521" height="668" width="1003"/>
+	<global_window_position top="84" left="521" height="817" width="1600"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20130617203326" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
-<v t="fil.20140120032538" a="ETV" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
 <v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
@@ -25,7 +25,7 @@
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
 <v t="fil.20140120032538.8"><vh>Law of cosines</vh></v>
-<v t="fil.20140120032538.9"><vh>Series</vh>
+<v t="fil.20140120032538.9" a="E"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
@@ -41,7 +41,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" a="TV" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -1178,7 +1178,10 @@ width: 790px;
  height: 80px;
 }
 
-
+.ui-widget-content a {
+color: #2a6496; 
+cursor:pointer;
+}
 
 
 @others
@@ -1339,7 +1342,7 @@ The sum is then $V=1^2{LW}/n^2{H/n}+2^2{LW}/n^2{H/n}+...+n^2{LW}/n^2{H/n}$
 &lt;br /&gt;
 Factor out $V={LWH}/n^3$ to get ${LWH}/n^3⋅(1^2+2^2+...+n^2)$
 &lt;br /&gt;
-Recognize the sum of power series $∑↙{i=1}↖n i^2 = {n(2n+1)(n+1)}/6$
+Recognize the &lt;a id="sumPowerSeries" ref="#"&gt;sum of power series&lt;/a&gt; $∑↙{i=1}↖n i^2 = {n(2n+1)(n+1)}/6$
 &lt;br /&gt;
 So that $V={LWH}/n^3⋅{n(2n+1)(n+1)}/6$, cancel an $n$ to get 
 &lt;br /&gt;

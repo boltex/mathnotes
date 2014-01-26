@@ -72,6 +72,12 @@ $(function() {
         show: { effect: 'slideDown', duration: 200 }
     } );
 
+    $( '#sumPowerSeries' ).click(function(e) {
+        e.preventDefault();
+        $('#combobox').val('main25').trigger('change');
+        $('#main25').tabs( 'option', 'active', 2 );
+    });
+
     //$('#combobox').removeClass('startsUgly');
 
     //$('#combobox').selectric( {onOpen: openComboMenu } );
