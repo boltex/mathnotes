@@ -61,13 +61,24 @@ color:#7C6849;
 
 }
 
-
-
 @media (min-width: 768px){
 .container {
 width: 790px;
 }
 }
+
+.cornerlabel {
+ position: absolute;
+ top: 0;
+ left: 0;
+ border: 0;
+}
+
+#cornertarget {
+ width: 80px;
+ height: 80px;
+}
+
 
 
 
@@ -144,8 +155,4 @@ width: 790px;
     }
 
 }
-
-
-
-
 

@@ -77,9 +77,11 @@ $(function() {
     //$('#combobox').selectric( {onOpen: openComboMenu } );
     //$('#combobox').selectric( {maxHeight:600} );
     //$('#combobox').fancySelect();
-    $('#combobox').change(function() { getComboMenu(this); });
 
     var mySelect = $('#combobox');
+
+    mySelect.change(function() { getComboMenu(this); });
+    $('#combocontainer').removeClass('startsUgly');
     mySelect.fancySelect(); // currently disabled because of html property
     // later…
     //mySelect.trigger('enable');
@@ -87,6 +89,11 @@ $(function() {
 
     current.show();
     callbackShow();
+    setTimeout( function(){$('#forkme').fadeOut();}, 3000);
+    $('#forkme').mouseleave( function(){$('#forkme').fadeOut();});
+
+    $('#cornertarget').hover(  function(){$('#forkme').fadeIn();  }  );
+
 });
  
 

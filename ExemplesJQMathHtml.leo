@@ -2,15 +2,15 @@
 <?xml-stylesheet ekr_test?>
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.345794392523">
-	<global_window_position top="48" left="160" height="705" width="1385"/>
+<globals body_outline_ratio="0.239436619718">
+	<global_window_position top="84" left="521" height="668" width="1003"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="fil.20130617203326" a="TV" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
-<v t="fil.20140120032538" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
+<v t="fil.20130617203326" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
+<v t="fil.20140120032538" a="ETV" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
 <v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
@@ -112,6 +112,17 @@ TODO
             &lt;p class="browsehappy"&gt;You are using an &lt;strong&gt;outdated&lt;/strong&gt; browser. Please &lt;a href="http://browsehappy.com/"&gt;upgrade your browser&lt;/a&gt; to improve your experience.&lt;/p&gt;
         &lt;![endif]--&gt;
         
+        
+    &lt;div id="cornertarget" class="cornerlabel"&gt;&lt;/div&gt;
+    &lt;div id="forkme" class="cornerlabel"&gt;
+    &lt;a href="https://github.com/boltex/MathNotes"&gt;
+    &lt;img src="images/forkme_left_red_aa0000.png" alt="Fork me on GitHub"&gt;
+    &lt;/a&gt;        
+    &lt;/div&gt;
+    
+    
+    
+    
     &lt;div id="backgroundmask"&gt;&lt;/div&gt;
     
     ​&lt;div class="container"&gt;
@@ -127,7 +138,7 @@ TODO
             
             &lt;h1 class="text-muted"&gt;Mathematics with JQmath&lt;/h1&gt; 
             
-            &lt;div id="combocontainer"&gt;
+            &lt;div id="combocontainer" class="startsUgly"&gt;
             &lt;select id="combobox"&gt;
                 &lt;option value&gt;Choose a Mathematical Subject&lt;/option&gt;
                 &lt;option value="main6"&gt;Cavalieri's Principle&lt;/option&gt;
@@ -195,6 +206,8 @@ TODO
         &lt;!-- endbuild --&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+
+
 
 </t>
 <t tx="fil.20140120032538.1">&lt;div class="main-tabs startsUgly" id="main6"&gt; 
@@ -1147,21 +1160,28 @@ color:#7C6849;
 
 }
 
-
-
 @media (min-width: 768px){
 .container {
 width: 790px;
 }
 }
 
+.cornerlabel {
+ position: absolute;
+ top: 0;
+ left: 0;
+ border: 0;
+}
+
+#cornertarget {
+ width: 80px;
+ height: 80px;
+}
+
+
 
 
 @others
-
-
-
-
 
 
 </t>
