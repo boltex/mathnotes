@@ -3,14 +3,14 @@
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.239436619718">
-	<global_window_position top="26" left="151" height="773" width="980"/>
+	<global_window_position top="13" left="161" height="773" width="980"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20130617203326" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
-<v t="fil.20140120032538" a="ETV" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
 <v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
@@ -24,13 +24,13 @@
 <v t="fil.20140120032538.6" a="M"><vh>Identities and Properties</vh></v>
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
-<v t="fil.20140120032538.8"><vh>Law of cosines</vh></v>
-<v t="fil.20140120032538.9" a="E"><vh>Series</vh>
+<v t="fil.20140120032538.8" a="TV"><vh>Law of cosines</vh></v>
+<v t="fil.20140120032538.9"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
 </v>
-<v t="fil.20140120032538.13"><vh>Undoing Trig Substitution</vh>
+<v t="fil.20140120032538.13" a="E"><vh>Undoing Trig Substitution</vh>
 <v t="fil.20140120032538.14"><vh>cos(arcsin)</vh></v>
 <v t="fil.20140120032538.15"><vh>sec2(arctan)</vh></v>
 </v>
@@ -475,19 +475,7 @@ Solve for x:
 &lt;div id="tabs-cos"&gt;
 &lt;p class="figure-centered"&gt; 
 To compute the lenght of side $A$, if the opposite angle $α$ is known as well as the two other sides, &lt;br /&gt;
-&lt;svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200" id="testsvg1"&gt;
-&lt;rect width="20.0" height="20.0" x="105.0" y="140.0" style="fill:#E0E0E0;stroke:#808080" /&gt;      
-&lt;line x1="105" y1="20" x2="105" y2="140" style="stroke:#808080;stroke-width:1px"/&gt;      
-&lt;path d="M 30 130 q 20 7 13 30" stroke="#000000" stroke-width="1px" fill="none" /&gt;     
-&lt;path d="m 10.0,160.0 95,-140.00000 85.000,140 z" style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" /&gt;
-&lt;text x="85.0" y="200.0" id="text3007" style="font-size:35px;font-style:normal;fill:#000000;stroke:none;font-family:Serif"&gt;B&lt;/text&gt;
-&lt;text x="7.5" y="95.0" id="text3011" style="font-size:35px;font-style:normal;fill:#000000;stroke:none;font-family:Serif"&gt;C&lt;/text&gt;
-&lt;text x="165.5" y="95.0" id="text3012" style="font-size:35px;font-style:normal;fill:#606060;stroke:none;font-family:Serif"&gt;A&lt;/text&gt;
-&lt;text x="44.0" y="185.0" id="text3001" style="font-size:30px;font-style:normal;fill:#999999;stroke:none;font-family:Serif"&gt;e&lt;/text&gt;
-&lt;text x="135.0" y="185.0" id="text3002" style="font-size:30px;font-style:normal;fill:#999999;stroke:none;font-family:Serif"&gt;f&lt;/text&gt;
-&lt;text x="110.0" y="110.0" id="text3003" style="font-size:30px;font-style:normal;fill:#999999;stroke:none;font-family:Serif"&gt;h&lt;/text&gt;
-&lt;text x="46.0" y="143.0" id="textgreek1" style="font-size:25px;font-style:normal;fill:#000000;stroke:none;font-family:Serif"&gt;α&lt;/text&gt;
-&lt;/svg&gt;
+&lt;img src="images/law_cosine.svg" &gt;
 &lt;/p&gt;
 &lt;p&gt;
 first recognise that the vertical $h$ is measurable with trigonometry : $h=C⋅{sin(α)}$.&lt;br /&gt;
@@ -842,16 +830,7 @@ $1/{\cos(\sin^{-1}(x))} $
 &lt;/p&gt;
 
 &lt;div style="width:140px;clear:none;float:left;"&gt;
-&lt;svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="140" height="190" id="testsvg2"&gt;
-&lt;rect width="20.0" height="20.0" x="85.0" y="140.0" style="fill:#E0E0E0;stroke:#808080" /&gt;      
-&lt;line x1="105" y1="20" x2="105" y2="140" style="stroke:#808080;stroke-width:1px"/&gt;      
-&lt;path d="M 30 130 q 20 7 13 30" stroke="#000000" stroke-width="1px" fill="none" /&gt;     
-&lt;path d="m 10,160 95,-140 0,140 z" style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" /&gt;
-&lt;text x="25" y="90.0" id="text3011" style="font-size:30px;font-style:normal;fill:#999999;stroke:none;font-family:Serif"&gt;h&lt;/text&gt;
-&lt;text x="49.0" y="185.0" id="text3001" style="font-size:30px;font-style:normal;fill:#999999;stroke:none;font-family:Serif"&gt;a&lt;/text&gt;
-&lt;text x="110.0" y="110.0" id="text3003" style="font-size:30px;font-style:normal;fill:#999999;stroke:none;font-family:Serif"&gt;o&lt;/text&gt;
-&lt;text x="46.0" y="143.0" id="textgreek1" style="font-size:25px;font-style:normal;fill:#000000;stroke:none;font-family:Serif"&gt;θ&lt;/text&gt;
-&lt;/svg&gt;
+&lt;img src="images/costrigsub1.svg" &gt;
 &lt;/div&gt;
 
 &lt;div style="width:350px;clear:none;float:left;"&gt;
@@ -865,15 +844,7 @@ $\sin^{-1}(x)$ yields an angle, θ, which can be reversed as $\sin(θ)=x$. In ot
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;div style="width:140px;clear:none;float:left;"&gt;
-&lt;svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="140" height="190" id="testsvg3"&gt;
-&lt;rect width="20.0" height="20.0" x="85.0" y="140.0" style="fill:#E0E0E0;stroke:#808080" /&gt;      
-&lt;line x1="105" y1="20" x2="105" y2="140" style="stroke:#808080;stroke-width:1px"/&gt;      
-&lt;path d="M 30 130 q 20 7 13 30" stroke="#000000" stroke-width="1px" fill="none" /&gt;     
-&lt;path d="m 10,160 95,-140 0,140 z" style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" /&gt;
-&lt;text x="25" y="90.0" id="text3011" style="font-size:30px;font-style:normal;fill:#999999;stroke:none;font-family:Serif"&gt;1&lt;/text&gt;
-&lt;text x="112.0" y="110.0" id="text3003" style="font-size:30px;font-style:normal;fill:#999999;stroke:none;font-family:Serif"&gt;x&lt;/text&gt;
-&lt;text x="46.0" y="143.0" id="textgreek1" style="font-size:25px;font-style:normal;fill:#000000;stroke:none;font-family:Serif"&gt;θ&lt;/text&gt;
-&lt;/svg&gt;
+&lt;img src="images/costrigsub2.svg" &gt;
 &lt;/div&gt;
 
 &lt;p style="clear:both;"&gt;
@@ -899,16 +870,7 @@ $1/{\sec^2(\tan^{-1}(x))} $
 &lt;/p&gt;
 
 &lt;div style="width:140px;clear:none;float:left;"&gt;
-&lt;svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="140" height="190" id="testsvg2"&gt;
-&lt;rect width="20.0" height="20.0" x="85.0" y="140.0" style="fill:#E0E0E0;stroke:#808080" /&gt;      
-&lt;line x1="105" y1="20" x2="105" y2="140" style="stroke:#808080;stroke-width:1px"/&gt;      
-&lt;path d="M 30 130 q 20 7 13 30" stroke="#000000" stroke-width="1px" fill="none" /&gt;     
-&lt;path d="m 10,160 95,-140 0,140 z" style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" /&gt;
-&lt;text x="25" y="90.0" id="text3011" style="font-size:30px;font-style:normal;fill:#999999;stroke:none;font-family:Serif"&gt;h&lt;/text&gt;
-&lt;text x="49.0" y="185.0" id="text3001" style="font-size:30px;font-style:normal;fill:#999999;stroke:none;font-family:Serif"&gt;a&lt;/text&gt;
-&lt;text x="110.0" y="110.0" id="text3003" style="font-size:30px;font-style:normal;fill:#999999;stroke:none;font-family:Serif"&gt;o&lt;/text&gt;
-&lt;text x="46.0" y="143.0" id="textgreek1" style="font-size:25px;font-style:normal;fill:#000000;stroke:none;font-family:Serif"&gt;θ&lt;/text&gt;
-&lt;/svg&gt;
+&lt;img src="images/tantrigsub1.svg" &gt;
 &lt;/div&gt;
 
 &lt;div style="width:350px;clear:none;float:left;"&gt;
@@ -922,15 +884,7 @@ $\tan^{-1}(x)$ yields an angle, θ, which can be reversed as $\tan(θ)=x$. In ot
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;div style="width:140px;clear:none;float:left;"&gt;
-&lt;svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="140" height="190" id="testsvg3"&gt;
-&lt;rect width="20.0" height="20.0" x="85.0" y="140.0" style="fill:#E0E0E0;stroke:#808080" /&gt;      
-&lt;line x1="105" y1="20" x2="105" y2="140" style="stroke:#808080;stroke-width:1px"/&gt;      
-&lt;path d="M 30 130 q 20 7 13 30" stroke="#000000" stroke-width="1px" fill="none" /&gt;     
-&lt;path d="m 10,160 95,-140 0,140 z" style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" /&gt;
-&lt;text x="49.0" y="185.0" id="text3001" style="font-size:30px;font-style:normal;fill:#999999;stroke:none;font-family:Serif"&gt;1&lt;/text&gt;
-&lt;text x="112.0" y="110.0" id="text3003" style="font-size:30px;font-style:normal;fill:#999999;stroke:none;font-family:Serif"&gt;x&lt;/text&gt;
-&lt;text x="46.0" y="143.0" id="textgreek1" style="font-size:25px;font-style:normal;fill:#000000;stroke:none;font-family:Serif"&gt;θ&lt;/text&gt;
-&lt;/svg&gt;
+&lt;img src="images/tantrigsub2.svg" &gt;
 &lt;/div&gt;
 
 &lt;p style="clear:both;"&gt;
