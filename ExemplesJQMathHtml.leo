@@ -3,14 +3,14 @@
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.239436619718">
-	<global_window_position top="84" left="521" height="817" width="1600"/>
+	<global_window_position top="26" left="151" height="773" width="980"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20130617203326" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
-<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538" a="ETV" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
 <v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
@@ -41,7 +41,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" a="TV" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -90,6 +90,20 @@ TODO
         &lt;meta name="description" content=""&gt;
         &lt;meta name="viewport" content="width=device-width"&gt;
         &lt;!-- Place favicon.ico and apple-touch-icon.png in the root directory --&gt;
+        &lt;link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="/favicon.ico"&gt;
+	    &lt;link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"&gt;
+	    &lt;!--[if IE]&gt;&lt;link rel="shortcut icon" href="/favicon.ico"&gt;&lt;![endif]--&gt;
+	    &lt;link rel="icon" type="image/png" sizes="195x195" href="/favicon-195.png"&gt;
+	    &lt;link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png"&gt;
+	    &lt;link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png"&gt;
+	    &lt;link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png"&gt;
+	    &lt;link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png"&gt;
+	    &lt;link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png"&gt;
+	    &lt;link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png"&gt;
+	    &lt;link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png"&gt;
+	    &lt;link rel="apple-touch-icon" href="favicon-57.png"&gt;
+	    &lt;meta name="msapplication-TileColor" content="#FFFFFF"&gt;
+	    &lt;meta name="msapplication-TileImage" content="/favicon-144.png"&gt;
         &lt;!-- build:css styles/vendor.css --&gt;
         &lt;!-- bower:css --&gt;
         &lt;link rel="stylesheet" href="styles/jqmath-0.4.0.css"&gt;
@@ -108,10 +122,6 @@ TODO
         &lt;/noscript&gt;
     &lt;/head&gt;
     &lt;body&gt;
-        &lt;!--[if lt IE 10]&gt;
-            &lt;p class="browsehappy"&gt;You are using an &lt;strong&gt;outdated&lt;/strong&gt; browser. Please &lt;a href="http://browsehappy.com/"&gt;upgrade your browser&lt;/a&gt; to improve your experience.&lt;/p&gt;
-        &lt;![endif]--&gt;
-        
         
     &lt;div id="cornertarget" class="cornerlabel"&gt;&lt;/div&gt;
     &lt;div id="forkme" class="cornerlabel"&gt;
@@ -119,9 +129,6 @@ TODO
     &lt;img src="images/forkme_left_red_aa0000.png" alt="Fork me on GitHub"&gt;
     &lt;/a&gt;        
     &lt;/div&gt;
-    
-    
-    
     
     &lt;div id="backgroundmask"&gt;&lt;/div&gt;
     
