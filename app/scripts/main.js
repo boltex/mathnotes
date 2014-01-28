@@ -77,6 +77,11 @@ $(function() {
         $('#combobox').val('main25').trigger('change');
         $('#main25').tabs( 'option', 'active', 2 );
     });
+    $( '#solvePowerSeries' ).click(function(e) {
+        e.preventDefault();
+        $('#main25').tabs( 'option', 'active', 3 );
+    });
+
 
     //$('#combobox').removeClass('startsUgly');
 

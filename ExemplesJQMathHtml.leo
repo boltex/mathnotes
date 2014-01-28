@@ -10,7 +10,7 @@
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20130617203326" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
-<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140128043317,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
 <v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
@@ -20,17 +20,18 @@
 <v t="fil.20140120032538.3"><vh>Factoring out first</vh></v>
 <v t="fil.20140120032538.4"><vh>Completing the square first</vh></v>
 </v>
-<v t="fil.20140120032538.5"><vh>Exponents and Logarithms</vh>
+<v t="fil.20140120032538.5" a="E"><vh>Exponents and Logarithms</vh>
 <v t="fil.20140120032538.6" a="M"><vh>Identities and Properties</vh></v>
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
-<v t="fil.20140120032538.8" a="TV"><vh>Law of cosines</vh></v>
-<v t="fil.20140120032538.9"><vh>Series</vh>
+<v t="fil.20140120032538.8"><vh>Law of cosines</vh></v>
+<v t="fil.20140120032538.9" a="E"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
-<v t="fil.20140120032538.12"><vh>Power Series</vh></v>
+<v t="fil.20140120032538.12" a="TV"><vh>Power Series</vh></v>
+<v t="fil.20140128043317"><vh>Gaussian Elimination</vh></v>
 </v>
-<v t="fil.20140120032538.13" a="E"><vh>Undoing Trig Substitution</vh>
+<v t="fil.20140120032538.13"><vh>Undoing Trig Substitution</vh>
 <v t="fil.20140120032538.14"><vh>cos(arcsin)</vh></v>
 <v t="fil.20140120032538.15"><vh>sec2(arctan)</vh></v>
 </v>
@@ -41,7 +42,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" a="E" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -123,7 +124,7 @@ TODO
     &lt;/head&gt;
     &lt;body&gt;
         
-    &lt;div id="cornertarget" class="cornerlabel"&gt;&lt;/div&gt;
+    &lt;div id="cornertarget" class="cornerlabel ietransparent"&gt;&lt;/div&gt;
     &lt;div id="forkme" class="cornerlabel"&gt;
     &lt;a href="https://github.com/boltex/MathNotes"&gt;
     &lt;img src="images/forkme_left_red_aa0000.png" alt="Fork me on GitHub"&gt;
@@ -213,6 +214,7 @@ TODO
         &lt;!-- endbuild --&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+
 
 
 
@@ -511,7 +513,7 @@ $A^2= C^2   +   B^2  +2BC⋅cos(α) $ Often rearanged as : $A = √{B^2   +   C^
  &lt;li&gt;&lt;a href="#series1"&gt;Arithmetic&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="#series2"&gt;Geometric&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="#series3"&gt;Sum of Power&lt;/a&gt;&lt;/li&gt;
-
+ &lt;li&gt;&lt;a href="#series4"&gt;How to Solve for Sum of Power&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 @others
@@ -715,92 +717,11 @@ when n is 1 : $A + B + C = 1$ &lt;br /&gt;
 when n is 2 : $8A + 4B + 2C = 5$ &lt;br /&gt;
 when n is 3 : $27A + 9B + 3C = 14$ &lt;br /&gt; 
 &lt;/p&gt;
-
-&lt;p style="clear:both;"&gt;
-Gaussian elimination can be used to solve this system of three variables.&lt;br /&gt;
-$ [\table
-1,1,1,\rowspan 3 \minsize 3{|} ,1;
-8,4,2,5;
-27,9,3,14;
-   ]  $ 
-
-
-R2 - 8 x R1, and R3 - 27 x R1 :
-
-$ [\table
-1,1,1,\rowspan 3 \minsize 3{|} ,1;
-0,-4,-6,-3;
-0,-18,-24,-13;
-   ]  $ 
-
-&lt;br /&gt;
-R3 - 4 x R2 :
-
-$ [\table
-1,1,1,\rowspan 3 \minsize 3{|} ,1;
-0,-4,-6,-3;
-0,-2,0,-1;
-   ]  $ 
-
-
-Swap R2 R3 :
-$ [\table
-1,1,1,\rowspan 3 \minsize 3{|} ,1;
-0,-2,0,-1;
-0,-4,-6,-3;
-
-   ]  $ 
-&lt;br /&gt;
-
-R3 - 2 x R2 :
-
-$ [\table
-1,1,1,\rowspan 3 \minsize 3{|} ,1;
-0,-2,0,-1;
-0,0,-6,-1;
-   ]  $ 
-
-Normalize R2 &amp; R3 :
-
-$ [\table
-1,1,1,\rowspan 3 \minsize 3{|} ,1;
-0,1,0,1/2;
-0,0,1,1/6;
-   ]  $ 
-
-&lt;br /&gt;
-R1 - R2 : 
-
-$ [\table
-1,0,1,\rowspan 3 \minsize 3{|} ,1/2;
-0,1,0,1/2;
-0,0,1,1/6;
-   ]  $ 
-
-R1 - R3 : 
-
-$ [\table
-1,0,0,\rowspan 3 \minsize 3{|} ,1/3;
-0,1,0,1/2;
-0,0,1,1/6;
-   ]  $ 
-
-&lt;/p&gt;
-&lt;p&gt;
-
-$$ s=1/3x^3+ 1/2x^2 + 1/6x \minsize 2{⇒}
- {2x^3+3x^2+x}/6 \minsize 2{⇒}
- {x(2x^2+3x+1)}/6 \minsize 2{⇒}
- {x(2x+1)(x+1)}/6 $$
- 
- We can conclude that the formula for the sum of powers of 2 from 0 to n is : 
- 
- $$∑↙{i=0}↖n i={n(2n+1)(n+1)}/6 $$
- 
+&lt;p class="text-center"&gt;
+Solving this system of three equation and three variables yields: $∑↙{i=0}↖n i={n(2n+1)(n+1)}/6 $
 &lt;/p&gt;
 
-
-
+&lt;p class="text-center"&gt;&lt;a href="#" id="solvePowerSeries"&gt;View how to use Gaussian elimination to solve this system of three equations&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 </t>
@@ -1118,6 +1039,7 @@ margin-top:0;
 margin-bottom:15px;
 font-family: 'IM Fell English', serif;
 color:#7C6849;
+text-shadow:1px 1px 6px #FFFFFF;
 
 }
 
@@ -1137,6 +1059,10 @@ width: 790px;
 #cornertarget {
  width: 80px;
  height: 80px;
+}
+
+.ietransparent {
+ background-image:url('images/transparent80x80.png');
 }
 
 .ui-widget-content a {
@@ -1171,7 +1097,7 @@ cursor:pointer;
   empty-cells: show;
   border: 1px solid #7a7;
   margin-right: .5em;
-  margin-bottom: 2.8em;
+  margin-bottom: 1.8em;
 
     th, td {
       text-align: right;
@@ -1357,5 +1283,92 @@ border    d4d1bf
 
 
 background: #eceadf url(images/ui-bg_fine-grain_10_eceadf_60x60.png) ;</t>
+<t tx="fil.20140128043317">&lt;div id="series4"&gt;
+
+&lt;p&gt;
+How to use Gaussian elimination to solve this system of three equations:
+&lt;/p&gt;
+&lt;p&gt;
+$ [\table
+1,1,1,\rowspan 3 \minsize 3{|} ,1;
+8,4,2,5;
+27,9,3,14;
+   ]  $ 
+
+
+R2 - 8 x R1, and R3 - 27 x R1 :
+
+$ [\table
+1,1,1,\rowspan 3 \minsize 3{|} ,1;
+0,-4,-6,-3;
+0,-18,-24,-13;
+   ]  $ 
+
+&lt;br /&gt;
+R3 - 4 x R2 :
+
+$ [\table
+1,1,1,\rowspan 3 \minsize 3{|} ,1;
+0,-4,-6,-3;
+0,-2,0,-1;
+   ]  $ 
+
+
+Swap R2 R3 :
+$ [\table
+1,1,1,\rowspan 3 \minsize 3{|} ,1;
+0,-2,0,-1;
+0,-4,-6,-3;
+
+   ]  $ 
+&lt;br /&gt;
+
+R3 - 2 x R2 :
+
+$ [\table
+1,1,1,\rowspan 3 \minsize 3{|} ,1;
+0,-2,0,-1;
+0,0,-6,-1;
+   ]  $ 
+
+Normalize R2 &amp; R3 :
+
+$ [\table
+1,1,1,\rowspan 3 \minsize 3{|} ,1;
+0,1,0,1/2;
+0,0,1,1/6;
+   ]  $ 
+
+&lt;br /&gt;
+R1 - R2 : 
+
+$ [\table
+1,0,1,\rowspan 3 \minsize 3{|} ,1/2;
+0,1,0,1/2;
+0,0,1,1/6;
+   ]  $ 
+
+R1 - R3 : 
+
+$ [\table
+1,0,0,\rowspan 3 \minsize 3{|} ,1/3;
+0,1,0,1/2;
+0,0,1,1/6;
+   ]  $ 
+
+&lt;/p&gt;
+&lt;p&gt;
+
+$$ s=1/3x^3+ 1/2x^2 + 1/6x \minsize 2{⇒}
+ {2x^3+3x^2+x}/6 \minsize 2{⇒}
+ {x(2x^2+3x+1)}/6 \minsize 2{⇒}
+ {x(2x+1)(x+1)}/6 $$
+ 
+ We can conclude that the formula for the sum of powers of 2 from 0 to n is : 
+ 
+ $$∑↙{i=0}↖n i={n(2n+1)(n+1)}/6 $$
+ 
+&lt;/p&gt;
+&lt;/div&gt;</t>
 </tnodes>
 </leo_file>

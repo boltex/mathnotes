@@ -43,7 +43,7 @@
     </head>
     <body>
         
-    <div id="cornertarget" class="cornerlabel"></div>
+    <div id="cornertarget" class="cornerlabel ietransparent"></div>
     <div id="forkme" class="cornerlabel">
     <a href="https://github.com/boltex/MathNotes">
     <img src="images/forkme_left_red_aa0000.png" alt="Fork me on GitHub">
@@ -479,7 +479,7 @@ $A^2= C^2   +   B^2  +2BC⋅cos(α) $ Often rearanged as : $A = √{B^2   +   C^
  <li><a href="#series1">Arithmetic</a></li>
  <li><a href="#series2">Geometric</a></li>
  <li><a href="#series3">Sum of Power</a></li>
-
+ <li><a href="#series4">How to Solve for Sum of Power</a></li>
 </ul>
 
 <div id="series1">
@@ -677,9 +677,19 @@ when n is 1 : $A + B + C = 1$ <br />
 when n is 2 : $8A + 4B + 2C = 5$ <br />
 when n is 3 : $27A + 9B + 3C = 14$ <br /> 
 </p>
+<p class="text-center">
+Solving this system of three equation and three variables yields: $∑↙{i=0}↖n i={n(2n+1)(n+1)}/6 $
+</p>
 
-<p style="clear:both;">
-Gaussian elimination can be used to solve this system of three variables.<br />
+<p class="text-center"><a href="#" id="solvePowerSeries">View how to use Gaussian elimination to solve this system of three equations</a></p>
+
+</div>
+<div id="series4">
+
+<p>
+How to use Gaussian elimination to solve this system of three equations:
+</p>
+<p>
 $ [\table
 1,1,1,\rowspan 3 \minsize 3{|} ,1;
 8,4,2,5;
@@ -760,12 +770,7 @@ $$ s=1/3x^3+ 1/2x^2 + 1/6x \minsize 2{⇒}
  $$∑↙{i=0}↖n i={n(2n+1)(n+1)}/6 $$
  
 </p>
-
-
-
-
 </div>
-
 </div>
 <div class="main-tabs startsUgly" id="main3"> 
 
@@ -1057,6 +1062,7 @@ Raising $e^{iπ/2}=i$ to the power of i gives $({e^{iπ/2}})^i=i^i$ or $e^{i^2π
         <!-- endbuild -->
 </body>
 </html>
+
 
 
 
