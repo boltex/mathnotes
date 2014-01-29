@@ -3,14 +3,14 @@
 <leo_file>
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.239436619718">
-	<global_window_position top="13" left="161" height="773" width="980"/>
+	<global_window_position top="29" left="299" height="692" width="1204"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20130617203326" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
-<v t="fil.20140120032538" a="E" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140128043317,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538" a="TV" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140128043317,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
 <v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
@@ -20,15 +20,15 @@
 <v t="fil.20140120032538.3"><vh>Factoring out first</vh></v>
 <v t="fil.20140120032538.4"><vh>Completing the square first</vh></v>
 </v>
-<v t="fil.20140120032538.5" a="E"><vh>Exponents and Logarithms</vh>
+<v t="fil.20140120032538.5"><vh>Exponents and Logarithms</vh>
 <v t="fil.20140120032538.6" a="M"><vh>Identities and Properties</vh></v>
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
 <v t="fil.20140120032538.8"><vh>Law of cosines</vh></v>
-<v t="fil.20140120032538.9" a="E"><vh>Series</vh>
+<v t="fil.20140120032538.9"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
-<v t="fil.20140120032538.12" a="TV"><vh>Power Series</vh></v>
+<v t="fil.20140120032538.12"><vh>Power Series</vh></v>
 <v t="fil.20140128043317"><vh>Gaussian Elimination</vh></v>
 </v>
 <v t="fil.20140120032538.13"><vh>Undoing Trig Substitution</vh>
@@ -42,7 +42,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" a="E" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -117,7 +117,9 @@ TODO
         &lt;link rel="stylesheet" href="styles/custommath.css"&gt;
         &lt;!-- endbuild --&gt;
         &lt;link href='http://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'&gt;
+        &lt;!-- build:js scripts/vendor/modernizr.js --&gt;
         &lt;script src="bower_components/modernizr/modernizr.js"&gt;&lt;/script&gt;
+        &lt;!-- endbuild --&gt;
         &lt;noscript&gt;
            &lt;style type="text/css"&gt;.startsUgly { display: block; }&lt;/style&gt;
         &lt;/noscript&gt;
@@ -134,15 +136,7 @@ TODO
     &lt;div id="backgroundmask"&gt;&lt;/div&gt;
     
     ​&lt;div class="container"&gt;
-            &lt;div class="header" style="text-align:right;"&gt;
-            &lt;!--
-                &lt;ul class="nav nav-pills pull-right"&gt;
-                    &lt;li class="active"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;h3 class="text-muted"&gt;Math with JQMath and JQueryUI&lt;/h3&gt;
-            --&gt;    
+            &lt;div class="header" style="text-align:right;"&gt; 
             
             &lt;h1 class="text-muted"&gt;Mathematics with JQmath&lt;/h1&gt; 
             
@@ -167,11 +161,9 @@ TODO
             
 &lt;div id="main0"&gt; &lt;/div&gt;
 @others
-
-&lt;/div&gt;&lt;!--main-div--&gt;
+&lt;/div&gt;
 
         &lt;/div&gt;
-
 
         &lt;!-- build:js scripts/vendor.js --&gt;
         &lt;!-- bower:js --&gt;
@@ -181,9 +173,6 @@ TODO
         &lt;script src="scripts/vendor/jqmath-0.4.0.js"&gt;&lt;/script&gt;
         &lt;!-- endbower --&gt;
         &lt;!-- endbuild --&gt;
-
-
-        &lt;!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --&gt;
         &lt;script&gt;
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -192,7 +181,6 @@ TODO
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-47015645-2');ga('send','pageview');
         &lt;/script&gt;
-
         &lt;!-- build:js scripts/plugins.js --&gt;
         &lt;script src="bower_components/sass-bootstrap/js/affix.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/sass-bootstrap/js/alert.js"&gt;&lt;/script&gt;
@@ -208,12 +196,12 @@ TODO
         &lt;script src="bower_components/sass-bootstrap/js/tab.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/fancyselect/fancySelect.js"&gt;&lt;/script&gt;
         &lt;!-- endbuild --&gt;
-
         &lt;!-- build:js({app,.tmp}) scripts/main.js --&gt;
         &lt;script src="scripts/main.js"&gt;&lt;/script&gt;
         &lt;!-- endbuild --&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+
 
 
 

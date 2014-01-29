@@ -297,7 +297,7 @@ var jqMath = function() {
 			['fmath', 'msqrt', 'mtd', 'mstyle', 'merror', 'mpadded', 'mphantom', 'menclose'],
 		accentDsByS_ = {	// top and bottom space in ems
 			'\xAF' /* ¯ macron */: [0, 0.85], '\u203E' /* ‾ overline */: [0, 0.85],
-			'\u02D9' /* ˙ dot above */: [0, 0.75], '\u02C7' /* ˇ caron */: [0, 0.7],
+			'\u02D9' /* ˙ dot above */: [0, 0.75], 'ˇ' /* ˇ caron */: [0, 0.7],
 			'^': [0, 0.5], '~': [0, 0.4], '\u2192' /* → rightwards arrow */: [0.25, 0.25],
 			'_': [0.7, 0],
 			// not accents in MathML 3 operator dictionary:
