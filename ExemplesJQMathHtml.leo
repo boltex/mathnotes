@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Leo (http://leoeditor.com/leo_toc.html) -->
 <?xml-stylesheet ekr_test?>
-<leo_file>
+<leo_file xmlns:leo="http://www.leo-editor.org/2011/leo" >
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.239436619718">
-	<global_window_position top="29" left="299" height="692" width="1204"/>
+<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
+	<global_window_position top="50" left="50" height="500" width="700"/>
 	<global_log_window_position top="0" left="0" height="0" width="0"/>
 </globals>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="fil.20130617203326" tnodeList="fil.20130617203326"><vh>@nosent README.md</vh></v>
-<v t="fil.20140120032538" a="TV" tnodeList="fil.20140120032538,fil.20140120032538.1,fil.20140121031006,fil.20140121031006.1,fil.20140122010741,fil.20140120032538.2,fil.20140120032538.3,fil.20140120032538.4,fil.20140120032538.5,fil.20140120032538.6,fil.20140120032538.7,fil.20140120032538.8,fil.20140120032538.9,fil.20140120032538.10,fil.20140120032538.11,fil.20140120032538.12,fil.20140128043317,fil.20140120032538.13,fil.20140120032538.14,fil.20140120032538.15,fil.20140120032538.16,fil.20140120032538.17,fil.20140120032538.18,fil.20140120032538.19,fil.20140120032538.20"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
+<v t="fil.20130617203326"><vh>@nosent README.md</vh></v>
+<v t="fil.20140120032538" a="E"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
@@ -42,7 +43,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" tnodeList="fil.20140120215236,fil.20140120215510,fil.20140120215510.1,fil.20140120215510.2"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" a="E"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -219,294 +220,6 @@ TODO
 
 &lt;/div&gt;
 
-</t>
-<t tx="fil.20140120032538.2">&lt;div class="main-tabs startsUgly" id="main1"&gt; 
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#tabs-1"&gt;By factoring out first&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#tabs-2"&gt;By completing the square first&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-@others
-
-  
-
-&lt;/div&gt;&lt;!--main-tabs--&gt;
-
-</t>
-<t tx="fil.20140120032538.3">&lt;div id="tabs-1"&gt;
-&lt;p&gt;
-Starting with $ax^2+bx+c=0$, where $a≠0$, subtract $c$ from both sides : $ax^2+bx=-c$ .&lt;/p&gt;
-&lt;p&gt;Factor out the $a$ like so: $a(x^2+{bx}/a)= -c$ &amp;nbsp;&amp;nbsp;&amp;nbsp; then divide by $a$: &amp;nbsp;&amp;nbsp;&amp;nbsp;$x^2+{bx}/a= -c/a$ .&lt;br /&gt;
-
-Completing the square on the left yields the extra term $b^2/{4a^2}$ which is added to the right side.
-
-$$ (x+b/{2a})^2 = b^2/{4a^2}-c/a$$
-
-Multiply the $-c/a$ term by ${4a}/{4a}$ to have a common denominator.
-
-$$(x+b/{2a})^2 = {b^2-4ac}/{4a^2}$$
-
-Take the square root on both sides:
-
-$$ x+b/{2a} = ±√{{b^2-4ac}/{4a^2}}$$
-
-The denominator on the right side can be taken out of the square root.
-
-$$x+b/{2a} = ±√{{b^2-4ac}}/{2a}$$
-
-Lastly, the $b/{2a}$ term can be sent to the right side, which already has a term with the same denominator.
-
-$$x={-b±√{b^2-4ac}}/{2a}$$
-
-
-
-&lt;/p&gt;
-
-
-&lt;/div&gt; &lt;!--tabs1--&gt;
-
-</t>
-<t tx="fil.20140120032538.4">&lt;div id="tabs-2"&gt; 
- 
-&lt;p&gt;
-
-Starting with $ax^2+bx+c=0$, where $a≠0$, subtract $c$ from both sides, $ax^2+bx=-c$ &lt;br /&gt;
-
-Now complete the square on the left side to get an extra ${b^2}/{4a}$.
-
-$$ (√ax + b/{2√a})^2 = {b^2}/{4a} -c $$
-
-Make the terms on the right side share a common denominator.
-
-$$ (√ax + b/{2√a})^2 ={b^2-4ac}/{4a} $$
-
-Take the square root of both sides.
-
-$$ √ax + b/{2√a} = √{{b^2-4ac}/{4a}} $$
-
-Take the denominator on the right side out of the radical sign.
-
-$$ √ax + b/{2√a} = √{{b^2-4ac}}/{2√a} $$
-
-Finally divide both sides by $√a$
-
-$$x={-b±√{b^2-4ac}}/{2a}$$
-
-&lt;/p&gt;
-
-&lt;/div&gt; &lt;!--tabs2--&gt;
-</t>
-<t tx="fil.20140120032538.5">&lt;div class="main-tabs startsUgly" id="main8"&gt; 
-
-&lt;ul&gt;
-
- &lt;li&gt;&lt;a href="#explogs1"&gt;Identities and Properties&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#explogs2"&gt;Solving with e and ln&lt;/a&gt;&lt;/li&gt;
-
-&lt;/ul&gt;
-
-@others
-
-&lt;/div&gt;
-
-</t>
-<t tx="fil.20140120032538.6">&lt;div id="explogs1"&gt;
-
-&lt;p&gt;
-The exponent states how many times the multiplicative identity, 1, 
-is factored by the base. Correspondingly, the logarithm is the exponent that would
-be needed to raise the base to get a given number.
-&lt;/p&gt;
-
-&lt;div class="figure-border"&gt;
-&lt;p class="figure-centered"&gt;
-$a^{-2}=1/{a⋅a}$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-$a^{-1}=1/{a}$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-$a^0=1$          &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-$a^1=a$          &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-$a^2=a⋅a$        
-&lt;/p&gt;
-&lt;p class="figure-centered"&gt; 
-$log_a(1/{a⋅a})= -2$ &amp;nbsp;&amp;nbsp;&amp;nbsp;
-$log_a(1/a)= -1$     &amp;nbsp;&amp;nbsp;&amp;nbsp;
-$log_a(1)= 0$        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-$log_a(a)= 1$        &amp;nbsp;&amp;nbsp;&amp;nbsp;
-$log_a(a⋅a)= 2$    
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;
-Factorisation and exponentiation of powers of a common base 
-&lt;/p&gt;
-&lt;div class="figure-border"&gt;
-&lt;p class="figure-centered"&gt;
-${a^x}⋅{a^y} = a^{x+y}$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  
-${a^x}/{a^y} = a^{x-y}$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-$(a^x)^y = a^{x⋅y}$
-&lt;/p&gt;
-&lt;p class="figure-centered"&gt;
-$log_a(x⋅y)= log(x)+log(y)$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-$log_a(x/y)= log(x)-log(y)$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-$log_a(x^y)= y⋅log(x)$
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;
-Negative and rational exponents along with logarithms with inverted and changed base  
-&lt;/p&gt;
-&lt;div class="figure-border"&gt;
-&lt;p class="figure-centered"&gt;
-$a^{-x}=1/{a^x}$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-$a^{1/x}=√^x{a}$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-$a^{x/y}=√^y{a^x}$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-$a^{-{x/y}}=1/{√^y{a^x}}$   
-&lt;/p&gt;
-&lt;p class="figure-centered"&gt;
-$log_{1/a}(b) = -log_a(b)$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-$log_a(1/x) = -log_a(x)$     &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-$log_a(b) = 1/{log_b(a)}$    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-$log_a(b) = {log_c(b)}/{log_c(a)}$      
-&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-
-
-</t>
-<t tx="fil.20140120032538.7">&lt;div id="explogs2" &gt;
-
-&lt;p&gt;
-Solve for x:
-&lt;/p&gt;
-
-&lt;div class="main-accordion" &gt;
-
-    &lt;h3&gt;$\ln(x+1) + \ln(x-1) = 2y + \ln(y)$&lt;/h3&gt;
-    &lt;div&gt;
-        &lt;p&gt;
-           Combine logarithms on the left side, $$\ln(x^2-1)=2y+\ln(y)$$
-           Exponentiate both sides, $$x^2-1 = e^{2y+\ln(y)}$$
-           Separate the exponent on the right side, $$x^2-1 = e^{2y}⋅e^{\ln(y)}$$
-           Simplify the right side,  $$x^2-1 = ye^{2y}$$
-           Add 1 to both sides, $$x^2 = ye^{2y}+1$$
-           Finally, take the square root on both sides, $$x = √{ye^{2y}+1}$$
-        &lt;/p&gt;
-    &lt;/div&gt;
-
-    &lt;h3&gt;$\log(x+1) = y^2 + \log(x-1)$&lt;/h3&gt;
-    &lt;div&gt;
-        &lt;p&gt;
-           Exponentiate both sides using base 10, $$x+1 = 10^{y^2+\log(x-1)}$$
-           Separate the exponent on the right side, $$x+1 = 10^{y^2}⋅10^{\log(x-1)}$$
-           Simplify the right side, $$x+1 = 10^{y^2}⋅(x-1)$$
-           Distribute on the right side, $$x+1 = x10^{y^2}-10^{y^2}$$
-           Separate terms to have all x on the left, $$x - x10^{y^2} = -10^{y^2}-1$$
-           Factor on the left side, $$x(1-10^{y^2}) = -10^{y^2}-1$$
-           Divide both sides by $1-10^{y^2}$, $$x = {-10^{y^2}-1}/{1-10^{y^2}}$$
-           Multiply both numerator and denominator by -1, $$x = {10^{y^2}+1}/{10^{y^2}-1}$$
-        &lt;/p&gt;
-    &lt;/div&gt;
-
-    &lt;h3&gt;$2\ln(x) = \ln(x+1) + y$&lt;/h3&gt;
-    &lt;div&gt;
-        &lt;p&gt;
-           Bring the factor of 2 in the log on the left side, $$\ln(x^2) = \ln(x+1) + y$$
-           Exponentiate and simplify both sides, $$x^2 = (x+1)⋅e^y$$ 
-           Distribute on the right side, $$x^2 = xe^y+e^y$$ 
-           Bring every term on the right side, $$x^2 - xe^y - e^y = 0$$ 
-           Use the quadratic equation. $$x= { e^y+√{e^{2y}+4e^y}  }/2$$
-           Note that the original question implied the log of $x$ which cannot be negative
-           hence the solution only uses the positive version of the quadratic equation.
-        &lt;/p&gt;
-    &lt;/div&gt;
-
-    &lt;h3&gt;${e^x + e^{-x}} / {e^x - e^{-x}} = y$&lt;/h3&gt;
-    &lt;div&gt;
-        &lt;p&gt;
-           Substitute $u$ for $e^x$, $${u^1 + u^{-1}} / {u^1 - u^{-1}} = y$$
-           Multiply both numerator and denominator by $u$, $${u^2 + 1} / {u^2 - 1} = y$$
-           Multiply both sides by $(u^2 - 1)$, $$u^2 + 1 = yu^2 - y$$
-           Gather all $u$ on the left, other terms on the right, $$u^2 -  yu^2  =  - y - 1$$
-           Factor out $u^2$ on the right side, $$u^2(1-y) = -y -1$$
-           Divide both sides by $(1-y)$, $$u^2 = {-y -1} / {1-y}$$
-           Multiply both numerator and denominator by -1 on the right&lt;br /&gt; then take the square root on both sides, $$u=√{{y+1}/{y-1}}$$
-           Substitute back from $u$ to $e^x$ and take the natural log on both sides, $$x=\ln(√{{y+1}/{y-1}})$$
-           This solution can be rewritten or simplified in many other ways such as: $$x=1/2\ln({y+1}/{y-1})$$
-        &lt;/p&gt;
-    &lt;/div&gt;
-
-    &lt;h3&gt;$y = e^x + e^{-x}$&lt;/h3&gt;
-    &lt;div&gt;
-        &lt;p&gt;
-           Substitute $u$ for $e^x$, $$y = u^1 + u^{-1}$$
-           Multiply both sides by $u$, $$yu = u^2 + 1$$
-           Bring every term on one side, $$0 = u^2 - yu +1$$
-           Solve for $u$ with the quadratic equation, $$u = {y ± √{ y^2-4 }} /2$$
-           Remember that $u$ is $e^x$, so taking the natural log on both sides gives: $$x = \ln({{y ± √{ y^2-4 }} /2})$$
-           This solution can be rewritten or simplified in many other ways such as:  $$x = \ln({{y ± 1/2√{{y^2}/4-1}}})-\ln(2)$$
-        &lt;/p&gt;
-    &lt;/div&gt;
-
-
-
-
-&lt;/div&gt;
-
-
-
-&lt;/div&gt;
-</t>
-<t tx="fil.20140120032538.8">&lt;div class="main-tabs startsUgly" id="main2"&gt; 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#tabs-cos"&gt;Law of cosines&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div id="tabs-cos"&gt;
-&lt;p class="figure-centered"&gt; 
-To compute the lenght of side $A$, if the opposite angle $α$ is known as well as the two other sides, &lt;br /&gt;
-&lt;img src="images/law_cosine.svg" &gt;
-&lt;/p&gt;
-&lt;p&gt;
-first recognise that the vertical $h$ is measurable with trigonometry : $h=C⋅{sin(α)}$.&lt;br /&gt;
- Also, that $e=C⋅{cos(α)}$ and because $f=B-e$ it follows that $f=B-C⋅{cos(α)}$.&lt;br /&gt;
-&lt;/p&gt;
-&lt;p&gt;
-Using the pythagorian theorem in the form $A^2=h^2+f^2$ you can write :&lt;br /&gt;
-
-$A^2= (Csinα)^2+(B-Ccosα)^2   $ &lt;/p&gt; 
-&lt;p&gt; Expanding $h$ and $f$ gives :&lt;br /&gt;
-
-$A^2= C^2sin^2α   +   B^2  +2BC⋅cos(α) +    C^2{cos^2(α)}$
-&lt;/p&gt;
-&lt;p&gt;Group the terms with a $C^2$ and factor   &lt;br /&gt;
-
-$A^2= C^2(sin^2(α)+cos^2(α))   +   B^2  +2BC⋅cos(α) $
-
-&lt;/p&gt;
-&lt;p&gt;Recognize the trigonometric identity $sin^2+cos^2=1$ in the term with $C^2$ to get &lt;br /&gt;
-$A^2= C^2   +   B^2  +2BC⋅cos(α) $ Often rearanged as : $A = √{B^2   +   C^2  +2BC⋅cos(α)} $
-
-
-&lt;/p&gt;
-&lt;/div&gt; &lt;!--tabs1--&gt;
-
-&lt;/div&gt;&lt;!--main-tabs--&gt;
-
-</t>
-<t tx="fil.20140120032538.9">&lt;div class="main-tabs startsUgly" id="main25"&gt; 
-
-&lt;ul&gt;
-
- &lt;li&gt;&lt;a href="#series1"&gt;Arithmetic&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#series2"&gt;Geometric&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#series3"&gt;Sum of Power&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#series4"&gt;How to Solve for Sum of Power&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-@others
-
-&lt;/div&gt;
 </t>
 <t tx="fil.20140120032538.10">&lt;div id="series1"&gt;
 
@@ -952,6 +665,19 @@ The odd ones, matching those from the series for sin(x) have an imaginary factor
 $\e^{ix} = \cos(x) + i\sin(x)$ and if we make x=pi we get $\e^{iπ} = -1 + 0$, or, Euler's Identity :&lt;b&gt; $\e^{iπ} = -1$ &lt;/b&gt;
 &lt;/p&gt; 
 &lt;/div&gt;</t>
+<t tx="fil.20140120032538.2">&lt;div class="main-tabs startsUgly" id="main1"&gt; 
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#tabs-1"&gt;By factoring out first&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tabs-2"&gt;By completing the square first&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+@others
+
+  
+
+&lt;/div&gt;&lt;!--main-tabs--&gt;
+
+</t>
 <t tx="fil.20140120032538.20">&lt;div id="tabs-euler2"&gt;
 &lt;p&gt;
 Taking the square root on both sides of Euler's Identity: $√{e^{iπ}}=√{-1}$ reduces to $e^{iπ/2}=i$.
@@ -966,6 +692,281 @@ Taking the log on both sides $\ln({e^{iπ/2}})=\ln(i)$, simplifies to $iπ/2=\ln
 Raising $e^{iπ/2}=i$ to the power of i gives $({e^{iπ/2}})^i=i^i$ or $e^{i^2π/2}=i^i$, thus $e^{-π/2}=i^i$, a real number.
 &lt;/p&gt;
 &lt;/div&gt;</t>
+<t tx="fil.20140120032538.3">&lt;div id="tabs-1"&gt;
+&lt;p&gt;
+Starting with $ax^2+bx+c=0$, where $a≠0$, subtract $c$ from both sides : $ax^2+bx=-c$ .&lt;/p&gt;
+&lt;p&gt;Factor out the $a$ like so: $a(x^2+{bx}/a)= -c$ &amp;nbsp;&amp;nbsp;&amp;nbsp; then divide by $a$: &amp;nbsp;&amp;nbsp;&amp;nbsp;$x^2+{bx}/a= -c/a$ .&lt;br /&gt;
+
+Completing the square on the left yields the extra term $b^2/{4a^2}$ which is added to the right side.
+
+$$ (x+b/{2a})^2 = b^2/{4a^2}-c/a$$
+
+Multiply the $-c/a$ term by ${4a}/{4a}$ to have a common denominator.
+
+$$(x+b/{2a})^2 = {b^2-4ac}/{4a^2}$$
+
+Take the square root on both sides:
+
+$$ x+b/{2a} = ±√{{b^2-4ac}/{4a^2}}$$
+
+The denominator on the right side can be taken out of the square root.
+
+$$x+b/{2a} = ±√{{b^2-4ac}}/{2a}$$
+
+Lastly, the $b/{2a}$ term can be sent to the right side, which already has a term with the same denominator.
+
+$$x={-b±√{b^2-4ac}}/{2a}$$
+
+
+
+&lt;/p&gt;
+
+
+&lt;/div&gt; &lt;!--tabs1--&gt;
+
+</t>
+<t tx="fil.20140120032538.4">&lt;div id="tabs-2"&gt; 
+ 
+&lt;p&gt;
+
+Starting with $ax^2+bx+c=0$, where $a≠0$, subtract $c$ from both sides, $ax^2+bx=-c$ &lt;br /&gt;
+
+Now complete the square on the left side to get an extra ${b^2}/{4a}$.
+
+$$ (√ax + b/{2√a})^2 = {b^2}/{4a} -c $$
+
+Make the terms on the right side share a common denominator.
+
+$$ (√ax + b/{2√a})^2 ={b^2-4ac}/{4a} $$
+
+Take the square root of both sides.
+
+$$ √ax + b/{2√a} = √{{b^2-4ac}/{4a}} $$
+
+Take the denominator on the right side out of the radical sign.
+
+$$ √ax + b/{2√a} = √{{b^2-4ac}}/{2√a} $$
+
+Finally divide both sides by $√a$
+
+$$x={-b±√{b^2-4ac}}/{2a}$$
+
+&lt;/p&gt;
+
+&lt;/div&gt; &lt;!--tabs2--&gt;
+</t>
+<t tx="fil.20140120032538.5">&lt;div class="main-tabs startsUgly" id="main8"&gt; 
+
+&lt;ul&gt;
+
+ &lt;li&gt;&lt;a href="#explogs1"&gt;Identities and Properties&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#explogs2"&gt;Solving with e and ln&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+@others
+
+&lt;/div&gt;
+
+</t>
+<t tx="fil.20140120032538.6">&lt;div id="explogs1"&gt;
+
+&lt;p&gt;
+The exponent states how many times the multiplicative identity, 1, 
+is factored by the base. Correspondingly, the logarithm is the exponent that would
+be needed to raise the base to get a given number.
+&lt;/p&gt;
+
+&lt;div class="figure-border"&gt;
+&lt;p class="figure-centered"&gt;
+$a^{-2}=1/{a⋅a}$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+$a^{-1}=1/{a}$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+$a^0=1$          &amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+$a^1=a$          &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+$a^2=a⋅a$        
+&lt;/p&gt;
+&lt;p class="figure-centered"&gt; 
+$log_a(1/{a⋅a})= -2$ &amp;nbsp;&amp;nbsp;&amp;nbsp;
+$log_a(1/a)= -1$     &amp;nbsp;&amp;nbsp;&amp;nbsp;
+$log_a(1)= 0$        &amp;nbsp;&amp;nbsp;&amp;nbsp;
+$log_a(a)= 1$        &amp;nbsp;&amp;nbsp;&amp;nbsp;
+$log_a(a⋅a)= 2$    
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Factorisation and exponentiation of powers of a common base 
+&lt;/p&gt;
+&lt;div class="figure-border"&gt;
+&lt;p class="figure-centered"&gt;
+${a^x}⋅{a^y} = a^{x+y}$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;  
+${a^x}/{a^y} = a^{x-y}$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+$(a^x)^y = a^{x⋅y}$
+&lt;/p&gt;
+&lt;p class="figure-centered"&gt;
+$log_a(x⋅y)= log(x)+log(y)$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+$log_a(x/y)= log(x)-log(y)$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+$log_a(x^y)= y⋅log(x)$
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Negative and rational exponents along with logarithms with inverted and changed base  
+&lt;/p&gt;
+&lt;div class="figure-border"&gt;
+&lt;p class="figure-centered"&gt;
+$a^{-x}=1/{a^x}$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+$a^{1/x}=√^x{a}$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+$a^{x/y}=√^y{a^x}$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+$a^{-{x/y}}=1/{√^y{a^x}}$   
+&lt;/p&gt;
+&lt;p class="figure-centered"&gt;
+$log_{1/a}(b) = -log_a(b)$   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+$log_a(1/x) = -log_a(x)$     &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+$log_a(b) = 1/{log_b(a)}$    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+$log_a(b) = {log_c(b)}/{log_c(a)}$      
+&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+
+</t>
+<t tx="fil.20140120032538.7">&lt;div id="explogs2" &gt;
+
+&lt;p&gt;
+Solve for x:
+&lt;/p&gt;
+
+&lt;div class="main-accordion" &gt;
+
+    &lt;h3&gt;$\ln(x+1) + \ln(x-1) = 2y + \ln(y)$&lt;/h3&gt;
+    &lt;div&gt;
+        &lt;p&gt;
+           Combine logarithms on the left side, $$\ln(x^2-1)=2y+\ln(y)$$
+           Exponentiate both sides, $$x^2-1 = e^{2y+\ln(y)}$$
+           Separate the exponent on the right side, $$x^2-1 = e^{2y}⋅e^{\ln(y)}$$
+           Simplify the right side,  $$x^2-1 = ye^{2y}$$
+           Add 1 to both sides, $$x^2 = ye^{2y}+1$$
+           Finally, take the square root on both sides, $$x = √{ye^{2y}+1}$$
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3&gt;$\log(x+1) = y^2 + \log(x-1)$&lt;/h3&gt;
+    &lt;div&gt;
+        &lt;p&gt;
+           Exponentiate both sides using base 10, $$x+1 = 10^{y^2+\log(x-1)}$$
+           Separate the exponent on the right side, $$x+1 = 10^{y^2}⋅10^{\log(x-1)}$$
+           Simplify the right side, $$x+1 = 10^{y^2}⋅(x-1)$$
+           Distribute on the right side, $$x+1 = x10^{y^2}-10^{y^2}$$
+           Separate terms to have all x on the left, $$x - x10^{y^2} = -10^{y^2}-1$$
+           Factor on the left side, $$x(1-10^{y^2}) = -10^{y^2}-1$$
+           Divide both sides by $1-10^{y^2}$, $$x = {-10^{y^2}-1}/{1-10^{y^2}}$$
+           Multiply both numerator and denominator by -1, $$x = {10^{y^2}+1}/{10^{y^2}-1}$$
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3&gt;$2\ln(x) = \ln(x+1) + y$&lt;/h3&gt;
+    &lt;div&gt;
+        &lt;p&gt;
+           Bring the factor of 2 in the log on the left side, $$\ln(x^2) = \ln(x+1) + y$$
+           Exponentiate and simplify both sides, $$x^2 = (x+1)⋅e^y$$ 
+           Distribute on the right side, $$x^2 = xe^y+e^y$$ 
+           Bring every term on the right side, $$x^2 - xe^y - e^y = 0$$ 
+           Use the quadratic equation. $$x= { e^y+√{e^{2y}+4e^y}  }/2$$
+           Note that the original question implied the log of $x$ which cannot be negative
+           hence the solution only uses the positive version of the quadratic equation.
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3&gt;${e^x + e^{-x}} / {e^x - e^{-x}} = y$&lt;/h3&gt;
+    &lt;div&gt;
+        &lt;p&gt;
+           Substitute $u$ for $e^x$, $${u^1 + u^{-1}} / {u^1 - u^{-1}} = y$$
+           Multiply both numerator and denominator by $u$, $${u^2 + 1} / {u^2 - 1} = y$$
+           Multiply both sides by $(u^2 - 1)$, $$u^2 + 1 = yu^2 - y$$
+           Gather all $u$ on the left, other terms on the right, $$u^2 -  yu^2  =  - y - 1$$
+           Factor out $u^2$ on the right side, $$u^2(1-y) = -y -1$$
+           Divide both sides by $(1-y)$, $$u^2 = {-y -1} / {1-y}$$
+           Multiply both numerator and denominator by -1 on the right&lt;br /&gt; then take the square root on both sides, $$u=√{{y+1}/{y-1}}$$
+           Substitute back from $u$ to $e^x$ and take the natural log on both sides, $$x=\ln(√{{y+1}/{y-1}})$$
+           This solution can be rewritten or simplified in many other ways such as: $$x=1/2\ln({y+1}/{y-1})$$
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3&gt;$y = e^x + e^{-x}$&lt;/h3&gt;
+    &lt;div&gt;
+        &lt;p&gt;
+           Substitute $u$ for $e^x$, $$y = u^1 + u^{-1}$$
+           Multiply both sides by $u$, $$yu = u^2 + 1$$
+           Bring every term on one side, $$0 = u^2 - yu +1$$
+           Solve for $u$ with the quadratic equation, $$u = {y ± √{ y^2-4 }} /2$$
+           Remember that $u$ is $e^x$, so taking the natural log on both sides gives: $$x = \ln({{y ± √{ y^2-4 }} /2})$$
+           This solution can be rewritten or simplified in many other ways such as:  $$x = \ln({{y ± 1/2√{{y^2}/4-1}}})-\ln(2)$$
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+
+
+
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+</t>
+<t tx="fil.20140120032538.8">&lt;div class="main-tabs startsUgly" id="main2"&gt; 
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#tabs-cos"&gt;Law of cosines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id="tabs-cos"&gt;
+&lt;p class="figure-centered"&gt; 
+To compute the lenght of side $A$, if the opposite angle $α$ is known as well as the two other sides, &lt;br /&gt;
+&lt;img src="images/law_cosine.svg" &gt;
+&lt;/p&gt;
+&lt;p&gt;
+first recognise that the vertical $h$ is measurable with trigonometry : $h=C⋅{sin(α)}$.&lt;br /&gt;
+ Also, that $e=C⋅{cos(α)}$ and because $f=B-e$ it follows that $f=B-C⋅{cos(α)}$.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Using the pythagorian theorem in the form $A^2=h^2+f^2$ you can write :&lt;br /&gt;
+
+$A^2= (Csinα)^2+(B-Ccosα)^2   $ &lt;/p&gt; 
+&lt;p&gt; Expanding $h$ and $f$ gives :&lt;br /&gt;
+
+$A^2= C^2sin^2α   +   B^2  +2BC⋅cos(α) +    C^2{cos^2(α)}$
+&lt;/p&gt;
+&lt;p&gt;Group the terms with a $C^2$ and factor   &lt;br /&gt;
+
+$A^2= C^2(sin^2(α)+cos^2(α))   +   B^2  +2BC⋅cos(α) $
+
+&lt;/p&gt;
+&lt;p&gt;Recognize the trigonometric identity $sin^2+cos^2=1$ in the term with $C^2$ to get &lt;br /&gt;
+$A^2= C^2   +   B^2  +2BC⋅cos(α) $ Often rearanged as : $A = √{B^2   +   C^2  +2BC⋅cos(α)} $
+
+
+&lt;/p&gt;
+&lt;/div&gt; &lt;!--tabs1--&gt;
+
+&lt;/div&gt;&lt;!--main-tabs--&gt;
+
+</t>
+<t tx="fil.20140120032538.9">&lt;div class="main-tabs startsUgly" id="main25"&gt; 
+
+&lt;ul&gt;
+
+ &lt;li&gt;&lt;a href="#series1"&gt;Arithmetic&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#series2"&gt;Geometric&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#series3"&gt;Sum of Power&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#series4"&gt;How to Solve for Sum of Power&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+@others
+
+&lt;/div&gt;
+</t>
 <t tx="fil.20140120215236">@language css
 
 /* ==========================================================================
@@ -1137,6 +1138,18 @@ cursor:pointer;
         margin-right:15px;
     }
 
+}
+
+.div-caval-image-center{
+    
+    text-align:center;
+    clear:both;
+    
+    img{
+        display:inline-block;
+  
+    }
+
 }</t>
 <t tx="fil.20140121031006">&lt;div id="cavalieri1"&gt;
 
@@ -1238,14 +1251,33 @@ $V={LWH}⋅(1/3+1/{2∞}+1/{6∞^2})$ which is $V={LWH}⋅1/3$ where $LW$ is the
 
 
 
-&lt;div class="div-caval-image-left"&gt;
-&lt;img src="images/cavalieri_3d_base_to_point_linear_all.svg" &gt; 
+&lt;div class="div-caval-image-center"&gt;
+&lt;img src="images/cavalieri_3d_base_to_point_linear_all.svg" &gt;
+&lt;p&gt;
+Because $V={LWH}⋅1/3$ is the formula for the volume of a rectangular pyramid
+ where $LW$ is the area of the base, we can deduce that $V={\text"Base Area"⋅H}⋅1/3$
+is the formula for &lt;i&gt;any&lt;/i&gt; pyramid.
+&lt;/p&gt;
+&lt;p&gt;
+A cone and a hemisphere inscribed in a cylinder complement each other perfectly
+in relation to the volume of that cylinder. This fact can be proven and used
+ to find properties about the sphere:
+&lt;/p&gt;
 &lt;/div&gt;
-
-
 
 &lt;div class="div-caval-image-left"&gt;
 &lt;img src="images/cavalieri_Cone_and_Hemisphere.svg" &gt;
+&lt;p&gt;
+First, we acknowledge that the area of a horizontal section of an inverted cone,&lt;br /&gt; 
+at a given height h, where the height of the cone is equal to its radius, is $πh^2$.
+&lt;/p&gt;
+&lt;p&gt;
+Next, we subtract from the area of a section of a cylinder, $πr^2$, the area of a section
+of a hemisphere at height h, $π(√{r^2-h^2})^2$ to get the area of ring outside the hemisphere: &lt;br /&gt;
+$$A=πr^2 - π(√{r^2-h^2})^2$$
+&lt;/p&gt;
+
+
 &lt;/div&gt;
 
 
