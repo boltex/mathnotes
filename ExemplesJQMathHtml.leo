@@ -1268,7 +1268,7 @@ in relation to the volume of that cylinder. This fact can be proven and used
 &lt;div class="div-caval-image-left"&gt;
 &lt;img src="images/cavalieri_Cone_and_Hemisphere.svg" &gt;
 &lt;p&gt;
-First, we acknowledge that the area of a horizontal section of an inverted cone,&lt;br /&gt; 
+First, we acknowledge that the area of a horizontal section of an inverted cone,
 at a given height h, where the height of the cone is equal to its radius, is $πh^2$.
 &lt;/p&gt;
 &lt;p&gt;

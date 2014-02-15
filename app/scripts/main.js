@@ -4,8 +4,6 @@ $(function() {
 
     var imgmath = new Image();
 
-    //var flagNeverChose = 1;
-
     var arraymathematicians=[
         'descartes',
         'cavalieri',
@@ -21,14 +19,6 @@ $(function() {
     ];
 
     var current=$('#main0');
-
-/*    function openComboMenu(){
-        if (flagNeverChose===1){
-            flagNeverChose=0;
-            //$('#combobox').filter('[value=\'main0\']').remove();
-           //$('#combobox').selectric('refresh');
-        }
-    }*/
 
     function getComboMenu(sel) {
         var options = {};
@@ -82,22 +72,11 @@ $(function() {
         $('#main25').tabs( 'option', 'active', 3 );
     });
 
-
-    //$('#combobox').removeClass('startsUgly');
-
-    //$('#combobox').selectric( {onOpen: openComboMenu } );
-    //$('#combobox').selectric( {maxHeight:600} );
-    //$('#combobox').fancySelect();
-
     var mySelect = $('#combobox');
 
     mySelect.change(function() { getComboMenu(this); });
     $('#combocontainer').removeClass('startsUgly');
     mySelect.fancySelect(); // currently disabled because of html property
-    // later…
-    //mySelect.trigger('enable');
-
-
     current.show();
     callbackShow();
     setTimeout( function(){$('#forkme').fadeOut();}, 3000);
