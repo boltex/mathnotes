@@ -1273,7 +1273,7 @@ at a given height h, where the height of the cone is equal to its radius, is $π
 &lt;/p&gt;
 &lt;p&gt;
 Next, we subtract from the area of a section of a cylinder, $πr^2$, the area of a section
-of a hemisphere at height h, $π(√{r^2-h^2})^2$ to get the area of ring outside the hemisphere: &lt;br /&gt;
+of a hemisphere at height h, $π(√{r^2-h^2})^2$ to get the area of the ring outside the hemisphere: &lt;br /&gt;
 $$A=πr^2 - π(√{r^2-h^2})^2$$
 &lt;/p&gt;
 
