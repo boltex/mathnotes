@@ -12,8 +12,8 @@
 <vnodes>
 <v t="fil.20130617203326"><vh>@nosent README.md</vh></v>
 <v t="fil.20140120032538" a="E"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
-<v t="fil.20140121031006"><vh>Shapes and Surfaces</vh></v>
+<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140121031006"><vh>Shapes, Surfaces and Volumes</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
 </v>
@@ -36,7 +36,15 @@
 <v t="fil.20140120032538.14"><vh>cos(arcsin)</vh></v>
 <v t="fil.20140120032538.15"><vh>sec2(arctan)</vh></v>
 </v>
-<v t="fil.20140120032538.16"><vh>Finding Min/Max</vh></v>
+<v t="fil.20140120032538.16" a="E"><vh>Finding Min/Max</vh>
+<v t="fil.20140216124024.1693"><vh>newHeadline</vh></v>
+<v t="fil.20140216124024.1695"><vh>newHeadline</vh></v>
+<v t="fil.20140216124024.1697"><vh>newHeadline</vh></v>
+<v t="fil.20140216124024.1699"><vh>newHeadline</vh></v>
+<v t="fil.20140216124024.1701"><vh>newHeadline</vh></v>
+<v t="fil.20140216124024.1703"><vh>newHeadline</vh></v>
+<v t="fil.20140216124024.1705"><vh>newHeadline</vh></v>
+</v>
 <v t="fil.20140120032538.17"><vh>Newton's method</vh></v>
 <v t="fil.20140120032538.18"><vh>Euler's Identity</vh>
 <v t="fil.20140120032538.19"><vh>Euler's Identity</vh></v>
@@ -211,7 +219,7 @@ TODO
 <t tx="fil.20140120032538.1">&lt;div class="main-tabs startsUgly" id="main6"&gt; 
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#cavalieri1"&gt;Shapes and Surfaces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#cavalieri1"&gt;Shapes, Surfaces and Volumes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#cavalieri2"&gt;Prisms and Pyramids&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#cavalieri3"&gt;Cones and Spheres&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -520,18 +528,20 @@ $${\d y}/{\d x} = 1/{\sec^2(\tan^{-1}(x))} = 1/{1+x^2}$$
 &lt;/div&gt;
 </t>
 <t tx="fil.20140120032538.16">&lt;div class="main-tabs startsUgly" id="main4"&gt; 
+
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#minmax"&gt;Min/Max&lt;/a&gt;&lt;/li&gt;
+
+ &lt;li&gt;&lt;a href="#minmax1"&gt;Right Triangles&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#minmax2"&gt;Rectangles&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#minmax3"&gt;Square Prisms&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#minmax4"&gt;Cylinders&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#minmax5"&gt;Pyramids&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#minmax6"&gt;Cones&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#minmax7"&gt;Silos&lt;/a&gt;&lt;/li&gt;
+
 &lt;/ul&gt;
 
-&lt;div id="minmax"&gt;
-&lt;p&gt;
-Starting with ... &lt;br /&gt;
-Todo ! &lt;br /&gt;
-
-&lt;/p&gt;
-&lt;/div&gt;
-
+@others
 
 &lt;/div&gt;
 
@@ -1140,6 +1150,18 @@ cursor:pointer;
 
 }
 
+
+.div-caval-image-right{
+
+    clear:both;
+    
+    img{
+        float:right;
+        margin-left:10px;
+    }
+
+}
+
 .div-caval-image-center{
     
     text-align:center;
@@ -1181,7 +1203,7 @@ $$A={1/2}\b\h$$
 The constant $π$ is defined as the ratio between the perimeter P and the diameter D.
 &lt;/p&gt;
 &lt;p class="centered-content" &gt;
-$\D=2\r$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $π=\P/\D$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $\P=2π\r$
+$π=\P/\D$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $\D=2\r$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $\P=2π\r$
 &lt;/p&gt;
 &lt;p&gt;
 For a regular &lt;i&gt;n&lt;/i&gt;-sided polygon the perimeter is the lenght of a base b, times n: $\P=\b⋅{n}$
@@ -1196,7 +1218,22 @@ Using the formula for the perimeter of a circle, we can write the area as
 $A={1/2}\r⋅2π\r$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; which simplifies as &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $A=π\r^2$.
 &lt;/p&gt;
 &lt;/div&gt;
-
+&lt;div class="div-caval-image-right"&gt;
+&lt;img src="images/cavalieri_all_prisms.svg" &gt;
+&lt;p&gt;
+The volume of an n-sided polygonal prism is: $V=\text"Base Area"⋅\h$, &lt;br /&gt; 
+its surface area is: $A=(\text"Base Perimeter"⋅\h) + (2⋅\text"Base Area")$.
+&lt;/p&gt;
+&lt;p&gt;
+A circular prism, (a cylinder) has volume $V=π\r^2⋅\h$ 
+and a surface area of $A=(2π\r⋅\h) + (2⋅π\r^2)$.
+&lt;/p&gt;
+&lt;p&gt;
+Note that if a cylinder has the same height as its width, $(\text"Height"=\text"Diameter"=2\r)$, 
+ then the volume could be written as: $V=π\r^2⋅2\r= 2π\r^3$, 
+its surface area: $A=(4π\r^2) + (2⋅π\r^2) = 6π\r^2$.
+&lt;/p&gt;
+&lt;/div&gt;
 
 
 &lt;/div&gt;
@@ -1243,25 +1280,22 @@ $V={LWH}⋅(1/3+1/{2n}+1/{6n^2})$. By increasing the number of slices, n, reach 
 $V={LWH}⋅(1/3+1/{2∞}+1/{6∞^2})$ which is $V={LWH}⋅1/3$ where $LW$ is the area of the base.
 &lt;/p&gt;
 &lt;/div&gt;
-
-
 &lt;br style="clear:both;" /&gt;
 &lt;/div&gt;</t>
 <t tx="fil.20140122010741">&lt;div id="cavalieri3"&gt;
 
-
-
-&lt;div class="div-caval-image-center"&gt;
-&lt;img src="images/cavalieri_3d_base_to_point_linear_all.svg" &gt;
+&lt;div class="div-caval-image-right"&gt;
+&lt;img src="images/cavalieri_3d_base_to_point_linear_vert.svg" &gt;
 &lt;p&gt;
-Because $V={LWH}⋅1/3$ is the formula for the volume of a rectangular pyramid
- where $LW$ is the area of the base, we can deduce that $V={\text"Base Area"⋅H}⋅1/3$
-is the formula for &lt;i&gt;any&lt;/i&gt; pyramid.
+$V={LWH}⋅1/3$ being the formula for the volume of a rectangular pyramid, 
+ where $LW$ is the area of the base, we can deduce that $V={(\text"Base Area")⋅H}⋅1/3$
+is the formula for the volume of &lt;i&gt;any&lt;/i&gt; pyramid.
 &lt;/p&gt;
 &lt;p&gt;
-A cone and a hemisphere inscribed in a cylinder complement each other perfectly
-in relation to the volume of that cylinder. This fact can be proven and used
- to find properties about the sphere:
+To get a hold of the properties of spheres, it is necessary to prove that
+the shapes of horizontal sections of an inverted cone have the same area,
+at all heights, of that of horizontal sections of the outside of a hemisphere
+ inscribed in a cylinder:
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -1269,19 +1303,45 @@ in relation to the volume of that cylinder. This fact can be proven and used
 &lt;img src="images/cavalieri_Cone_and_Hemisphere.svg" &gt;
 &lt;p&gt;
 First, we acknowledge that the area of a horizontal section of an inverted cone,
-at a given height h, where the height of the cone is equal to its radius, is $πh^2$.
+at a given height h, where the height of the cone is equal to its radius, is computed as $A=π\h^2$.
 &lt;/p&gt;
 &lt;p&gt;
-Next, we subtract from the area of a section of a cylinder, $πr^2$, the area of a section
-of a hemisphere at height h, $π(√{r^2-h^2})^2$ to get the area of the ring outside the hemisphere: &lt;br /&gt;
-$$A=πr^2 - π(√{r^2-h^2})^2$$
+Next, we subtract from the area of a section of a cylinder, $π\r^2$, the area of a section
+of a hemisphere at height h, $π(√{\r^2-\h^2})^2$ to get the area of the ring outside the hemisphere: &lt;br /&gt;
+$$A=π\r^2 - π(√{\r^2-\h^2})^2$$
 &lt;/p&gt;
-
-
+&lt;p&gt;
+It can be simplified to $A=π\r^2 - π(\r^2-\h^2)$, and further to $A=π\r^2 - π\r^2 + π\h^2$,
+which is $A=π\h^2$.
+&lt;/p&gt;
+&lt;p&gt;
+Having shown that those areas are equal at all heights, $π\h^2$, it follows
+that the volume of a cone and that of the outside of a hemisphere inscribed 
+in a cylinder are also equal. 
+&lt;/p&gt;
+&lt;p&gt;
+Then from the volume of a cylinder, $\h⋅π\r^2$, if we subtract the volume of 
+a cone of same height and radius, $1/3⋅\h⋅π\r^2$, we obtain the formula for the volume of a hemisphere:
+$2/3⋅h⋅π\r^2$, or if the height equals the radius, $2/3⋅π\r^3$. Doubling this value gives
+the formula for a whole sphere: $V=4/3π\r^3$.
+&lt;/p&gt;
 &lt;/div&gt;
-
-
-
+&lt;div class="div-caval-image-left"&gt;
+&lt;img src="images/cavalieri_Pyramid_in_Sphere.svg" &gt;
+&lt;p&gt;
+If we consider a sphere to be made up of infinitely thin pyramids of height r having their
+ apex at the center and their bases facing outward as the outside surface. 
+We can write a formula for the volume $V=4/3π\r^3$ as:
+${1/3b_1\r}+{1/3b_2\r}+{1/3b_3\r}+...$&lt;br /&gt;
+By factoring out common parts of the terms we get: ${1/3\r}⋅(b_1+b_2+b_3 + ... )$
+&lt;/p&gt;
+&lt;p&gt;
+The sum of the bases, $(b_1+b_2+b_3+...)$ is the outside area of the sphere,
+ which can be isolated by dividing the volume's formula $V=4/3πr^3$, by ${1/3\r}$, 
+so that, the surface area of a sphere can be found:
+ $$A=4π\r^2$$
+&lt;/p&gt;
+&lt;/div&gt;
 &lt;br style="clear:both;" /&gt;
 &lt;/div&gt;</t>
 <t tx="fil.20140124235038">border    d4d1bf
@@ -1388,6 +1448,62 @@ $$ s=1/3x^3+ 1/2x^2 + 1/6x \minsize 2{⇒}
  
  $$∑↙{i=0}↖n i={n(2n+1)(n+1)}/6 $$
  
+&lt;/p&gt;
+&lt;/div&gt;</t>
+<t tx="fil.20140216124024.1693">
+&lt;div id="minmax1"&gt;
+&lt;p&gt;
+Starting with 1... &lt;br /&gt;
+Todo ! &lt;br /&gt;
+
+&lt;/p&gt;
+&lt;/div&gt;</t>
+<t tx="fil.20140216124024.1695">
+&lt;div id="minmax2"&gt;
+&lt;p&gt;
+Starting with 2... &lt;br /&gt;
+Todo ! &lt;br /&gt;
+
+&lt;/p&gt;
+&lt;/div&gt;</t>
+<t tx="fil.20140216124024.1697">
+&lt;div id="minmax3"&gt;
+&lt;p&gt;
+Starting with 3... &lt;br /&gt;
+Todo ! &lt;br /&gt;
+
+&lt;/p&gt;
+&lt;/div&gt;</t>
+<t tx="fil.20140216124024.1699">
+&lt;div id="minmax4"&gt;
+&lt;p&gt;
+Starting with 4... &lt;br /&gt;
+Todo ! &lt;br /&gt;
+
+&lt;/p&gt;
+&lt;/div&gt;</t>
+<t tx="fil.20140216124024.1701">
+&lt;div id="minmax5"&gt;
+&lt;p&gt;
+Starting with 5... &lt;br /&gt;
+Todo ! &lt;br /&gt;
+
+&lt;/p&gt;
+&lt;/div&gt;</t>
+<t tx="fil.20140216124024.1703">
+&lt;div id="minmax6"&gt;
+&lt;p&gt;
+Starting with 6... &lt;br /&gt;
+Todo ! &lt;br /&gt;
+
+&lt;/p&gt;
+&lt;/div&gt;</t>
+<t tx="fil.20140216124024.1705">
+&lt;div id="minmax7"&gt;
+&lt;p&gt;
+Starting with 7... &lt;br /&gt;
+Todo ! &lt;br /&gt;
+
 &lt;/p&gt;
 &lt;/div&gt;</t>
 </tnodes>
