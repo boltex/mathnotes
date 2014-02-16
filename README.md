@@ -20,7 +20,7 @@ I intend to use this to test using *MathJax* in the future instead of *JQmath*.
 
 TODO
 ----
-- Fix sizes, colors and crop the portraits of mathematicians in the background.
+- Add material to the Min/Max section
 
 
 
