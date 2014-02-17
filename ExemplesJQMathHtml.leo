@@ -12,7 +12,7 @@
 <vnodes>
 <v t="fil.20130617203326"><vh>@nosent README.md</vh></v>
 <v t="fil.20140120032538" a="E"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes, Surfaces and Volumes</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
@@ -1210,7 +1210,7 @@ For a regular &lt;i&gt;n&lt;/i&gt;-sided polygon the perimeter is the lenght of 
 &lt;br /&gt;
 Factor the area of one of its triangles to get $A={1/2}\b\h⋅{n}$, equivalent to $A={1/2}\h⋅\P$.
 &lt;br /&gt;
-Letting n reach infinity to get a circle, sides s and b become a radius r, so $A={1/2}\r⋅\P$.
+Letting n reach infinity to get a circle, sides s and h tend to a radius r, so $A={1/2}\r⋅\P$.
 &lt;br /&gt;
 Using the formula for the perimeter of a circle, we can write the area as
 &lt;/p&gt;
