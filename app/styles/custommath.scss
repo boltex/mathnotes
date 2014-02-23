@@ -89,10 +89,13 @@ color: #2a6496;
 cursor:pointer;
 }
 
-.minmax-content{
+.mm-cnt{
 display:none;
 }
 
+.clearboth{
+clear:both;
+}
 
 .figure-border {
   background-color: #efefef;
@@ -158,9 +161,7 @@ display:none;
 }
 
 .div-caval-image-left{
-
     clear:both;
-    
     img{
         float:left;
         margin-right:15px;
@@ -168,11 +169,8 @@ display:none;
 
 }
 
-
 .div-caval-image-right{
-
     clear:both;
-    
     img{
         float:right;
         margin-left:10px;
@@ -181,15 +179,32 @@ display:none;
 }
 
 .div-caval-image-center{
-    
     text-align:center;
     clear:both;
-    
     img{
         display:inline-block;
-  
     }
+}
+.container-just {
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    
+}
 
+.tobe-just {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+
+.container-just:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
 }
 
 

@@ -3,7 +3,7 @@
 $(function() {
 
 
-    $.fn.btn = $.fn.button.noConflict();
+   // $.fn.btn = $.fn.button.noConflict();
 
 
     var imgmath = new Image();
@@ -67,6 +67,17 @@ $(function() {
     } );
 
     $( '.main-radio' ).buttonset();
+
+
+    $('input[name$=minmax]').click( function() {
+        var tmphold = $(this).val();
+
+        $('div.mm-cnt').hide();
+        $('#mm-panel' + tmphold).show();
+    });
+
+
+
 
     $( '#sumPowerSeries' ).click(function(e) {
         e.preventDefault();

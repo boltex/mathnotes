@@ -11,7 +11,7 @@
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20130617203326"><vh>@nosent README.md</vh></v>
-<v t="fil.20140120032538" a="E"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538"><vh>@nosent app/index.html</vh>
 <v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes, Surfaces and Volumes</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
@@ -22,7 +22,7 @@
 <v t="fil.20140120032538.4"><vh>Completing the square first</vh></v>
 </v>
 <v t="fil.20140120032538.5"><vh>Exponents and Logarithms</vh>
-<v t="fil.20140120032538.6" a="M"><vh>Identities and Properties</vh></v>
+<v t="fil.20140120032538.6"><vh>Identities and Properties</vh></v>
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
 <v t="fil.20140120032538.8"><vh>Law of cosines</vh></v>
@@ -51,10 +51,11 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" a="E"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
+<v t="fil.20140222183703.1708"><vh>Justified</vh></v>
 </v>
 <v t="fil.20140124235038"><vh>colors pepper</vh></v>
 </vnodes>
@@ -193,6 +194,7 @@ TODO
         &lt;/script&gt;
         
         &lt;!-- build:js scripts/plugins.js --&gt;
+        &lt;!--
         &lt;script src="bower_components/sass-bootstrap/js/affix.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/sass-bootstrap/js/alert.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/sass-bootstrap/js/dropdown.js"&gt;&lt;/script&gt;
@@ -205,12 +207,14 @@ TODO
         &lt;script src="bower_components/sass-bootstrap/js/scrollspy.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/sass-bootstrap/js/collapse.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/sass-bootstrap/js/tab.js"&gt;&lt;/script&gt;
+        --&gt;
         &lt;script src="bower_components/fancyselect/fancySelect.js"&gt;&lt;/script&gt;
-        
         &lt;!-- endbuild --&gt;
+        
         &lt;!-- build:js({app,.tmp}) scripts/main.js --&gt;
         &lt;script src="scripts/main.js"&gt;&lt;/script&gt;
         &lt;!-- endbuild --&gt;
+
 
 &lt;/body&gt;
 &lt;/html&gt;
@@ -481,7 +485,7 @@ $\sin^{-1}(x)$ yields an angle, θ, which can be reversed as $\sin(θ)=x$. In ot
 &lt;img src="images/costrigsub2.svg" &gt;
 &lt;/div&gt;
 
-&lt;p style="clear:both;"&gt;
+&lt;p class="clearboth"&gt;
 The cosine can be interpreted as the adjacent $ √{1-x^2} $ divided by 1, the hypotenuse. 
 &lt;/p&gt;
 
@@ -521,7 +525,7 @@ $\tan^{-1}(x)$ yields an angle, θ, which can be reversed as $\tan(θ)=x$. In ot
 &lt;img src="images/tantrigsub2.svg" &gt;
 &lt;/div&gt;
 
-&lt;p style="clear:both;"&gt;
+&lt;p class="clearboth"&gt;
 The secant squared can be interpreted as the hypotenuse $ √{1+x^2} $ divided by 1, the adjacent, all squared. (Thus removing the quare root.) 
 &lt;/p&gt;
 
@@ -577,7 +581,7 @@ A graphical explanation of Newton's method can be described on a cartesian plane
 &lt;/div&gt;
 
 
-&lt;div style="clear:both;"&gt;
+&lt;div class="clearboth"&gt;
 &lt;p&gt;
 Considering the value of the function at $x_0$,
  the tangent line to the function at that point gives
@@ -585,7 +589,7 @@ Considering the value of the function at $x_0$,
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div  style="clear:both;"&gt;
+&lt;div  class="clearboth"&gt;
 
 &lt;img src="images/newton_step3.svg" style="clear:both;float:left;"&gt;
 &lt;img src="images/newton_step4.svg" style="float:right;"&gt;
@@ -598,7 +602,7 @@ at its tangent line, for its own x-intercept, $x_2$
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p style="clear:both;"&gt;
+&lt;p class="clearboth"&gt;
 The general formula for Newton's method to find the next $x$ starting with $x_0$, 
 starting with the equation of a line in point-slope form :
 
@@ -767,7 +771,7 @@ $$x={-b±√{b^2-4ac}}/{2a}$$
 
 &lt;/p&gt;
 
-&lt;/div&gt; &lt;!--tabs2--&gt;
+&lt;/div&gt;
 </t>
 <t tx="fil.20140120032538.5">&lt;div class="main-tabs startsUgly" id="main8"&gt; 
 
@@ -1073,10 +1077,13 @@ color: #2a6496;
 cursor:pointer;
 }
 
-.minmax-content{
+.mm-cnt{
 display:none;
 }
 
+.clearboth{
+clear:both;
+}
 
 @others
 
@@ -1148,9 +1155,7 @@ display:none;
 </t>
 <t tx="fil.20140120215510.2">
 .div-caval-image-left{
-
     clear:both;
-    
     img{
         float:left;
         margin-right:15px;
@@ -1158,11 +1163,8 @@ display:none;
 
 }
 
-
 .div-caval-image-right{
-
     clear:both;
-    
     img{
         float:right;
         margin-left:10px;
@@ -1171,15 +1173,11 @@ display:none;
 }
 
 .div-caval-image-center{
-    
     text-align:center;
     clear:both;
-    
     img{
         display:inline-block;
-  
     }
-
 }</t>
 <t tx="fil.20140121031006">&lt;div id="cavalieri1"&gt;
 
@@ -1248,8 +1246,6 @@ its surface area: $A=(4π\r^2) + (2⋅π\r^2) = 6π\r^2$.
 </t>
 <t tx="fil.20140121031006.1">&lt;div id="cavalieri2"&gt;
 
-
-
 &lt;div class="div-caval-image-left"&gt;
 &lt;img src="images/cavalieri_Pyramid_Area.svg" &gt;
 &lt;p&gt;
@@ -1288,7 +1284,7 @@ $V={LWH}⋅(1/3+1/{2n}+1/{6n^2})$. By increasing the number of slices, n, reach 
 $V={LWH}⋅(1/3+1/{2∞}+1/{6∞^2})$ which is $V={LWH}⋅1/3$ where $LW$ is the area of the base.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;br style="clear:both;" /&gt;
+&lt;br class="clearboth" /&gt;
 &lt;/div&gt;</t>
 <t tx="fil.20140122010741">&lt;div id="cavalieri3"&gt;
 
@@ -1350,7 +1346,7 @@ so that, the surface area of a sphere can be found:
  $$A=4π\r^2$$
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;br style="clear:both;" /&gt;
+&lt;br class="clearboth" /&gt;
 &lt;/div&gt;</t>
 <t tx="fil.20140124235038">border    d4d1bf
 
@@ -1460,36 +1456,86 @@ $$ s=1/3x^3+ 1/2x^2 + 1/6x \minsize 2{⇒}
 &lt;/div&gt;</t>
 <t tx="fil.20140216124024.1693">
 &lt;div id="minmax1"&gt;
-&lt;p&gt;
 
-    
+&lt;div class="div-caval-image-left"&gt;
+&lt;img src="images/minmax_triangle.svg" &gt;
+&lt;p&gt;What is the x:y ratio that maximizes the area in relation with the perimeter?&lt;/p&gt;
 &lt;div class="main-radio"&gt;
-    &lt;input type="radio" id="tri1" name="rx" /&gt;&lt;label for="tri1"&gt;Choice 1&lt;/label&gt;
-    &lt;input type="radio" id="tri2" name="rx" /&gt;&lt;label for="tri2"&gt;Choice 2&lt;/label&gt;
+    &lt;input type="radio" id="tri1" name="minmax" value="1"/&gt;&lt;label for="tri1"&gt;Standard Differenciation&lt;/label&gt;
+    &lt;input type="radio" id="tri2" name="minmax" value="2"/&gt;&lt;label for="tri2"&gt;Implicit Differenciation&lt;/label&gt;
+&lt;/div&gt;
+&lt;br class="clearboth" /&gt;
 &lt;/div&gt;
 
-Starting with 1... &lt;br /&gt;
-Todo ! &lt;br /&gt;
-
-&lt;div id="tri1-content" class="minmax-content"&gt;
-test1
-&lt;/div&gt;
-
-&lt;div id="tri1-content" class="minmax-content"&gt;
-test1
-&lt;/div&gt;
-
-
-
+&lt;div id="mm-panel1" class="mm-cnt"&gt;
+&lt;p&gt;
+Standard
 &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="mm-panel2" class="mm-cnt"&gt;
+&lt;p&gt;
+Implicit
+&lt;/p&gt;
+&lt;/div&gt;
+
 &lt;/div&gt;</t>
 <t tx="fil.20140216124024.1695">
 &lt;div id="minmax2"&gt;
-&lt;p&gt;
-Starting with 2... &lt;br /&gt;
-Todo ! &lt;br /&gt;
 
+&lt;p&gt;What is the x:y ratio that maximizes the area in relation with the perimeter?&lt;/p&gt;
+
+
+&lt;div&gt;
+    &lt;div style="float:left;"&gt;
+        &lt;img src="images/minmax_opensquare.svg" style="float:left;" /&gt; 
+        &lt;div style="float:left;display:inline;"&gt;
+            &lt;p&gt;For an 'open-top' rectangle&lt;/p&gt;
+            &lt;div class="main-radio"&gt;
+                &lt;input type="radio" id="tri3" name="minmax" value="3"/&gt;&lt;label for="tri3"&gt;Standard&lt;/label&gt;
+                &lt;input type="radio" id="tri4" name="minmax" value="4"/&gt;&lt;label for="tri4"&gt;Implicit&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div style="float:right;"&gt;
+        &lt;img src="images/minmax_closedsquare.svg" style="float:left;" /&gt;
+        &lt;div style="float:left;display:inline;"&gt;
+            &lt;p&gt;For a closed rectangle&lt;/p&gt;
+            &lt;div class="main-radio"&gt;
+                &lt;input type="radio" id="tri5" name="minmax" value="5"/&gt;&lt;label for="tri5"&gt;Standard&lt;/label&gt;
+                &lt;input type="radio" id="tri6" name="minmax" value="6"/&gt;&lt;label for="tri6"&gt;Implicit&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;br class="clearboth" /&gt;
+
+&lt;div id="mm-panel3" class="mm-cnt"&gt;
+&lt;p&gt;
+Standard o
 &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="mm-panel4" class="mm-cnt"&gt;
+&lt;p&gt;
+Implicit o
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="mm-panel5" class="mm-cnt"&gt;
+&lt;p&gt;
+Standard c
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="mm-panel6" class="mm-cnt"&gt;
+&lt;p&gt;
+Implicit c
+&lt;/p&gt;
+&lt;/div&gt;
+
 &lt;/div&gt;</t>
 <t tx="fil.20140216124024.1697">
 &lt;div id="minmax3"&gt;
@@ -1531,5 +1577,27 @@ Todo ! &lt;br /&gt;
 
 &lt;/p&gt;
 &lt;/div&gt;</t>
+<t tx="fil.20140222183703.1708">.container-just {
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    
+}
+
+.tobe-just {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+
+.container-just:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+</t>
 </tnodes>
 </leo_file>
