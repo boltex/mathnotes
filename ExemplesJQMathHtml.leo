@@ -12,7 +12,7 @@
 <vnodes>
 <v t="fil.20130617203326"><vh>@nosent README.md</vh></v>
 <v t="fil.20140120032538" a="E"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes, Surfaces and Volumes</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
@@ -37,13 +37,13 @@
 <v t="fil.20140120032538.15"><vh>sec2(arctan)</vh></v>
 </v>
 <v t="fil.20140120032538.16" a="E"><vh>Finding Min/Max</vh>
-<v t="fil.20140216124024.1693"><vh>newHeadline</vh></v>
-<v t="fil.20140216124024.1695"><vh>newHeadline</vh></v>
-<v t="fil.20140216124024.1697"><vh>newHeadline</vh></v>
-<v t="fil.20140216124024.1699"><vh>newHeadline</vh></v>
-<v t="fil.20140216124024.1701"><vh>newHeadline</vh></v>
-<v t="fil.20140216124024.1703"><vh>newHeadline</vh></v>
-<v t="fil.20140216124024.1705"><vh>newHeadline</vh></v>
+<v t="fil.20140216124024.1693"><vh>Right Triangles</vh></v>
+<v t="fil.20140216124024.1695"><vh>Rectangles</vh></v>
+<v t="fil.20140216124024.1697"><vh>Square Prisms</vh></v>
+<v t="fil.20140216124024.1699"><vh>Cylinders</vh></v>
+<v t="fil.20140216124024.1701"><vh>Pyramids</vh></v>
+<v t="fil.20140216124024.1703"><vh>Cones</vh></v>
+<v t="fil.20140216124024.1705"><vh>Silos</vh></v>
 </v>
 <v t="fil.20140120032538.17"><vh>Newton's method</vh></v>
 <v t="fil.20140120032538.18"><vh>Euler's Identity</vh>
@@ -51,7 +51,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" a="E"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -143,7 +143,7 @@ TODO
     &lt;/div&gt;
     
     &lt;div id="backgroundmask"&gt;&lt;/div&gt;
-    
+
     ​&lt;div class="container"&gt;
             &lt;div class="header" style="text-align:right;"&gt; 
             
@@ -167,7 +167,7 @@ TODO
             &lt;/div&gt;
 
             &lt;div class="main-div"&gt;
-            
+  
 &lt;div id="main0"&gt; &lt;/div&gt;
 @others
 &lt;/div&gt;
@@ -182,6 +182,7 @@ TODO
         &lt;script src="scripts/vendor/jqmath-0.4.0.js"&gt;&lt;/script&gt;
         &lt;!-- endbower --&gt;
         &lt;!-- endbuild --&gt;
+        
         &lt;script&gt;
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -190,6 +191,7 @@ TODO
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-47015645-2');ga('send','pageview');
         &lt;/script&gt;
+        
         &lt;!-- build:js scripts/plugins.js --&gt;
         &lt;script src="bower_components/sass-bootstrap/js/affix.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/sass-bootstrap/js/alert.js"&gt;&lt;/script&gt;
@@ -204,10 +206,12 @@ TODO
         &lt;script src="bower_components/sass-bootstrap/js/collapse.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/sass-bootstrap/js/tab.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/fancyselect/fancySelect.js"&gt;&lt;/script&gt;
+        
         &lt;!-- endbuild --&gt;
         &lt;!-- build:js({app,.tmp}) scripts/main.js --&gt;
         &lt;script src="scripts/main.js"&gt;&lt;/script&gt;
         &lt;!-- endbuild --&gt;
+
 &lt;/body&gt;
 &lt;/html&gt;
 
@@ -1069,6 +1073,10 @@ color: #2a6496;
 cursor:pointer;
 }
 
+.minmax-content{
+display:none;
+}
+
 
 @others
 
@@ -1453,8 +1461,25 @@ $$ s=1/3x^3+ 1/2x^2 + 1/6x \minsize 2{⇒}
 <t tx="fil.20140216124024.1693">
 &lt;div id="minmax1"&gt;
 &lt;p&gt;
+
+    
+&lt;div class="main-radio"&gt;
+    &lt;input type="radio" id="tri1" name="rx" /&gt;&lt;label for="tri1"&gt;Choice 1&lt;/label&gt;
+    &lt;input type="radio" id="tri2" name="rx" /&gt;&lt;label for="tri2"&gt;Choice 2&lt;/label&gt;
+&lt;/div&gt;
+
 Starting with 1... &lt;br /&gt;
 Todo ! &lt;br /&gt;
+
+&lt;div id="tri1-content" class="minmax-content"&gt;
+test1
+&lt;/div&gt;
+
+&lt;div id="tri1-content" class="minmax-content"&gt;
+test1
+&lt;/div&gt;
+
+
 
 &lt;/p&gt;
 &lt;/div&gt;</t>

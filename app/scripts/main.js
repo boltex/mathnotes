@@ -2,6 +2,10 @@
 
 $(function() {
 
+
+    $.fn.btn = $.fn.button.noConflict();
+
+
     var imgmath = new Image();
 
     var arraymathematicians=[
@@ -62,6 +66,8 @@ $(function() {
         show: { effect: 'slideDown', duration: 200 }
     } );
 
+    $( '.main-radio' ).buttonset();
+
     $( '#sumPowerSeries' ).click(function(e) {
         e.preventDefault();
         $('#combobox').val('main25').trigger('change');
@@ -74,9 +80,13 @@ $(function() {
 
     var mySelect = $('#combobox');
 
-    mySelect.change(function() { getComboMenu(this); });
+    
     $('#combocontainer').removeClass('startsUgly');
     mySelect.fancySelect(); // currently disabled because of html property
+
+    //mySelect.change.fs(function() { getComboMenu(this); });
+    mySelect.on('change.fs',function() { getComboMenu(this); });
+
     current.show();
     callbackShow();
     setTimeout( function(){$('#forkme').fadeOut();}, 3000);
