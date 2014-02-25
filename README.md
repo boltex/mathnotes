@@ -7,6 +7,7 @@ This is also a test of jqmath !
 These are famous theorems and identities written in HTML, JQmath, JQuery & JQueryui 
 
 Other libraries and web technologies used in this project:
+
         - @media screen size dependant CSS
         - Compiled SASS css stylesheets
         - Yeoman, Grunt and bower 
