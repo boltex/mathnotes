@@ -17,8 +17,6 @@ Other libraries and web technologies used in this project:
 
 Styling guide : http://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Mathematics
 
-I intend to 
-
 TODO
 ----
 - Add material to the Min/Max section!
