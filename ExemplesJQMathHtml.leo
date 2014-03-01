@@ -11,8 +11,8 @@
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20130617203326"><vh>@nosent README.md</vh></v>
-<v t="fil.20140120032538"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140120032538" a="E"><vh>@nosent app/index.html</vh>
+<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes, Surfaces and Volumes</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
@@ -36,7 +36,7 @@
 <v t="fil.20140120032538.14"><vh>cos(arcsin)</vh></v>
 <v t="fil.20140120032538.15"><vh>sec2(arctan)</vh></v>
 </v>
-<v t="fil.20140120032538.16" a="E"><vh>Finding Min/Max</vh>
+<v t="fil.20140120032538.16"><vh>Finding Min/Max</vh>
 <v t="fil.20140216124024.1693"><vh>Right Triangles</vh></v>
 <v t="fil.20140216124024.1695"><vh>Rectangles</vh></v>
 <v t="fil.20140216124024.1697"><vh>Square Prisms</vh></v>
@@ -46,12 +46,12 @@
 <v t="fil.20140216124024.1705"><vh>Silos</vh></v>
 </v>
 <v t="fil.20140120032538.17"><vh>Newton's method</vh></v>
-<v t="fil.20140120032538.18"><vh>Euler's Identity</vh>
+<v t="fil.20140120032538.18" a="E"><vh>Euler's Identity</vh>
 <v t="fil.20140120032538.19"><vh>Euler's Identity</vh></v>
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" a="E"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -646,7 +646,7 @@ $$x=x_0 - {f(x_0)}/{f'(x_0)}$$
 <t tx="fil.20140120032538.19">&lt;div id="tabs-euler"&gt;
 
 &lt;p&gt;
-Starting with Taylor's formula for $f'(x)$ near zero: $f(0){x^0}/0!+f'(0){x^1}/1!+f''(0){x^2}/2!+f'''(0){x^3}/3!+...$ &lt;br /&gt;
+Starting with Taylor's formula for $f(x)$ near zero: $f(0){x^0}/0!+f'(0){x^1}/1!+f''(0){x^2}/2!+f'''(0){x^3}/3!+...$ &lt;br /&gt;
 also written as $f(0)+f'(0)x+f''(0){x^2}/2!+f'''(0){x^3}/3!+...$ we consider those of sin(x), cos(x) and $\e^x$
 &lt;/p&gt;
 &lt;p&gt;
@@ -680,7 +680,7 @@ A property of expanded series is composition, so we can replace the 'x' by 'ix' 
 yielding $\e^{ix} ≈ 1+{ix}+{(ix)^2}/2!+{(ix)^3}/3!+{(ix)^4}/4!+{(ix)^5}/5!+...$ &lt;br /&gt;
 which is $\e^{ix} ≈ 1+{ix}-{x^2}/2!-{ix^3}/3!+{x^4}/4!+{ix^5}/5!-...$&lt;br /&gt;
 The odd ones, matching those from the series for sin(x) have an imaginary factor so we can write : &lt;br /&gt;
-$\e^{ix} = \cos(x) + i\sin(x)$ and if we make x=pi we get $\e^{iπ} = -1 + 0$, or, Euler's Identity :&lt;b&gt; $\e^{iπ} = -1$ &lt;/b&gt;
+$\e^{ix} = \cos(x) + i\sin(x)$. If we make x=$π$, we get $\e^{iπ} = -1 + 0$, or, Euler's Identity :&lt;b&gt; $\e^{iπ} = -1$ &lt;/b&gt;
 &lt;/p&gt; 
 &lt;/div&gt;</t>
 <t tx="fil.20140120032538.2">&lt;div class="main-tabs startsUgly" id="main1"&gt; 
@@ -1257,7 +1257,7 @@ Letting n reach infinity to get a cone, the perimeter of the base is then $\P=2�
 &lt;br /&gt;
 So the surface area of an open cone is then $A={1/2}⋅2π\r⋅\s$, or $A=π\r\s$
 &lt;br /&gt;
-When a cone is flat like a circle, s is then equal to r, so its area is $A=π\r⋅\r$, which is $A = π\r^2$
+If it becomes flat like a disk, s then equals r, so its area is $A=π\r⋅\r$, which is $A = π\r^2$
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -1269,7 +1269,7 @@ With rectangular prisms, each slice x has volume $V=x\L/{n}⋅x\W/{n}⋅{\H/n}$
 &lt;br /&gt;
 The sum is then $V=1^2{LW}/n^2{H/n}+2^2{LW}/n^2{H/n}+...+n^2{LW}/n^2{H/n}$
 &lt;br /&gt;
-Factor out $V={LWH}/n^3$ to get ${LWH}/n^3⋅(1^2+2^2+...+n^2)$
+Factor out ${LWH}/n^3$ to get $V={LWH}/n^3⋅(1^2+2^2+...+n^2)$
 &lt;br /&gt;
 Recognize the &lt;a id="sumPowerSeries" ref="#"&gt;sum of power series&lt;/a&gt; $∑↙{i=1}↖n i^2 = {n(2n+1)(n+1)}/6$
 &lt;br /&gt;
