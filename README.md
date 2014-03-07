@@ -1,8 +1,11 @@
-Math in html
-============
+#Distribution Folder of Math in html
 
-This is also a test of jqmath !
--------------------------------
+
+##gh-pages branch page hosted by github
+
+
+###This is also a test of jqmath !
+
 
 These are famous theorems and identities written in HTML, JQmath, JQuery & JQueryui 
 
