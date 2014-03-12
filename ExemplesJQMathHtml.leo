@@ -36,17 +36,17 @@
 <v t="fil.20140120032538.14"><vh>cos(arcsin)</vh></v>
 <v t="fil.20140120032538.15"><vh>sec2(arctan)</vh></v>
 </v>
-<v t="fil.20140120032538.16"><vh>Finding Min/Max</vh>
+<v t="fil.20140120032538.16" a="E"><vh>Finding Min/Max</vh>
 <v t="fil.20140216124024.1693"><vh>Right Triangles</vh></v>
 <v t="fil.20140216124024.1695"><vh>Rectangles</vh></v>
-<v t="fil.20140216124024.1697"><vh>Square Prisms</vh></v>
+<v t="fil.20140216124024.1697"><vh>Boxes</vh></v>
 <v t="fil.20140216124024.1699"><vh>Cylinders</vh></v>
 <v t="fil.20140216124024.1701"><vh>Pyramids</vh></v>
 <v t="fil.20140216124024.1703"><vh>Cones</vh></v>
 <v t="fil.20140216124024.1705"><vh>Silos</vh></v>
 </v>
 <v t="fil.20140120032538.17"><vh>Newton's method</vh></v>
-<v t="fil.20140120032538.18" a="E"><vh>Euler's Identity</vh>
+<v t="fil.20140120032538.18"><vh>Euler's Identity</vh>
 <v t="fil.20140120032538.19"><vh>Euler's Identity</vh></v>
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
@@ -541,7 +541,7 @@ $${\d y}/{\d x} = 1/{\sec^2(\tan^{-1}(x))} = 1/{1+x^2}$$
 
  &lt;li&gt;&lt;a href="#minmax1"&gt;Right Triangles&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="#minmax2"&gt;Rectangles&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#minmax3"&gt;Square Prisms&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#minmax3"&gt;Boxes&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="#minmax4"&gt;Cylinders&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="#minmax5"&gt;Pyramids&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="#minmax6"&gt;Cones&lt;/a&gt;&lt;/li&gt;
@@ -1539,11 +1539,60 @@ Implicit c
 &lt;/div&gt;</t>
 <t tx="fil.20140216124024.1697">
 &lt;div id="minmax3"&gt;
-&lt;p&gt;
-Starting with 3... &lt;br /&gt;
-Todo ! &lt;br /&gt;
 
+&lt;p&gt;What is the x:y ratio that maximizes the volume in relation with the area?&lt;/p&gt;
+
+
+&lt;div&gt;
+    &lt;div style="float:left;"&gt;
+        &lt;img src="images/minmax_openbox.svg" style="float:left;" /&gt; 
+        &lt;div style="float:left;display:inline;"&gt;
+            &lt;p&gt;For an 'open-top' rectangle&lt;/p&gt;
+            &lt;div class="main-radio"&gt;
+                &lt;input type="radio" id="tri7" name="minmax" value="7"/&gt;&lt;label for="tri7"&gt;Standard&lt;/label&gt;
+                &lt;input type="radio" id="tri8" name="minmax" value="8"/&gt;&lt;label for="tri8"&gt;Implicit&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div style="float:right;"&gt;
+        &lt;img src="images/minmax_closedbox.svg" style="float:left;" /&gt;
+        &lt;div style="float:left;display:inline;"&gt;
+            &lt;p&gt;For a closed rectangle&lt;/p&gt;
+            &lt;div class="main-radio"&gt;
+                &lt;input type="radio" id="tri9" name="minmax" value="9"/&gt;&lt;label for="tri9"&gt;Standard&lt;/label&gt;
+                &lt;input type="radio" id="tri10" name="minmax" value="10"/&gt;&lt;label for="tri10"&gt;Implicit&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;br class="clearboth" /&gt;
+
+&lt;div id="mm-panel7" class="mm-cnt"&gt;
+&lt;p&gt;
+Standard o
 &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="mm-panel8" class="mm-cnt"&gt;
+&lt;p&gt;
+Implicit o
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="mm-panel9" class="mm-cnt"&gt;
+&lt;p&gt;
+Standard c
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="mm-panel10" class="mm-cnt"&gt;
+&lt;p&gt;
+Implicit c
+&lt;/p&gt;
+&lt;/div&gt;
+
 &lt;/div&gt;</t>
 <t tx="fil.20140216124024.1699">
 &lt;div id="minmax4"&gt;
