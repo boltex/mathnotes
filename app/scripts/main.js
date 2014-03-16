@@ -68,7 +68,6 @@ $(function() {
 
     $( '.main-radio' ).buttonset();
 
-
     $('input[name$=minmax]').click( function() {
         var tmphold = $(this).val();
 

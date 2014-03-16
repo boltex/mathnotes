@@ -175,12 +175,15 @@ TODO
 
         &lt;/div&gt;
 
+        &lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"&gt;&lt;/script&gt;
+        &lt;script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"&gt;&lt;/script&gt;
+        
+
         &lt;!-- build:js scripts/vendor.js --&gt;
         &lt;!-- bower:js --&gt;
-        &lt;script src="bower_components/jquery/jquery.js"&gt;&lt;/script&gt;
-        &lt;script src="bower_components/jquery-ui/ui/jquery-ui.js"&gt;&lt;/script&gt;
         &lt;script src="scripts/vendor/jscurry-0.3.0.js"&gt;&lt;/script&gt;
         &lt;script src="scripts/vendor/jqmath-0.4.0.js"&gt;&lt;/script&gt;
+        &lt;script src="bower_components/fancyselect/fancySelect.js"&gt;&lt;/script&gt;
         &lt;!-- endbower --&gt;
         &lt;!-- endbuild --&gt;
         
@@ -192,28 +195,7 @@ TODO
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-47015645-2');ga('send','pageview');
         &lt;/script&gt;
-        
-        &lt;!-- build:js scripts/plugins.js --&gt;
-        &lt;!--
-        &lt;script src="bower_components/sass-bootstrap/js/affix.js"&gt;&lt;/script&gt;
-        &lt;script src="bower_components/sass-bootstrap/js/alert.js"&gt;&lt;/script&gt;
-        &lt;script src="bower_components/sass-bootstrap/js/dropdown.js"&gt;&lt;/script&gt;
-        &lt;script src="bower_components/sass-bootstrap/js/tooltip.js"&gt;&lt;/script&gt;
-        &lt;script src="bower_components/sass-bootstrap/js/modal.js"&gt;&lt;/script&gt;
-        &lt;script src="bower_components/sass-bootstrap/js/transition.js"&gt;&lt;/script&gt;
-        &lt;script src="bower_components/sass-bootstrap/js/button.js"&gt;&lt;/script&gt;
-        &lt;script src="bower_components/sass-bootstrap/js/popover.js"&gt;&lt;/script&gt;
-        &lt;script src="bower_components/sass-bootstrap/js/carousel.js"&gt;&lt;/script&gt;
-        &lt;script src="bower_components/sass-bootstrap/js/scrollspy.js"&gt;&lt;/script&gt;
-        &lt;script src="bower_components/sass-bootstrap/js/collapse.js"&gt;&lt;/script&gt;
-        &lt;script src="bower_components/sass-bootstrap/js/tab.js"&gt;&lt;/script&gt;
-        --&gt;
-        &lt;script src="bower_components/fancyselect/fancySelect.js"&gt;&lt;/script&gt;
-        &lt;!-- endbuild --&gt;
-        
-        &lt;!-- build:js({app,.tmp}) scripts/main.js --&gt;
         &lt;script src="scripts/main.js"&gt;&lt;/script&gt;
-        &lt;!-- endbuild --&gt;
 
 
 &lt;/body&gt;
