@@ -24,7 +24,7 @@
 <v t="fil.20140120032538.6"><vh>Identities and Properties</vh></v>
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
-<v t="fil.20140120032538.8" a="E"><vh>Trigonometric Identities</vh>
+<v t="fil.20140120032538.8"><vh>Trigonometric Identities</vh>
 <v t="fil.20140316165413.1710"><vh>Trig Identities</vh></v>
 <v t="fil.20140316165413.1709"><vh>Law of Cosines</vh></v>
 <v t="fil.20140316165413.1711"><vh>Law of sines</vh></v>
@@ -151,12 +151,10 @@
 
         &lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"&gt;&lt;/script&gt;
         &lt;script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"&gt;&lt;/script&gt;
-        
+        &lt;script src="scripts/jqmath-etc-0.4.0.min.js"&gt;&lt;/script&gt;
 
         &lt;!-- build:js scripts/vendor.js --&gt;
         &lt;!-- bower:js --&gt;
-        &lt;script src="scripts/vendor/jscurry-0.3.0.js"&gt;&lt;/script&gt;
-        &lt;script src="scripts/vendor/jqmath-0.4.0.js"&gt;&lt;/script&gt;
         &lt;script src="bower_components/fancyselect/fancySelect.js"&gt;&lt;/script&gt;
         &lt;!-- endbower --&gt;
         &lt;!-- endbuild --&gt;
