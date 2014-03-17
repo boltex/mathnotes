@@ -10,9 +10,8 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="fil.20130617203326"><vh>@nosent README.md</vh></v>
 <v t="fil.20140120032538" a="E"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes, Surfaces and Volumes</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
@@ -25,7 +24,11 @@
 <v t="fil.20140120032538.6"><vh>Identities and Properties</vh></v>
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
-<v t="fil.20140120032538.8"><vh>Law of cosines</vh></v>
+<v t="fil.20140120032538.8" a="E"><vh>Trigonometric Identities</vh>
+<v t="fil.20140316165413.1710"><vh>Trig Identities</vh></v>
+<v t="fil.20140316165413.1709"><vh>Law of Cosines</vh></v>
+<v t="fil.20140316165413.1711"><vh>Law of sines</vh></v>
+</v>
 <v t="fil.20140120032538.9"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
@@ -36,7 +39,7 @@
 <v t="fil.20140120032538.14"><vh>cos(arcsin)</vh></v>
 <v t="fil.20140120032538.15"><vh>sec2(arctan)</vh></v>
 </v>
-<v t="fil.20140120032538.16" a="E"><vh>Finding Min/Max</vh>
+<v t="fil.20140120032538.16"><vh>Finding Min/Max</vh>
 <v t="fil.20140216124024.1693"><vh>Right Triangles</vh></v>
 <v t="fil.20140216124024.1695"><vh>Rectangles</vh></v>
 <v t="fil.20140216124024.1697"><vh>Boxes</vh></v>
@@ -57,37 +60,8 @@
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
 <v t="fil.20140222183703.1708"><vh>Justified</vh></v>
 </v>
-<v t="fil.20140124235038"><vh>colors pepper</vh></v>
 </vnodes>
 <tnodes>
-<t tx="fil.20130617203326">@nocolor
-Math in html format.
-====================
-
-This is also a test of jqmath !
--------------------------------
-
-These are famous theorems and identities written in HTML, JQuery, JQueryui 
-
-Other libraries and web technologies :
-        - @media screen size dependant CSS
-        - Compiled SASS css stylesheets
-        - Yeoman, Grunt and bower 
-        - Google fonts
-        - FancySelect
-        - Animations and callback
-
-Styling guide : http://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Mathematics
-
-I intend to use this to test using *MathJax* in the future instead of *JQmath*.
-
-TODO
-----
-- Fix sizes, colors and crop the portraits of mathematicians in the background.
-
-
-
-</t>
 <t tx="fil.20140120032538">@language html
 &lt;!doctype html&gt;
 &lt;!--[if lt IE 7]&gt;      &lt;html class="no-js lt-ie9 lt-ie8 lt-ie7"&gt; &lt;![endif]--&gt;
@@ -156,7 +130,7 @@ TODO
                 &lt;option value="main6"&gt;Cavalieri's Principle&lt;/option&gt;
                 &lt;option value="main1"&gt;Quadratic Equation&lt;/option&gt;
                 &lt;option value="main8"&gt;Exponents and Logarithms&lt;/option&gt;
-                &lt;option value="main2"&gt;Law of Cosine&lt;/option&gt;
+                &lt;option value="main2"&gt;Trigonometric Identities&lt;/option&gt;
                 &lt;option value="main25"&gt;Series&lt;/option&gt;
                 &lt;option value="main3"&gt;Undoing Trig Substitution&lt;/option&gt;
                 &lt;option value="main4"&gt;Min/Max Optimization&lt;/option&gt;
@@ -919,36 +893,13 @@ Solve for x:
 </t>
 <t tx="fil.20140120032538.8">&lt;div class="main-tabs startsUgly" id="main2"&gt; 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#tabs-cos"&gt;Law of cosines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tabs-trig1"&gt;Trigonometric Identities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tabs-trig2"&gt;Law of Cosines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tabs-trig3"&gt;Law of Sines&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div id="tabs-cos"&gt;
-&lt;p class="figure-centered"&gt; 
-To compute the lenght of side $A$, if the opposite angle $α$ is known as well as the two other sides, &lt;br /&gt;
-&lt;img src="images/law_cosine.svg" &gt;
-&lt;/p&gt;
-&lt;p&gt;
-first recognise that the vertical $h$ is measurable with trigonometry : $h=C⋅{sin(α)}$.&lt;br /&gt;
- Also, that $e=C⋅{cos(α)}$ and because $f=B-e$ it follows that $f=B-C⋅{cos(α)}$.&lt;br /&gt;
-&lt;/p&gt;
-&lt;p&gt;
-Using the pythagorian theorem in the form $A^2=h^2+f^2$ you can write :&lt;br /&gt;
+@others
 
-$A^2= (Csinα)^2+(B-Ccosα)^2   $ &lt;/p&gt; 
-&lt;p&gt; Expanding $h$ and $f$ gives :&lt;br /&gt;
-
-$A^2= C^2sin^2α   +   B^2  +2BC⋅cos(α) +    C^2{cos^2(α)}$
-&lt;/p&gt;
-&lt;p&gt;Group the terms with a $C^2$ and factor   &lt;br /&gt;
-
-$A^2= C^2(sin^2(α)+cos^2(α))   +   B^2  +2BC⋅cos(α) $
-
-&lt;/p&gt;
-&lt;p&gt;Recognize the trigonometric identity $sin^2+cos^2=1$ in the term with $C^2$ to get &lt;br /&gt;
-$A^2= C^2   +   B^2  +2BC⋅cos(α) $ Often rearanged as : $A = √{B^2   +   C^2  +2BC⋅cos(α)} $
-
-
-&lt;/p&gt;
-&lt;/div&gt; &lt;!--tabs1--&gt;
+&lt;/div&gt;
 
 &lt;/div&gt;&lt;!--main-tabs--&gt;
 
@@ -1028,7 +979,7 @@ margin-top:0;
 margin-bottom:15px;
 font-family: 'IM Fell English', serif;
 color:#7C6849;
-text-shadow:1px 1px 6px #FFFFFF;
+text-shadow:1px 1px 9px #FFFFFF, 0px 0px 6px #FFFFFF;
 
 }
 
@@ -1330,25 +1281,6 @@ so that, the surface area of a sphere can be found:
 &lt;/div&gt;
 &lt;br class="clearboth" /&gt;
 &lt;/div&gt;</t>
-<t tx="fil.20140124235038">border    d4d1bf
-
-Main content back and selected header
- : #e8e7dc
-
-
-white header : fbfbfb
-
-unselected header : f6f5f4
-
-
-sel text     140f06
-unsel text   654b24
-
-
-border    d4d1bf
-
-
-background: #eceadf url(images/ui-bg_fine-grain_10_eceadf_60x60.png) ;</t>
 <t tx="fil.20140128043317">&lt;div id="series4"&gt;
 
 &lt;p&gt;
@@ -1629,6 +1561,78 @@ Todo ! &lt;br /&gt;
     font-size: 0;
     line-height: 0
 }
+</t>
+<t tx="fil.20140316165413.1709">
+&lt;div id="tabs-trig2"&gt;
+&lt;p class="figure-centered"&gt; 
+To compute the lenght of side $A$, if the opposite angle $α$ is known as well as the two other sides, &lt;br /&gt;
+&lt;img src="images/law_cosine.svg" &gt;
+&lt;/p&gt;
+&lt;p&gt;
+first recognise that the vertical $h$ is measurable with trigonometry : $h=C⋅{sin(α)}$.&lt;br /&gt;
+ Also, that $e=C⋅{cos(α)}$ and because $f=B-e$ it follows that $f=B-C⋅{cos(α)}$.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Using the pythagorian theorem in the form $A^2=h^2+f^2$ you can write :&lt;br /&gt;
+
+$A^2= (Csinα)^2+(B-Ccosα)^2   $ &lt;/p&gt; 
+&lt;p&gt; Expanding $h$ and $f$ gives :&lt;br /&gt;
+
+$A^2= C^2sin^2α   +   B^2  +2BC⋅cos(α) +    C^2{cos^2(α)}$
+&lt;/p&gt;
+&lt;p&gt;Group the terms with a $C^2$ and factor   &lt;br /&gt;
+
+$A^2= C^2(sin^2(α)+cos^2(α))   +   B^2  +2BC⋅cos(α) $
+
+&lt;/p&gt;
+&lt;p&gt;Recognize the trigonometric identity $sin^2+cos^2=1$ in the term with $C^2$ to get &lt;br /&gt;
+$A^2= C^2   +   B^2  +2BC⋅cos(α) $ Often rearanged as : $A = √{B^2   +   C^2  +2BC⋅cos(α)} $
+
+
+&lt;/p&gt;
+&lt;/div&gt; &lt;!--tabs1--&gt;
+</t>
+<t tx="fil.20140316165413.1710">&lt;div id="tabs-trig1"&gt;
+
+&lt;p&gt;
+Trigonometric Identities
+&lt;/p&gt;
+
+&lt;p&gt;
+Sine and cosine values
+&lt;ul&gt;
+&lt;li&gt;Trivial multiples of pi/2 angles&lt;/li&gt;
+&lt;li&gt;Multiples of pi/4 angles : Isosceles right triangle &lt;/li&gt;
+&lt;li&gt;Multiples of pi/6 angles : 30:60:90 Triangle from the equilateral triangle.&lt;li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;
+Pythagorean Identities
+&lt;/p&gt;
+
+
+&lt;p&gt;
+Sum of Angles Identities
+&lt;/p&gt;
+
+
+&lt;p&gt;
+Other Identities
+&lt;/p&gt;
+
+
+&lt;/div&gt;
+</t>
+<t tx="fil.20140316165413.1711">&lt;div id="tabs-trig3"&gt;
+
+&lt;p&gt;
+Law of Sines
+&lt;/p&gt;
+
+
+&lt;/div&gt;
 </t>
 </tnodes>
 </leo_file>
