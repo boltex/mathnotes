@@ -11,7 +11,7 @@
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20140120032538" a="E"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes, Surfaces and Volumes</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
@@ -24,7 +24,7 @@
 <v t="fil.20140120032538.6"><vh>Identities and Properties</vh></v>
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
-<v t="fil.20140120032538.8"><vh>Trigonometric Identities</vh>
+<v t="fil.20140120032538.8" a="E"><vh>Trigonometric Identities</vh>
 <v t="fil.20140316165413.1710"><vh>Trig Identities</vh></v>
 <v t="fil.20140316165413.1709"><vh>Law of Cosines</vh></v>
 <v t="fil.20140316165413.1711"><vh>Law of sines</vh></v>
@@ -35,7 +35,7 @@
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
 <v t="fil.20140128043317"><vh>Gaussian Elimination</vh></v>
 </v>
-<v t="fil.20140120032538.13"><vh>Undoing Trig Substitution</vh>
+<v t="fil.20140120032538.13" a="E"><vh>Undoing Trig Substitution</vh>
 <v t="fil.20140120032538.14"><vh>cos(arcsin)</vh></v>
 <v t="fil.20140120032538.15"><vh>sec2(arctan)</vh></v>
 </v>
@@ -54,7 +54,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" a="E"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -410,11 +410,13 @@ Solving this system of three equation and three variables yields: $∑↙{i=0}�
 </t>
 <t tx="fil.20140120032538.14">&lt;div id="tabs-undotrig"&gt;
 &lt;p&gt;
-Used in conjunction with implicit differenciation of inverse trig functions. Starting with $\sin^{-1}(x)$&lt;br /&gt;
+Used in conjunction with implicit differenciation of inverse
+ trig functions. Starting with $\sin^{-1}(x)$&lt;br /&gt;
 
 $\d /{\d x} (\table y=\sin^{-1}(x) ;)$ is equivalent to : $\d /{\d x} (\table \sin(y)=x ; )$. Which is $\cos(y)⋅{\d y}/{\d x} = 1$
 
-&lt;br /&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
 
 $ \cos(y)⋅{\d y}/{\d x} = 1  $ , gives after dividing by cos(y) : ${\d y}/{\d x}=1/{\cos(y)} $ &amp;nbsp;&amp;nbsp; which is : &amp;nbsp;&amp;nbsp;
 $1/{\cos(\sin^{-1}(x))} $
@@ -431,10 +433,9 @@ To resolve ${\cos(\sin^{-1}(x))}$  we model a right triangle with the inner func
 &lt;/p&gt;
 &lt;p&gt;
 $\sin^{-1}(x)$ yields an angle, θ, which can be reversed as $\sin(θ)=x$. In other words, if the opposite side's lenght was divided by the hypotenuse, we would get back x.
-
-
 &lt;/p&gt;
 &lt;/div&gt;
+
 &lt;div style="width:140px;clear:none;float:left;"&gt;
 &lt;img src="images/costrigsub2.svg" &gt;
 &lt;/div&gt;
@@ -1085,7 +1086,7 @@ clear:both;
 }
 </t>
 <t tx="fil.20140120215510.2">
-.div-caval-image-left{
+.image-left{
     clear:both;
     img{
         float:left;
@@ -1094,7 +1095,7 @@ clear:both;
 
 }
 
-.div-caval-image-right{
+.image-right{
     clear:both;
     img{
         float:right;
@@ -1103,7 +1104,7 @@ clear:both;
 
 }
 
-.div-caval-image-center{
+.image-center{
     text-align:center;
     clear:both;
     img{
@@ -1113,7 +1114,7 @@ clear:both;
 <t tx="fil.20140121031006">&lt;div id="cavalieri1"&gt;
 
 
-&lt;div class="div-caval-image-left"&gt;
+&lt;div class="image-left"&gt;
 &lt;img src="images/cavalieri_Principle.svg" &gt;
 &lt;p&gt;
 A shape sliced by lines parallel to its base keeps the same area 
@@ -1134,7 +1135,7 @@ By Cavalieri's principle stated above, all triangles with the same base and heig
 $$A={1/2}\b\h$$
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="div-caval-image-left"&gt;
+&lt;div class="image-left"&gt;
 &lt;img src="images/cavalieri_Circle.svg" &gt;
 &lt;p&gt;
 The constant $π$ is defined as the ratio between the perimeter P and the diameter D.
@@ -1155,7 +1156,7 @@ Using the formula for the perimeter of a circle, we can write the area as
 $A={1/2}\r⋅2π\r$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; which simplifies as &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $A=π\r^2$.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="div-caval-image-right"&gt;
+&lt;div class="image-right"&gt;
 &lt;img src="images/cavalieri_all_prisms.svg" &gt;
 &lt;p&gt;
 The volume of an n-sided polygonal prism is: $V=\text"Base Area"⋅\h$, &lt;br /&gt; 
@@ -1177,7 +1178,7 @@ its surface area: $A=(4π\r^2) + (2⋅π\r^2) = 6π\r^2$.
 </t>
 <t tx="fil.20140121031006.1">&lt;div id="cavalieri2"&gt;
 
-&lt;div class="div-caval-image-left"&gt;
+&lt;div class="image-left"&gt;
 &lt;img src="images/cavalieri_Pyramid_Area.svg" &gt;
 &lt;p&gt;
 An open pyramid, with a regular &lt;i&gt;n&lt;/i&gt;-sided polygon base has an area $A={1/2}\b{s}⋅n$
@@ -1192,7 +1193,7 @@ If it becomes flat like a disk, s then equals r, so its area is $A=π\r⋅\r$, w
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div class="div-caval-image-left"&gt;
+&lt;div class="image-left"&gt;
 &lt;img src="images/cavalieri_pyramid_steps.svg" &gt; 
 &lt;p&gt;We can approximate a pyramid with $n$ regular polygonal prisms.
 &lt;br /&gt;
@@ -1219,7 +1220,7 @@ $V={LWH}⋅(1/3+1/{2∞}+1/{6∞^2})$ which is $V={LWH}⋅1/3$ where $LW$ is the
 &lt;/div&gt;</t>
 <t tx="fil.20140122010741">&lt;div id="cavalieri3"&gt;
 
-&lt;div class="div-caval-image-right"&gt;
+&lt;div class="image-right"&gt;
 &lt;img src="images/cavalieri_3d_base_to_point_linear_vert.svg" &gt;
 &lt;p&gt;
 $V={LWH}⋅1/3$ being the formula for the volume of a rectangular pyramid, 
@@ -1234,7 +1235,7 @@ at all heights, of that of horizontal sections of the outside of a hemisphere
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div class="div-caval-image-left"&gt;
+&lt;div class="image-left"&gt;
 &lt;img src="images/cavalieri_Cone_and_Hemisphere.svg" &gt;
 &lt;p&gt;
 First, we acknowledge that the area of a horizontal section of an inverted cone,
@@ -1261,7 +1262,7 @@ $2/3⋅h⋅π\r^2$, or if the height equals the radius, $2/3⋅π\r^3$. Doubling
 the formula for a whole sphere: $V=4/3π\r^3$.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="div-caval-image-left"&gt;
+&lt;div class="image-left"&gt;
 &lt;img src="images/cavalieri_Pyramid_in_Sphere.svg" &gt;
 &lt;p&gt;
 If we consider a sphere to be made up of infinitely thin pyramids of height r having their
@@ -1369,7 +1370,7 @@ $$ s=1/3x^3+ 1/2x^2 + 1/6x \minsize 2{⇒}
 <t tx="fil.20140216124024.1693">
 &lt;div id="minmax1"&gt;
 
-&lt;div class="div-caval-image-left"&gt;
+&lt;div class="image-left"&gt;
 &lt;img src="images/minmax_triangle.svg" &gt;
 &lt;p&gt;What is the x:y ratio that maximizes the area in relation with the perimeter?&lt;/p&gt;
 &lt;div class="main-radio"&gt;
@@ -1592,19 +1593,46 @@ $A^2= C^2   +   B^2  +2BC⋅cos(α) $ Often rearanged as : $A = √{B^2   +   C^
 </t>
 <t tx="fil.20140316165413.1710">&lt;div id="tabs-trig1"&gt;
 
-&lt;p&gt;
-Trigonometric Identities
-&lt;/p&gt;
 
-&lt;p&gt;
-Sine and cosine values
-&lt;ul&gt;
-&lt;li&gt;Trivial multiples of pi/2 angles&lt;/li&gt;
-&lt;li&gt;Multiples of pi/4 angles : Isosceles right triangle &lt;/li&gt;
-&lt;li&gt;Multiples of pi/6 angles : 30:60:90 Triangle from the equilateral triangle.&lt;li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
+&lt;div style="width:140px;float:left;"&gt;
+&lt;img src="images/trig_identities2.svg" &gt;
+&lt;/div&gt;
 
+&lt;div style="width:380px;float:left;"&gt;
+&lt;p&gt;
+Trivial multiples of pi/2 angles &lt;br /&gt;
+Multiples of pi/4 angles : Isosceles right triangle &lt;br /&gt;
+Multiples of pi/6 angles : 30:60:90 Triangle from the equilateral triangle.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style="float:right;"&gt;
+&lt;img src="images/trig_identities4.svg" &gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="image-left"&gt;
+&lt;img src="images/trig_identities5.svg" &gt;
+&lt;p&gt;
+Sine and cosine 5
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="image-left"&gt;
+&lt;img src="images/trig_identities3.svg" &gt;
+&lt;p&gt;
+Sine and cosine 3
+&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class="image-left"&gt;
+&lt;img src="images/trig_identities1.svg" &gt;
+&lt;p&gt;
+Sine and cosine 1
+&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;p&gt;
 Pythagorean Identities
