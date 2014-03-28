@@ -1598,11 +1598,10 @@ $A^2= C^2   +   B^2  +2BC⋅cos(α) $ Often rearanged as : $A = √{B^2   +   C^
 &lt;img src="images/trig_identities2.svg" &gt;
 &lt;/div&gt;
 
-&lt;div style="width:380px;float:left;"&gt;
+&lt;div style="width:420px;float:left;"&gt;
 &lt;p&gt;
 Trivial multiples of pi/2 angles &lt;br /&gt;
-Multiples of pi/4 angles : Isosceles right triangle &lt;br /&gt;
-Multiples of pi/6 angles : 30:60:90 Triangle from the equilateral triangle.
+use pythagorean theorem
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -1612,22 +1611,29 @@ Multiples of pi/6 angles : 30:60:90 Triangle from the equilateral triangle.
 
 
 
-&lt;div class="image-left"&gt;
+&lt;div class="clearboth" style="width:140px;float:left;"&gt;
 &lt;img src="images/trig_identities5.svg" &gt;
+&lt;/div&gt;
+
+&lt;div style="width:420px;float:left;"&gt;
 &lt;p&gt;
-Sine and cosine 5
+ multiples of pi/6 angles &lt;br /&gt;
+
+Multiples of pi/6 angles : 30:60:90 Triangle from the equilateral triangle.
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div class="image-left"&gt;
+&lt;div style="float:right;"&gt;
 &lt;img src="images/trig_identities3.svg" &gt;
-&lt;p&gt;
-Sine and cosine 3
-&lt;/p&gt;
 &lt;/div&gt;
 
 
-&lt;div class="image-left"&gt;
+
+
+
+
+
+&lt;div class="image-left "&gt;
 &lt;img src="images/trig_identities1.svg" &gt;
 &lt;p&gt;
 Sine and cosine 1
