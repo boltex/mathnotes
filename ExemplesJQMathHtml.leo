@@ -11,7 +11,7 @@
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20140120032538" a="E"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes, Surfaces and Volumes</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
@@ -35,7 +35,7 @@
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
 <v t="fil.20140128043317"><vh>Gaussian Elimination</vh></v>
 </v>
-<v t="fil.20140120032538.13" a="E"><vh>Undoing Trig Substitution</vh>
+<v t="fil.20140120032538.13"><vh>Undoing Trig Substitution</vh>
 <v t="fil.20140120032538.14"><vh>cos(arcsin)</vh></v>
 <v t="fil.20140120032538.15"><vh>sec2(arctan)</vh></v>
 </v>
@@ -54,7 +54,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" a="E"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -667,7 +667,7 @@ Raising $e^{iπ/2}=i$ to the power of i gives $({e^{iπ/2}})^i=i^i$ or $e^{i^2π
 &lt;/div&gt;</t>
 <t tx="fil.20140120032538.3">&lt;div id="tabs-1"&gt;
 &lt;p&gt;
-Starting with $ax^2+bx+c=0$, where $a≠0$, subtract $c$ from both sides : $ax^2+bx=-c$ .&lt;/p&gt;
+Starting with $ax^2+bx+c=0$, where $a≠0$, subtract $c$ from both sides: $ax^2+bx=-c$ .&lt;/p&gt;
 &lt;p&gt;Factor out the $a$ like so: $a(x^2+{bx}/a)= -c$ &amp;nbsp;&amp;nbsp;&amp;nbsp; then divide by $a$: &amp;nbsp;&amp;nbsp;&amp;nbsp;$x^2+{bx}/a= -c/a$ .&lt;br /&gt;
 
 Completing the square on the left yields the extra term $b^2/{4a^2}$ which is added to the right side.
@@ -702,13 +702,13 @@ $$x={-b±√{b^2-4ac}}/{2a}$$
  
 &lt;p&gt;
 
-Starting with $ax^2+bx+c=0$, where $a≠0$, subtract $c$ from both sides, $ax^2+bx=-c$ &lt;br /&gt;
+Starting with $ax^2+bx+c=0$, where $a≠0$, subtract $c$ from both sides: $ax^2+bx=-c$ &lt;br /&gt;
 
 Now complete the square on the left side to get an extra ${b^2}/{4a}$.
 
 $$ (√ax + b/{2√a})^2 = {b^2}/{4a} -c $$
 
-Make the terms on the right side share a common denominator.
+Have the terms on the right side share a common denominator.
 
 $$ (√ax + b/{2√a})^2 ={b^2-4ac}/{4a} $$
 
@@ -1024,6 +1024,7 @@ clear:both;
 <t tx="fil.20140120215510">.figure-border {
   background-color: #efefef;
   border: 1px solid #7a7;
+  margin-bottom: 20px;
 }
 
 .figure-centered {
@@ -1600,8 +1601,11 @@ $A^2= C^2   +   B^2  +2BC⋅cos(α) $ Often rearanged as : $A = √{B^2   +   C^
 
 &lt;div style="width:420px;float:left;"&gt;
 &lt;p&gt;
-Trivial multiples of pi/2 angles &lt;br /&gt;
-use pythagorean theorem
+Multiples of pi/2 angles give trigonometric values of 1 or 0.
+&lt;/p&gt;
+&lt;p&gt;
+An angle of pi/4, or 45 degrees, has equal sin and cosine 
+for being exactly in the middle of the angle of their extreme values.
 &lt;/p&gt;
 &lt;/div&gt;
 
