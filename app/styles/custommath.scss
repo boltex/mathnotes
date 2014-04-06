@@ -97,6 +97,15 @@ display:none;
 clear:both;
 }
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
 .figure-border {
   background-color: #efefef;
   border: 1px solid #7a7;

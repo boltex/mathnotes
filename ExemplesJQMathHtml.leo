@@ -25,11 +25,11 @@
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
 <v t="fil.20140120032538.8" a="E"><vh>Trigonometric Identities</vh>
-<v t="fil.20140316165413.1710"><vh>Trig Identities</vh></v>
+<v t="fil.20140316165413.1710"><vh>Pythagorean identity</vh></v>
+<v t="fil.20140404213652.1861"><vh>Sum and double angles</vh></v>
 <v t="fil.20140316165413.1709"><vh>Law of Cosines</vh></v>
-<v t="fil.20140316165413.1711"><vh>Law of sines</vh></v>
 </v>
-<v t="fil.20140120032538.9"><vh>Series</vh>
+<v t="fil.20140120032538.9" a="E"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
@@ -54,7 +54,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" a="E"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -892,9 +892,9 @@ Solve for x:
 </t>
 <t tx="fil.20140120032538.8">&lt;div class="main-tabs startsUgly" id="main2"&gt; 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#tabs-trig1"&gt;Trigonometric Identities&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#tabs-trig2"&gt;Law of Cosines&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#tabs-trig3"&gt;Law of Sines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tabs-trig1"&gt;Pythagorean identity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tabs-trig2"&gt;Sum and double angles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tabs-trig3"&gt;Law of Cosines&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 @others
 
@@ -1015,6 +1015,15 @@ display:none;
 
 .clearboth{
 clear:both;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 @others
@@ -1563,7 +1572,7 @@ Todo ! &lt;br /&gt;
 }
 </t>
 <t tx="fil.20140316165413.1709">
-&lt;div id="tabs-trig2"&gt;
+&lt;div id="tabs-trig3" class="clearfix"&gt;
 &lt;p class="figure-centered"&gt; 
 To compute the lenght of side $A$, if the opposite angle $α$ is known as well as the two other sides, &lt;br /&gt;
 &lt;img src="images/law_cosine.svg" &gt;
@@ -1590,63 +1599,62 @@ $A^2= C^2   +   B^2  +2BC⋅cos(α) $ Often rearanged as : $A = √{B^2   +   C^
 
 
 &lt;/p&gt;
-&lt;/div&gt; &lt;!--tabs1--&gt;
+&lt;/div&gt;
 </t>
-<t tx="fil.20140316165413.1710">&lt;div id="tabs-trig1"&gt;
+<t tx="fil.20140316165413.1710">&lt;div id="tabs-trig1" class="clearfix"&gt;
 
-
-&lt;div style="width:140px;float:left;"&gt;
+&lt;div class="image-left"&gt;
 &lt;img src="images/trig_identities2.svg" &gt;
-&lt;/div&gt;
-
-&lt;div style="width:420px;float:left;"&gt;
 &lt;p&gt;
-Multiples of pi/2 angles give trigonometric values of 1 or 0.
+The theorem of pythagore says that for a right triangle, the length
+ of the hypotenuse squared is the sum of the squares of the other two sides.
 &lt;/p&gt;
 &lt;p&gt;
-An angle of pi/4, or 45 degrees, has equal sin and cosine 
-for being exactly in the middle of the angle of their extreme values.
+It directly follows from the definition of sine and cosine, that $cos^2\(θ)+sin^2(θ)=1$.
+&lt;/p&gt;
+&lt;p&gt;
+Multiples of $π/2$ angles (90 degrees) yield trigonometric values of either 1 or 0.
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div style="float:right;"&gt;
+&lt;div class="image-right"&gt;
 &lt;img src="images/trig_identities4.svg" &gt;
-&lt;/div&gt;
-
-
-
-&lt;div class="clearboth" style="width:140px;float:left;"&gt;
-&lt;img src="images/trig_identities5.svg" &gt;
-&lt;/div&gt;
-
-&lt;div style="width:420px;float:left;"&gt;
 &lt;p&gt;
- multiples of pi/6 angles &lt;br /&gt;
-
-Multiples of pi/6 angles : 30:60:90 Triangle from the equilateral triangle.
+An angle of pi/4, (45 degrees), has equal sine and cosine values 
+for being exactly in the middle range of both axis. To find this value 'x', we start with 
+the hypotenuse squared which is equal to twice that value squared: $1^2=x^2+x^2$.
+&lt;/p&gt;
+&lt;p&gt;
+This is equivalent to $1=√{x^2+x^2}$ or $1=√{2x^2}$.&lt;br /&gt;
+Squaring both sides gives: $1=2x^2$. Dividing both sides by two: $1/2=x^2$.&lt;br /&gt;
+Isolatings x by taking the square root gives: $1/{√{2}}=x$. Rationalizing the denominator yields ${√{2}/2$.
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div style="float:right;"&gt;
+&lt;div class="image-left"&gt;
 &lt;img src="images/trig_identities3.svg" &gt;
+&lt;p&gt;
+Multiples of $π/6$ angles have sine and cosine values that can be
+deduced from the pythagorean theorem by starting with an equilateral triange of side length 1.
+&lt;/p&gt;
 &lt;/div&gt;
 
+&lt;div class="image-right"&gt;
+&lt;img src="images/trig_identities5.svg" &gt;
+&lt;p&gt;
+We cut that triangle in half with a vertical line to keep only one of the right triangles.
+Its base is then exactly half the hypotenuse: $1/2$.
+Its remaining side x is then $x=√{1^2-{1/2}^2}$, which is also $x=√{1-{1/4}}$ the equivalent of $x=√{3/4}$ or $√{3}/2$
+&lt;/p&gt;
+&lt;/div&gt;
 
-
-
-
+&lt;/div&gt;
+</t>
+<t tx="fil.20140404213652.1861">&lt;div id="tabs-trig2" class="clearfix"&gt;
 
 
 &lt;div class="image-left "&gt;
 &lt;img src="images/trig_identities1.svg" &gt;
-&lt;p&gt;
-Sine and cosine 1
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;
-Pythagorean Identities
-&lt;/p&gt;
 
 
 &lt;p&gt;
@@ -1660,15 +1668,7 @@ Other Identities
 
 
 &lt;/div&gt;
-</t>
-<t tx="fil.20140316165413.1711">&lt;div id="tabs-trig3"&gt;
 
-&lt;p&gt;
-Law of Sines
-&lt;/p&gt;
-
-
-&lt;/div&gt;
-</t>
+&lt;/div&gt;</t>
 </tnodes>
 </leo_file>
