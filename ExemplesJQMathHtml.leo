@@ -29,7 +29,7 @@
 <v t="fil.20140404213652.1861"><vh>Sum and double angles</vh></v>
 <v t="fil.20140316165413.1709"><vh>Law of Cosines</vh></v>
 </v>
-<v t="fil.20140120032538.9" a="E"><vh>Series</vh>
+<v t="fil.20140120032538.9"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
@@ -953,9 +953,11 @@ font-size: inherit;
 }
 
 .centered-content {
-
 text-align: center;
+}
 
+.spread20{
+margin-left:28px;
 }
 
 #backgroundmask{
@@ -1603,31 +1605,40 @@ $A^2= C^2   +   B^2  +2BC⋅cos(α) $ Often rearanged as : $A = √{B^2   +   C^
 </t>
 <t tx="fil.20140316165413.1710">&lt;div id="tabs-trig1" class="clearfix"&gt;
 
-&lt;div class="image-left"&gt;
-&lt;img src="images/trig_identities2.svg" &gt;
+&lt;div&gt;
 &lt;p&gt;
 The theorem of pythagore says that for a right triangle, the length
  of the hypotenuse squared is the sum of the squares of the other two sides.
+It follows from the definition of sine and cosine that
 &lt;/p&gt;
+&lt;p class="centered-content"&gt;
+ $\cos^2(θ)+\sin^2(θ)=1$.
+&lt;/p&gt;
+&lt;p class="centered-content"&gt;
+Dividing both sides by either $\cos^2(θ)$ or $\sin^2(θ)$ yield respectively: &lt;br /&gt;
+ $1+\tan^2(θ)=\sec^2(θ)$ &lt;span class="spread20"&gt;&amp;nbsp;&lt;/span&gt; $\cot^2(θ)+1=\csc^2(θ)$. 
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="image-left"&gt;
+&lt;img src="images/trig_identities2.svg" &gt;
 &lt;p&gt;
-It directly follows from the definition of sine and cosine, that $cos^2\(θ)+sin^2(θ)=1$.
+&lt;strong&gt;Sine and cosine values from the pythagorean theorem:&lt;/strong&gt;
 &lt;/p&gt;
 &lt;p&gt;
 Multiples of $π/2$ angles (90 degrees) yield trigonometric values of either 1 or 0.
+An angle of pi/4, (45 degrees), has equal sine and cosine values 
+for being exactly in the middle range of both axis. To find this value 'x', we start with 
+the hypotenuse squared which is equal to twice that value squared: $1^2=x^2+x^2$.
 &lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div class="image-right"&gt;
 &lt;img src="images/trig_identities4.svg" &gt;
 &lt;p&gt;
-An angle of pi/4, (45 degrees), has equal sine and cosine values 
-for being exactly in the middle range of both axis. To find this value 'x', we start with 
-the hypotenuse squared which is equal to twice that value squared: $1^2=x^2+x^2$.
-&lt;/p&gt;
-&lt;p&gt;
 This is equivalent to $1=√{x^2+x^2}$ or $1=√{2x^2}$.&lt;br /&gt;
 Squaring both sides gives: $1=2x^2$. Dividing both sides by two: $1/2=x^2$.&lt;br /&gt;
-Isolatings x by taking the square root gives: $1/{√{2}}=x$. Rationalizing the denominator yields ${√{2}/2$.
+Taking the square root gives: $1/{√{2}}=x$. Rationalizing the denominator yields ${√{2}/2$.
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -1636,15 +1647,15 @@ Isolatings x by taking the square root gives: $1/{√{2}}=x$. Rationalizing the 
 &lt;p&gt;
 Multiples of $π/6$ angles have sine and cosine values that can be
 deduced from the pythagorean theorem by starting with an equilateral triange of side length 1.
+Then cut that triangle in half with a vertical line to keep only one of the right triangles.
 &lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div class="image-right"&gt;
 &lt;img src="images/trig_identities5.svg" &gt;
 &lt;p&gt;
-We cut that triangle in half with a vertical line to keep only one of the right triangles.
 Its base is then exactly half the hypotenuse: $1/2$.
-Its remaining side x is then $x=√{1^2-{1/2}^2}$, which is also $x=√{1-{1/4}}$ the equivalent of $x=√{3/4}$ or $√{3}/2$
+Its remaining side x is then $x=√{1^2-{1/2}^2}$, which is also $x=√{1-{1/4}}$, the equivalent of $x=√{3/4}$ or $√{3}/2$.
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -1655,19 +1666,14 @@ Its remaining side x is then $x=√{1^2-{1/2}^2}$, which is also $x=√{1-{1/4}}
 
 &lt;div class="image-left "&gt;
 &lt;img src="images/trig_identities1.svg" &gt;
-
-
 &lt;p&gt;
-Sum of Angles Identities
+$\sin(α+β)$ is directly ${\BC}/{\AB}$ and can also be taken in two parts as ${\BD+\EF}/{\AB}$.
 &lt;/p&gt;
-
-
-&lt;p&gt;
-Other Identities
-&lt;/p&gt;
-
-
+By separating this fraction in two terms we get: ${\BD}/{\AB}+{\EF}/{\AB}$.
 &lt;/div&gt;
+
+
+
 
 &lt;/div&gt;</t>
 </tnodes>
