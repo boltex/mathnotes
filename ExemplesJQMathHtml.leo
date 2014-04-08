@@ -35,7 +35,7 @@
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
 <v t="fil.20140128043317"><vh>Gaussian Elimination</vh></v>
 </v>
-<v t="fil.20140120032538.13"><vh>Undoing Trig Substitution</vh>
+<v t="fil.20140120032538.13" a="E"><vh>Undoing Trig Substitution</vh>
 <v t="fil.20140120032538.14"><vh>cos(arcsin)</vh></v>
 <v t="fil.20140120032538.15"><vh>sec2(arctan)</vh></v>
 </v>
@@ -1664,15 +1664,52 @@ Its remaining side x is then $x=√{1^2-{1/2}^2}$, which is also $x=√{1-{1/4}}
 <t tx="fil.20140404213652.1861">&lt;div id="tabs-trig2" class="clearfix"&gt;
 
 
-&lt;div class="image-left "&gt;
+&lt;div class="image-left"&gt;
 &lt;img src="images/trig_identities1.svg" &gt;
 &lt;p&gt;
-$\sin(α+β)$ is directly ${\BC}/{\AB}$ and can also be taken in two parts as ${\BD+\EF}/{\AB}$.
+$\sin(α+β)$ is directly ${\BC}/{\AB}$.&lt;br /&gt;
+BC can also be measured from the segments on the right ${\BD+\EF}/{\AB}$.
 &lt;/p&gt;
-By separating this fraction in two terms we get: ${\BD}/{\AB}+{\EF}/{\AB}$.
+&lt;p&gt;
+Separating this fraction in two terms gives: ${\BD}/{\AB}+{\EF}/{\AB}$.
+&lt;/p&gt;
+&lt;p&gt;
+Since BD and EF dont make triangles with AB, nor relate directly to it,&lt;br /&gt;
+ we make BD relate to BE and multiply it with ${\BE}/{\AB}$ to keep the same 
+value for this term. 
+&lt;br /&gt;
+Both those ratios constitute meaningfull triangles in the diagram.
+&lt;/p&gt;
+&lt;p&gt;
+The same is done with EF, in relation with AE, and multiplied by ${\AE}/{\AB}$ to keep its value.
+$${\BD}/{\BE}⋅{\BE}/{\AB}+{\EF}/{\AE}⋅{\AE}/{\AB}$$
+$$\cos(α)\sin(β)+\sin(α)\cos(β)$$
+&lt;/p&gt;
 &lt;/div&gt;
 
 
+&lt;div class="image-right"&gt;
+&lt;img src="images/trig_identities1.svg" &gt;
+&lt;p&gt;
+From the same diagram, we see that $\cos(α+β)$ is ${\AC}/{\AB}$.&lt;br /&gt;
+AC can also be measured from segments of other triangles: ${\AF-\DE}/{\AB}$.
+&lt;/p&gt;
+&lt;p&gt;
+Separating this fraction in two terms gives: ${\AF}/{\AB}-{\DE}/{\AB}$.
+&lt;/p&gt;
+&lt;p&gt;
+Since AF and DE dont make triangles with AB, nor relate directly to it,&lt;br /&gt;
+ we make AF relate to AE and multiply it with ${\AE}/{\AB}$ to keep the same 
+value for this term. 
+&lt;br /&gt;
+Those ratios then constitute meaningfull triangles in the diagram.
+&lt;/p&gt;
+&lt;p&gt;
+The same is done with DE, in relation with BE, and multiplied by ${\BE}/{\AB}$ to keep its value.
+$${\AF}/{\AE}⋅{\AE}/{\AB}-{\DE}/{\BE}⋅{\BE}/{\AB}$$
+$$\cos(α)\cos(β)-\sin(α)\sin(β)$$
+&lt;/p&gt;
+&lt;/div&gt;
 
 
 &lt;/div&gt;</t>
