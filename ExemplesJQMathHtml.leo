@@ -24,9 +24,10 @@
 <v t="fil.20140120032538.6"><vh>Identities and Properties</vh></v>
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
-<v t="fil.20140120032538.8" a="E"><vh>Trigonometric Identities</vh>
+<v t="fil.20140120032538.8"><vh>Trigonometric Identities</vh>
 <v t="fil.20140316165413.1710"><vh>Pythagorean identity</vh></v>
-<v t="fil.20140404213652.1861"><vh>Sum and double angles</vh></v>
+<v t="fil.20140404213652.1861"><vh>Sum of Angles</vh></v>
+<v t="fil.20140409211208.1860"><vh>Double and Half Angles</vh></v>
 <v t="fil.20140316165413.1709"><vh>Law of Cosines</vh></v>
 </v>
 <v t="fil.20140120032538.9"><vh>Series</vh>
@@ -35,7 +36,7 @@
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
 <v t="fil.20140128043317"><vh>Gaussian Elimination</vh></v>
 </v>
-<v t="fil.20140120032538.13" a="E"><vh>Undoing Trig Substitution</vh>
+<v t="fil.20140120032538.13"><vh>Undoing Trig Substitution</vh>
 <v t="fil.20140120032538.14"><vh>cos(arcsin)</vh></v>
 <v t="fil.20140120032538.15"><vh>sec2(arctan)</vh></v>
 </v>
@@ -892,8 +893,9 @@ Solve for x:
 </t>
 <t tx="fil.20140120032538.8">&lt;div class="main-tabs startsUgly" id="main2"&gt; 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#tabs-trig1"&gt;Pythagorean identity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#tabs-trig2"&gt;Sum and double angles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tabs-trig1"&gt;Pythagorean&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tabs-trig2"&gt;Sum of Angles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tabs-trig25"&gt;Double and half Angles&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#tabs-trig3"&gt;Law of Cosines&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 @others
@@ -1668,25 +1670,24 @@ Its remaining side x is then $x=√{1^2-{1/2}^2}$, which is also $x=√{1-{1/4}}
 &lt;img src="images/trig_identities1.svg" &gt;
 &lt;p&gt;
 $\sin(α+β)$ is directly ${\BC}/{\AB}$.&lt;br /&gt;
-BC can also be measured from the segments on the right ${\BD+\EF}/{\AB}$.
+BC can also be measured from the segments on the right ${\EF+\BD}/{\AB}$.
 &lt;/p&gt;
 &lt;p&gt;
-Separating this fraction in two terms gives: ${\BD}/{\AB}+{\EF}/{\AB}$.
+Separating this fraction in two terms gives: ${\EF}/{\AB}+{\BD}/{\AB}$.
 &lt;/p&gt;
 &lt;p&gt;
-Since BD and EF dont make triangles with AB, nor relate directly to it,&lt;br /&gt;
- we make BD relate to BE and multiply it with ${\BE}/{\AB}$ to keep the same 
+Since EF and BD dont make triangles with AB, nor relate directly to it,&lt;br /&gt;
+ we make EF relate to AE and multiply it with ${\AE}/{\AB}$ to keep the same 
 value for this term. 
 &lt;br /&gt;
-Both those ratios constitute meaningfull triangles in the diagram.
+Both those ratiosnow constitute meaningfull triangles in the diagram.
 &lt;/p&gt;
 &lt;p&gt;
-The same is done with EF, in relation with AE, and multiplied by ${\AE}/{\AB}$ to keep its value.
-$${\BD}/{\BE}⋅{\BE}/{\AB}+{\EF}/{\AE}⋅{\AE}/{\AB}$$
-$$\cos(α)\sin(β)+\sin(α)\cos(β)$$
+The same is done with BD, in relation with BE, and multiplied by ${\BE}/{\AB}$ to keep its value.
+$${\EF}/{\AE}⋅{\AE}/{\AB}+{\BD}/{\BE}⋅{\BE}/{\AB}$$
+$$\sin(α)\cos(β)+\cos(α)\sin(β)$$
 &lt;/p&gt;
 &lt;/div&gt;
-
 
 &lt;div class="image-right"&gt;
 &lt;img src="images/trig_identities1.svg" &gt;
@@ -1711,6 +1712,49 @@ $$\cos(α)\cos(β)-\sin(α)\sin(β)$$
 &lt;/p&gt;
 &lt;/div&gt;
 
+
+&lt;/div&gt;</t>
+<t tx="fil.20140409211208.1860">&lt;div id="tabs-trig25" class="clearfix"&gt;
+
+&lt;div class="image-left"&gt;
+&lt;p&gt;
+Starting with a double angle as a sum: $\sin(2α)=\sin(α+α)$.&lt;br /&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+From the sum of angles identity we know that: &lt;br /&gt;
+$\sin(α+α)=\cos(α)\sin(α)+\sin(α)\cos(α)$, which is finally: $\sin(2α)=2\sin(α)\cos(α)$.
+&lt;/p&gt;
+&lt;p&gt;
+For the double angle with cosine we start with: $\cos(2α)=\cos(α+α)$.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Again from the sum of angles identity we know that: &lt;br /&gt;
+$\cos(α+α)=\cos(α)\cos(α)-\sin(α)\sin(α)$, which gives: $\cos(2α)=\cos^2(α)-\sin^2(α)$.
+&lt;/p&gt;
+&lt;p&gt;
+From the pythagorean identities, since $\sin^2(θ)=1-\cos^2(θ)$, we also find:
+$\cos(2α)=\cos^2(α)- (1-\cos^2(θ))$, which means that $\cos(2α)=2\cos^2(α)-1$.
+&lt;/p&gt;
+&lt;p&gt;
+From the double angle formula of the cosine, its angle formula
+ can be found. Adding one and multiplying by 2 on both sides gives
+ ${1+\cos(2α)}/2=\cos^2(α)$ which is used to reduce the powers of a cosine.&lt;br /&gt;
+ Taking the square root: $√{{1+\cos(2α)}/2}=\cos(α)$ then reverses
+the double angle formula. 
+&lt;/p&gt;
+&lt;p&gt;
+To find the double and half angle formulas for the sine, we start with the cosine 
+double angle formula: $\cos(2α)=\cos^2(α)-\sin^2(α)$.
+With a pythagorean identity we can rewrite:
+ $\cos(2α)=(1-\sin^2(θ))-\sin^2(α)$ which is the same as: $\cos(2α)=(1-2\sin^2(θ))$ 
+
+Adding one and multiplying by 2 on both sides gives
+ ${\cos(2α)-1}/2=-\sin^2(α)$, or after inverting, ${1-\cos(2α)}/2=\sin^2(α)$ 
+which is used to reduce the powers of a sine.&lt;br /&gt;
+ Taking the square root: $√{{1-\cos(2α)}/2}=\sin(α)$ then reverses
+the double angle formula. 
+&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;/div&gt;</t>
 </tnodes>
