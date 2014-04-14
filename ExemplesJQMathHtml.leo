@@ -16,9 +16,13 @@
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
 </v>
-<v t="fil.20140120032538.2"><vh>Quadratic equation</vh>
+<v t="fil.20140120032538.2" a="E"><vh>Quadratic equation</vh>
 <v t="fil.20140120032538.3"><vh>Factoring out first</vh></v>
 <v t="fil.20140120032538.4"><vh>Completing the square first</vh></v>
+</v>
+<v t="fil.20140413232257.1862" a="E"><vh>Mathematical Constants</vh>
+<v t="fil.20140413232257.1863"><vh>Silver Ratio</vh></v>
+<v t="fil.20140413232257.1865"><vh>Golden Ratio</vh></v>
 </v>
 <v t="fil.20140120032538.5"><vh>Exponents and Logarithms</vh>
 <v t="fil.20140120032538.6"><vh>Identities and Properties</vh></v>
@@ -130,6 +134,7 @@
                 &lt;option value&gt;Choose a Mathematical Subject&lt;/option&gt;
                 &lt;option value="main6"&gt;Cavalieri's Principle&lt;/option&gt;
                 &lt;option value="main1"&gt;Quadratic Equation&lt;/option&gt;
+                &lt;option value="main9"&gt;Mathematical Constants&lt;/option&gt;
                 &lt;option value="main8"&gt;Exponents and Logarithms&lt;/option&gt;
                 &lt;option value="main2"&gt;Trigonometric Identities&lt;/option&gt;
                 &lt;option value="main25"&gt;Series&lt;/option&gt;
@@ -667,9 +672,12 @@ Raising $e^{iπ/2}=i$ to the power of i gives $({e^{iπ/2}})^i=i^i$ or $e^{i^2π
 &lt;/p&gt;
 &lt;/div&gt;</t>
 <t tx="fil.20140120032538.3">&lt;div id="tabs-1"&gt;
+
 &lt;p&gt;
-Starting with $ax^2+bx+c=0$, where $a≠0$, subtract $c$ from both sides: $ax^2+bx=-c$ .&lt;/p&gt;
-&lt;p&gt;Factor out the $a$ like so: $a(x^2+{bx}/a)= -c$ &amp;nbsp;&amp;nbsp;&amp;nbsp; then divide by $a$: &amp;nbsp;&amp;nbsp;&amp;nbsp;$x^2+{bx}/a= -c/a$ .&lt;br /&gt;
+Starting with $ax^2+bx+c=0$, where $a≠0$, subtract $c$ from both sides: $ax^2+bx=-c$.
+&lt;/p&gt;
+&lt;p&gt;
+Factor out the $a$ like so: $a(x^2+{bx}/a)= -c$ &amp;nbsp;&amp;nbsp;&amp;nbsp; then divide by $a$: &amp;nbsp;&amp;nbsp;&amp;nbsp;$x^2+{bx}/a= -c/a$ .&lt;br /&gt;
 
 Completing the square on the left yields the extra term $b^2/{4a^2}$ which is added to the right side.
 
@@ -690,20 +698,15 @@ $$x+b/{2a} = ±√{{b^2-4ac}}/{2a}$$
 Lastly, the $b/{2a}$ term can be sent to the right side, which already has a term with the same denominator.
 
 $$x={-b±√{b^2-4ac}}/{2a}$$
-
-
-
 &lt;/p&gt;
 
-
-&lt;/div&gt; &lt;!--tabs1--&gt;
+&lt;/div&gt;
 
 </t>
 <t tx="fil.20140120032538.4">&lt;div id="tabs-2"&gt; 
  
 &lt;p&gt;
-
-Starting with $ax^2+bx+c=0$, where $a≠0$, subtract $c$ from both sides: $ax^2+bx=-c$ &lt;br /&gt;
+Starting with $ax^2+bx+c=0$, where $a≠0$, subtract $c$ from both sides: $ax^2+bx=-c$&lt;br /&gt;
 
 Now complete the square on the left side to get an extra ${b^2}/{4a}$.
 
@@ -724,7 +727,6 @@ $$ √ax + b/{2√a} = √{{b^2-4ac}}/{2√a} $$
 Finally divide both sides by $√a$
 
 $$x={-b±√{b^2-4ac}}/{2a}$$
-
 &lt;/p&gt;
 
 &lt;/div&gt;
@@ -1757,5 +1759,38 @@ the double angle formula.
 &lt;/div&gt;
 
 &lt;/div&gt;</t>
+<t tx="fil.20140413232257.1862">&lt;div class="main-tabs startsUgly" id="main9"&gt; 
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#const-1"&gt;Silver Ratio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#const-2"&gt;Golden Ratio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+@others
+
+  
+
+&lt;/div&gt;&lt;!--main-tabs--&gt;</t>
+<t tx="fil.20140413232257.1863">&lt;div id="const-1"&gt;
+&lt;p&gt;
+Silver Ratio and Silver Rectangle
+&lt;/p&gt;
+&lt;p&gt;
+text
+
+&lt;/p&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="fil.20140413232257.1865">&lt;div id="const-2"&gt;
+&lt;p&gt;
+Golden Ratio and Golden Rectangle
+&lt;/p&gt;
+&lt;p&gt;
+text 
+
+&lt;/p&gt;
+
+&lt;/div&gt;
+</t>
 </tnodes>
 </leo_file>

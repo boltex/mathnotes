@@ -12,6 +12,7 @@ $(function() {
         'descartes',
         'cavalieri',
         'brahmagupta',
+        'plato',
         'napier',
         'euclid',
         'faulhaberus',
