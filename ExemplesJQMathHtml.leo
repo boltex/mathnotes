@@ -1762,8 +1762,8 @@ the double angle formula.
 <t tx="fil.20140413232257.1862">&lt;div class="main-tabs startsUgly" id="main9"&gt; 
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#const-1"&gt;Silver Ratio&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#const-2"&gt;Golden Ratio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#const-1"&gt;Silver Ratio and rectangle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#const-2"&gt;Golden Ratio and rectangle&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 @others
 
@@ -1772,21 +1772,26 @@ the double angle formula.
 &lt;/div&gt;&lt;!--main-tabs--&gt;</t>
 <t tx="fil.20140413232257.1863">&lt;div id="const-1"&gt;
 &lt;p&gt;
-Silver Ratio and Silver Rectangle
+The silver ratio $δ_s$ is a proportion between a longer length 'a' and a smaller length 'b' 
+where that proportion is the same as twice the longer length 'a' plus the smaller length 'b' 
+over the longer length 'a'.
+&lt;br /&gt;
+$δ_s=a/b={2a+b}/a$
 &lt;/p&gt;
 &lt;p&gt;
-text
-
+A silver rectangle has proportions such that when cut in half
+ it has again the same proportions.
+$a/b=b/{a\text"/2"}$
 &lt;/p&gt;
 
 &lt;/div&gt;
 </t>
 <t tx="fil.20140413232257.1865">&lt;div id="const-2"&gt;
 &lt;p&gt;
-Golden Ratio and Golden Rectangle
+Golden Ratio $φ$ and Golden Rectangle.
 &lt;/p&gt;
 &lt;p&gt;
-text 
+Golden rectangle. 
 
 &lt;/p&gt;
 
