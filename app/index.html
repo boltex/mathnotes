@@ -168,10 +168,19 @@ So the surface area of an open cone is then $A={1/2}⋅2π\r⋅\s$, or $A=π\r\s
 If it becomes flat like a disk, s then equals r, so its area is $A=π\r⋅\r$, which is $A = π\r^2$
 </p>
 </div>
+<div class="image-right">
+<img src="images/cavalieri_prisms_color.svg" >
+<p>
+A triangular prism can be sliced in three equal volumes by planes which 
+cross its vertices: Each pair of sub-pyramid share a base and a height perpendicular to this base.
+By cavalieri's principle, all pyramids are then 1/3 the volume of
+ prisms of same height and base.
+</p>
+</div>
 
 <div class="image-left">
 <img src="images/cavalieri_pyramid_steps.svg" > 
-<p>We can approximate a pyramid with $n$ regular polygonal prisms.
+<p>We can also find the volume of pyramids with $n$ polygonal prisms.
 <br />
 With rectangular prisms, each slice x has volume $V=x\L/{n}⋅x\W/{n}⋅{\H/n}$ 
 <br />
@@ -340,7 +349,8 @@ The silver ratio $δ_s$ is a proportion between a longer length 'a' and a smalle
 where that proportion is the same as twice the longer length 'a' plus the smaller length 'b' 
 over the longer length 'a'.
 <br />
-$δ_s=a/b={2a+b}/a$
+$δ_s=a/b={2a+b}/a$, or $a/b=({2a}/a+b/a)$ which is ${δ_s}/1=2+1/{δ_s}$
+
 </p>
 <p>
 A silver rectangle has proportions such that when cut in half
@@ -523,11 +533,49 @@ Solve for x:
 
 <div class="main-tabs startsUgly" id="main2"> 
 <ul>
+<li><a href="#tabs-trig05">Signs</a></li>
 <li><a href="#tabs-trig1">Pythagorean</a></li>
 <li><a href="#tabs-trig2">Sum of Angles</a></li>
-<li><a href="#tabs-trig25">Double and half Angles</a></li>
+<li><a href="#tabs-trig25">Double &amp; half Angles</a></li>
 <li><a href="#tabs-trig3">Law of Cosines</a></li>
 </ul>
+
+<div id="tabs-trig05" class="clearfix">
+
+
+<div class="image-left">
+<img src="images/trig_identities050.svg" >
+<p>
+Trigonometric functions are defined in relation to an angle θ in a right triangle: 
+It is the proportion that the opposite side,
+or the adjacent side to θ makes with the hypotenuse:
+$\sin(θ)=\opp/\hyp$, $\cos(θ)=\adj/\hyp$, and $\tan(θ)=\opp/\adj$.
+</p>
+</div>
+
+<div class="image-right">
+<img src="images/trig_identities051.svg" >
+<p>
+Sine is an odd function that is also periodic, 
+so negating the angle negates the result:
+$$\sin(-θ)=-\sin(θ)$$
+It is repeating at every 2π and is a copy of cosine if the
+ angle is shifted by π/4 or -3π/4.
+</p>
+</div> 
+
+<div class="image-left">
+<img src="images/trig_identities052.svg" >
+<p>
+Cosine is an even function which is also periodic,
+so negating the angle does not change the result:
+$$\cos(-θ)=\cos(θ)$$
+It is repeating at every 2π and is a copy of sine 
+if the angle is shifted by -π/4 or 3π/4.
+</p>
+</div> 
+
+</div>
 <div id="tabs-trig1" class="clearfix">
 
 <div>
@@ -552,7 +600,7 @@ Dividing both sides by either $\cos^2(θ)$ or $\sin^2(θ)$ yield respectively: <
 </p>
 <p>
 Multiples of $π/2$ angles (90 degrees) yield trigonometric values of either 1 or 0.
-An angle of pi/4, (45 degrees), has equal sine and cosine values 
+An angle of π/4, (45 degrees), has equal sine and cosine values 
 for being exactly in the middle range of both axis. To find this value 'x', we start with 
 the hypotenuse squared which is equal to twice that value squared: $1^2=x^2+x^2$.
 </p>

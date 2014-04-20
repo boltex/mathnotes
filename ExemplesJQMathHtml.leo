@@ -11,12 +11,12 @@
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20140120032538" a="E"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes, Surfaces and Volumes</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
 </v>
-<v t="fil.20140120032538.2" a="E"><vh>Quadratic equation</vh>
+<v t="fil.20140120032538.2"><vh>Quadratic equation</vh>
 <v t="fil.20140120032538.3"><vh>Factoring out first</vh></v>
 <v t="fil.20140120032538.4"><vh>Completing the square first</vh></v>
 </v>
@@ -29,6 +29,7 @@
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
 <v t="fil.20140120032538.8"><vh>Trigonometric Identities</vh>
+<v t="fil.20140415183456.1868"><vh>signs Identity</vh></v>
 <v t="fil.20140316165413.1710"><vh>Pythagorean identity</vh></v>
 <v t="fil.20140404213652.1861"><vh>Sum of Angles</vh></v>
 <v t="fil.20140409211208.1860"><vh>Double and Half Angles</vh></v>
@@ -895,9 +896,10 @@ Solve for x:
 </t>
 <t tx="fil.20140120032538.8">&lt;div class="main-tabs startsUgly" id="main2"&gt; 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="#tabs-trig05"&gt;Signs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#tabs-trig1"&gt;Pythagorean&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#tabs-trig2"&gt;Sum of Angles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#tabs-trig25"&gt;Double and half Angles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tabs-trig25"&gt;Double &amp;amp; half Angles&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#tabs-trig3"&gt;Law of Cosines&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 @others
@@ -1208,10 +1210,19 @@ So the surface area of an open cone is then $A={1/2}⋅2π\r⋅\s$, or $A=π\r\s
 If it becomes flat like a disk, s then equals r, so its area is $A=π\r⋅\r$, which is $A = π\r^2$
 &lt;/p&gt;
 &lt;/div&gt;
+&lt;div class="image-right"&gt;
+&lt;img src="images/cavalieri_prisms_color.svg" &gt;
+&lt;p&gt;
+A triangular prism can be sliced in three equal volumes by planes which 
+cross its vertices: Each pair of sub-pyramid share a base and a height perpendicular to this base.
+By cavalieri's principle, all pyramids are then 1/3 the volume of
+ prisms of same height and base.
+&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;div class="image-left"&gt;
 &lt;img src="images/cavalieri_pyramid_steps.svg" &gt; 
-&lt;p&gt;We can approximate a pyramid with $n$ regular polygonal prisms.
+&lt;p&gt;We can also find the volume of pyramids with $n$ polygonal prisms.
 &lt;br /&gt;
 With rectangular prisms, each slice x has volume $V=x\L/{n}⋅x\W/{n}⋅{\H/n}$ 
 &lt;br /&gt;
@@ -1631,7 +1642,7 @@ Dividing both sides by either $\cos^2(θ)$ or $\sin^2(θ)$ yield respectively: &
 &lt;/p&gt;
 &lt;p&gt;
 Multiples of $π/2$ angles (90 degrees) yield trigonometric values of either 1 or 0.
-An angle of pi/4, (45 degrees), has equal sine and cosine values 
+An angle of π/4, (45 degrees), has equal sine and cosine values 
 for being exactly in the middle range of both axis. To find this value 'x', we start with 
 the hypotenuse squared which is equal to twice that value squared: $1^2=x^2+x^2$.
 &lt;/p&gt;
@@ -1776,7 +1787,8 @@ The silver ratio $δ_s$ is a proportion between a longer length 'a' and a smalle
 where that proportion is the same as twice the longer length 'a' plus the smaller length 'b' 
 over the longer length 'a'.
 &lt;br /&gt;
-$δ_s=a/b={2a+b}/a$
+$δ_s=a/b={2a+b}/a$, or $a/b=({2a}/a+b/a)$ which is ${δ_s}/1=2+1/{δ_s}$
+
 &lt;/p&gt;
 &lt;p&gt;
 A silver rectangle has proportions such that when cut in half
@@ -1797,5 +1809,42 @@ Golden rectangle.
 
 &lt;/div&gt;
 </t>
+<t tx="fil.20140415183456.1868">
+&lt;div id="tabs-trig05" class="clearfix"&gt;
+
+
+&lt;div class="image-left"&gt;
+&lt;img src="images/trig_identities050.svg" &gt;
+&lt;p&gt;
+Trigonometric functions are defined in relation to an angle θ in a right triangle: 
+It is the proportion that the opposite side,
+or the adjacent side to θ makes with the hypotenuse:
+$\sin(θ)=\opp/\hyp$, $\cos(θ)=\adj/\hyp$, and $\tan(θ)=\opp/\adj$.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="image-right"&gt;
+&lt;img src="images/trig_identities051.svg" &gt;
+&lt;p&gt;
+Sine is an odd function that is also periodic, 
+so negating the angle negates the result:
+$$\sin(-θ)=-\sin(θ)$$
+It is repeating at every 2π and is a copy of cosine if the
+ angle is shifted by π/4 or -3π/4.
+&lt;/p&gt;
+&lt;/div&gt; 
+
+&lt;div class="image-left"&gt;
+&lt;img src="images/trig_identities052.svg" &gt;
+&lt;p&gt;
+Cosine is an even function which is also periodic,
+so negating the angle does not change the result:
+$$\cos(-θ)=\cos(θ)$$
+It is repeating at every 2π and is a copy of sine 
+if the angle is shifted by -π/4 or 3π/4.
+&lt;/p&gt;
+&lt;/div&gt; 
+
+&lt;/div&gt;</t>
 </tnodes>
 </leo_file>
