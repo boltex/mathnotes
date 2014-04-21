@@ -11,12 +11,12 @@
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20140120032538" a="E"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes, Surfaces and Volumes</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
 </v>
-<v t="fil.20140120032538.2"><vh>Quadratic equation</vh>
+<v t="fil.20140120032538.2" a="E"><vh>Quadratic equation</vh>
 <v t="fil.20140120032538.3"><vh>Factoring out first</vh></v>
 <v t="fil.20140120032538.4"><vh>Completing the square first</vh></v>
 </v>
@@ -1786,8 +1786,18 @@ the double angle formula.
 The silver ratio $δ_s$ is a proportion between a longer length 'a' and a smaller length 'b' 
 where that proportion is the same as twice the longer length 'a' plus the smaller length 'b' 
 over the longer length 'a'.
-&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;p class="figure-centered"&gt;
 $δ_s=a/b={2a+b}/a$, or $a/b=({2a}/a+b/a)$ which is ${δ_s}/1=2+1/{δ_s}$
+&lt;/p&gt;
+&lt;p&gt;
+Square both sides by multiplying by $δ_s$ gives ${{δ_s}^2}/1= {2δ_s}/1+{δ_s}/{δ_s}$ 
+which is ${δ_s}^2=2δ_s+1$, a quadratic.
+
+Using the quadratic formula $x={-b±√{b^2-4ac}}/{2a}$ where $a=1$, $b=-2$ and $c=-1$.
+We get for the value of ${δ_s}$ : ${δ_s}= {2±√{-2^2-4(-1)}}/{2}= {2±√{8}}/{2} = {1±√{2}}$
+
 
 &lt;/p&gt;
 &lt;p&gt;
