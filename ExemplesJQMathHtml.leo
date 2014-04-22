@@ -16,7 +16,7 @@
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
 </v>
-<v t="fil.20140120032538.2" a="E"><vh>Quadratic equation</vh>
+<v t="fil.20140120032538.2"><vh>Quadratic equation</vh>
 <v t="fil.20140120032538.3"><vh>Factoring out first</vh></v>
 <v t="fil.20140120032538.4"><vh>Completing the square first</vh></v>
 </v>
@@ -60,7 +60,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236" a="E"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -1781,44 +1781,61 @@ the double angle formula.
   
 
 &lt;/div&gt;&lt;!--main-tabs--&gt;</t>
-<t tx="fil.20140413232257.1863">&lt;div id="const-1"&gt;
+<t tx="fil.20140413232257.1863">&lt;div id="const-1" class="clearfix"&gt;
+
+&lt;div class="image-left"&gt;
 &lt;p&gt;
 The silver ratio $δ_s$ is a proportion between a longer length 'a' and a smaller length 'b' 
 where that proportion is the same as twice the longer length 'a' plus the smaller length 'b' 
 over the longer length 'a'.
 &lt;/p&gt;
+&lt;/div&gt;
 
-&lt;p class="figure-centered"&gt;
-$δ_s=a/b={2a+b}/a$, or $a/b=({2a}/a+b/a)$ which is ${δ_s}/1=2+1/{δ_s}$
+&lt;div class="image-left"&gt;
+&lt;img src="images/silver_ratio.svg" &gt;
+&lt;p&gt;
+as $δ_s=a/b={2a+b}/a$, or $a/b=({2a}/a+b/a)$ which is ${δ_s}/1=2+1/{δ_s}$
 &lt;/p&gt;
 &lt;p&gt;
 Square both sides by multiplying by $δ_s$ gives ${{δ_s}^2}/1= {2δ_s}/1+{δ_s}/{δ_s}$ 
 which is ${δ_s}^2=2δ_s+1$, a quadratic.
-
+&lt;br /&gt;
 Using the quadratic formula $x={-b±√{b^2-4ac}}/{2a}$ where $a=1$, $b=-2$ and $c=-1$.
 &lt;br /&gt;
 We get for the value of ${δ_s}$ : ${δ_s}= {2±√{-2^2-4(-1)}}/{2}= {2±√{8}}/{2} = {1±√{2}}$
-
-
 &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="image-left"&gt;
+&lt;img src="images/silver_rectangle.svg" &gt;
 &lt;p&gt;
 A silver rectangle has proportions such that when cut in half
  it has again the same proportions.
-$a/b=b/{a\text"/2"}$ bringing the divisor of 1/2 on top gives: $a/b = {2b}/a$.
+Taking $a/b=b/{a\text"/2"}$ and bringing the divisor of 1/2 on top gives: $a/b = {2b}/a$.
 Squaring both sides by multiplying by $a/b$ gives ${a^2}/{b^2} = {2ba}/ab$
- which is  ${a^2}/{b^2}= 2$. And so $a/b = √{2}$
+ which is  ${a^2}/{b^2}= 2$. 
+&lt;br /&gt;
+And so $a/b = √{2}$
 &lt;/p&gt;
+&lt;/div&gt;
 
 &lt;/div&gt;
 </t>
-<t tx="fil.20140413232257.1865">&lt;div id="const-2"&gt;
+<t tx="fil.20140413232257.1865">&lt;div id="const-2" class="clearfix"&gt;
+
+&lt;div class="image-left"&gt;
+&lt;img src="images/golden_ratio.svg" &gt;
 &lt;p&gt;
 Golden Ratio $φ$ and Golden Rectangle.
 &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="image-left"&gt;
+&lt;img src="images/golden_rectangle.svg" &gt;
 &lt;p&gt;
 Golden rectangle. 
-
 &lt;/p&gt;
+&lt;/div&gt;
 
 &lt;/div&gt;
 </t>
