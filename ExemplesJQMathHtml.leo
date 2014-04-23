@@ -20,7 +20,7 @@
 <v t="fil.20140120032538.3"><vh>Factoring out first</vh></v>
 <v t="fil.20140120032538.4"><vh>Completing the square first</vh></v>
 </v>
-<v t="fil.20140413232257.1862" a="E"><vh>Mathematical Constants</vh>
+<v t="fil.20140413232257.1862" a="E"><vh>Metallic Means and Rectangles</vh>
 <v t="fil.20140413232257.1863"><vh>Silver Ratio</vh></v>
 <v t="fil.20140413232257.1865"><vh>Golden Ratio</vh></v>
 </v>
@@ -135,7 +135,7 @@
                 &lt;option value&gt;Choose a Mathematical Subject&lt;/option&gt;
                 &lt;option value="main6"&gt;Cavalieri's Principle&lt;/option&gt;
                 &lt;option value="main1"&gt;Quadratic Equation&lt;/option&gt;
-                &lt;option value="main9"&gt;Mathematical Constants&lt;/option&gt;
+                &lt;option value="main9"&gt;Metallic Means and Rectangles&lt;/option&gt;
                 &lt;option value="main8"&gt;Exponents and Logarithms&lt;/option&gt;
                 &lt;option value="main2"&gt;Trigonometric Identities&lt;/option&gt;
                 &lt;option value="main25"&gt;Series&lt;/option&gt;
@@ -1783,7 +1783,7 @@ the double angle formula.
 &lt;/div&gt;&lt;!--main-tabs--&gt;</t>
 <t tx="fil.20140413232257.1863">&lt;div id="const-1" class="clearfix"&gt;
 
-&lt;div class="image-left"&gt;
+&lt;div&gt;
 &lt;p&gt;
 The silver ratio $δ_s$ is a proportion between a longer length 'a' and a smaller length 'b' 
 where that proportion is the same as twice the longer length 'a' plus the smaller length 'b' 
@@ -1794,7 +1794,7 @@ over the longer length 'a'.
 &lt;div class="image-left"&gt;
 &lt;img src="images/silver_ratio.svg" &gt;
 &lt;p&gt;
-as $δ_s=a/b={2a+b}/a$, or $a/b=({2a}/a+b/a)$ which is ${δ_s}/1=2+1/{δ_s}$
+Starting with $δ_s=a/b={2a+b}/a$, or $a/b=({2a}/a+b/a)$ which is ${δ_s}/1=2+1/{δ_s}$
 &lt;/p&gt;
 &lt;p&gt;
 Square both sides by multiplying by $δ_s$ gives ${{δ_s}^2}/1= {2δ_s}/1+{δ_s}/{δ_s}$ 
@@ -1802,7 +1802,7 @@ which is ${δ_s}^2=2δ_s+1$, a quadratic.
 &lt;br /&gt;
 Using the quadratic formula $x={-b±√{b^2-4ac}}/{2a}$ where $a=1$, $b=-2$ and $c=-1$.
 &lt;br /&gt;
-We get for the value of ${δ_s}$ : ${δ_s}= {2±√{-2^2-4(-1)}}/{2}= {2±√{8}}/{2} = {1±√{2}}$
+We get for the value of ${δ_s}$ : ${δ_s}= {2±√{(-2)^2-4(-1)}}/{2}= {2±√{8}}/{2} = {1+√{2}}$
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -1812,10 +1812,9 @@ We get for the value of ${δ_s}$ : ${δ_s}= {2±√{-2^2-4(-1)}}/{2}= {2±√{8}
 A silver rectangle has proportions such that when cut in half
  it has again the same proportions.
 Taking $a/b=b/{a\text"/2"}$ and bringing the divisor of 1/2 on top gives: $a/b = {2b}/a$.
-Squaring both sides by multiplying by $a/b$ gives ${a^2}/{b^2} = {2ba}/ab$
- which is  ${a^2}/{b^2}= 2$. 
-&lt;br /&gt;
-And so $a/b = √{2}$
+Squaring both sides by multiplying by $a/b$ gives ${a^2}/{b^2} = {2ba}/{ab}$
+ which is  ${a^2}/{b^2}= 2$. So $a/b = √{2}$.
+
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -1823,10 +1822,24 @@ And so $a/b = √{2}$
 </t>
 <t tx="fil.20140413232257.1865">&lt;div id="const-2" class="clearfix"&gt;
 
+&lt;div&gt;
+&lt;p&gt;
+The golden ratio $φ$ is a proportion between a longer length 'a' and a smaller length 'b'
+where the proportion is the same ratio for the sum of both 'a' and 'b' in relation to the 
+longer length 'a'.
+&lt;/p&gt;
+&lt;/div&gt;
+
 &lt;div class="image-left"&gt;
 &lt;img src="images/golden_ratio.svg" &gt;
 &lt;p&gt;
-Golden Ratio $φ$ and Golden Rectangle.
+Starting with $φ= a/b={a+b}/a$, expanding the right side gives $a/a+b/a$ which is $1+1/φ$
+Squaring both sides of $φ=1+1/φ$ by multiplying by $φ$ gives $φ^2=φ+1$.
+This is a quadratic $φ^2-φ-1=0$ where $a=1$, $b=-1$ and $c=-1$.
+&lt;/p&gt;
+&lt;p&gt;
+Using the quadratic formula $x={-b±√{b^2-4ac}}/{2a}$, 
+we get $φ= {1±√{(-1)^2-4(-1)}}/{2}= {1+√{5}}/{2}$
 &lt;/p&gt;
 &lt;/div&gt;
 
