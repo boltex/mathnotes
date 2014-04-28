@@ -20,7 +20,7 @@
 <v t="fil.20140120032538.3"><vh>Factoring out first</vh></v>
 <v t="fil.20140120032538.4"><vh>Completing the square first</vh></v>
 </v>
-<v t="fil.20140413232257.1862" a="E"><vh>Metallic Means and Rectangles</vh>
+<v t="fil.20140413232257.1862"><vh>Metallic Means and Rectangles</vh>
 <v t="fil.20140413232257.1863"><vh>Silver Ratio</vh></v>
 <v t="fil.20140413232257.1865"><vh>Golden Ratio</vh></v>
 </v>
@@ -28,7 +28,7 @@
 <v t="fil.20140120032538.6"><vh>Identities and Properties</vh></v>
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
-<v t="fil.20140120032538.8"><vh>Trigonometric Identities</vh>
+<v t="fil.20140120032538.8" a="E"><vh>Trigonometric Identities</vh>
 <v t="fil.20140415183456.1868"><vh>signs Identity</vh></v>
 <v t="fil.20140316165413.1710"><vh>Pythagorean identity</vh></v>
 <v t="fil.20140404213652.1861"><vh>Sum of Angles</vh></v>
@@ -1873,7 +1873,7 @@ Sine is an odd function that is also periodic,
 so negating the angle negates the result:
 $$\sin(-θ)=-\sin(θ)$$
 It is repeating at every 2π and is a copy of cosine if the
- angle is shifted by π/4 or -3π/4.
+ angle is shifted by π/2 or -3π/2.
 &lt;/p&gt;
 &lt;/div&gt; 
 
@@ -1884,7 +1884,7 @@ Cosine is an even function which is also periodic,
 so negating the angle does not change the result:
 $$\cos(-θ)=\cos(θ)$$
 It is repeating at every 2π and is a copy of sine 
-if the angle is shifted by -π/4 or 3π/4.
+if the angle is shifted by -π/2 or 3π/2.
 &lt;/p&gt;
 &lt;/div&gt; 
 
