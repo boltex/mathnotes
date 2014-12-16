@@ -28,18 +28,19 @@
 <v t="fil.20140120032538.6"><vh>Identities and Properties</vh></v>
 <v t="fil.20140120032538.7"><vh>Solving with e and ln</vh></v>
 </v>
-<v t="fil.20140120032538.8" a="E"><vh>Trigonometric Identities</vh>
+<v t="fil.20140120032538.8"><vh>Trigonometric Identities</vh>
 <v t="fil.20140415183456.1868"><vh>signs Identity</vh></v>
 <v t="fil.20140316165413.1710"><vh>Pythagorean identity</vh></v>
 <v t="fil.20140404213652.1861"><vh>Sum of Angles</vh></v>
 <v t="fil.20140409211208.1860"><vh>Double and Half Angles</vh></v>
 <v t="fil.20140316165413.1709"><vh>Law of Cosines</vh></v>
 </v>
-<v t="fil.20140120032538.9"><vh>Series</vh>
+<v t="fil.20140120032538.9" a="E"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
 <v t="fil.20140128043317"><vh>Gaussian Elimination</vh></v>
+<v t="fil.20141215203806.1871"><vh>Gaussian Elimination </vh></v>
 </v>
 <v t="fil.20140120032538.13"><vh>Undoing Trig Substitution</vh>
 <v t="fil.20140120032538.14"><vh>cos(arcsin)</vh></v>
@@ -916,7 +917,8 @@ Solve for x:
  &lt;li&gt;&lt;a href="#series1"&gt;Arithmetic&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="#series2"&gt;Geometric&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="#series3"&gt;Sum of Power&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#series4"&gt;How to Solve for Sum of Power&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#series4"&gt;Solve Sum of Power&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#series5"&gt;Solve Sum of cubes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 @others
@@ -1888,6 +1890,18 @@ if the angle is shifted by -π/2 or 3π/2.
 &lt;/p&gt;
 &lt;/div&gt; 
 
+&lt;/div&gt;</t>
+<t tx="fil.20141215203806.1871">&lt;div id="series5"&gt;
+
+&lt;p&gt;
+How to use Gaussian elimination to solve this system of three equations:
+&lt;/p&gt;
+
+&lt;p&gt;
+
+another paragraph
+ 
+&lt;/p&gt;
 &lt;/div&gt;</t>
 </tnodes>
 </leo_file>
