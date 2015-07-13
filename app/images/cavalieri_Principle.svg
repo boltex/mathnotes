@@ -13,7 +13,7 @@
    height="280"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="cavalieri_Principle.svg">
   <defs
      id="defs4">
@@ -110,17 +110,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="26.068659"
-     inkscape:cy="137.11166"
+     inkscape:cx="-5.871114"
+     inkscape:cy="85.41884"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1090"
-     inkscape:window-height="802"
-     inkscape:window-x="1432"
-     inkscape:window-y="224"
+     inkscape:window-width="673"
+     inkscape:window-height="674"
+     inkscape:window-x="1509"
+     inkscape:window-y="393"
      inkscape:window-maximized="0"
      inkscape:snap-global="true"
      inkscape:snap-bbox="true"
@@ -457,6 +457,12 @@
          d="m 78.666058,969.81323 40.815482,0 -31.249999,68.56547 -40.815483,0 z"
          style="fill:none;stroke:#000000;stroke-width:1.25737047;stroke-miterlimit:4;stroke-dashoffset:0" />
     </g>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#808080;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 2.7891424,1037.3049 0,-68.00003 40.7499996,0"
+       id="rect4989"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
     <g
        transform="translate(-0.1517217,-0.06464248)"
        id="layer1-1"

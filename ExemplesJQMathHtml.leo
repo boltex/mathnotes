@@ -11,7 +11,7 @@
 <find_panel_settings/>
 <vnodes>
 <v t="fil.20140120032538" a="E"><vh>@nosent app/index.html</vh>
-<v t="fil.20140120032538.1"><vh>Cavalieri's Principle</vh>
+<v t="fil.20140120032538.1" a="E"><vh>Cavalieri's Principle</vh>
 <v t="fil.20140121031006"><vh>Shapes, Surfaces and Volumes</vh></v>
 <v t="fil.20140121031006.1"><vh>Prisms and Pyramids</vh></v>
 <v t="fil.20140122010741"><vh>Cones and Spheres</vh></v>
@@ -35,7 +35,7 @@
 <v t="fil.20140409211208.1860"><vh>Double and Half Angles</vh></v>
 <v t="fil.20140316165413.1709"><vh>Law of Cosines</vh></v>
 </v>
-<v t="fil.20140120032538.9" a="E"><vh>Series</vh>
+<v t="fil.20140120032538.9"><vh>Series</vh>
 <v t="fil.20140120032538.10"><vh>Arithmetic Series</vh></v>
 <v t="fil.20140120032538.11"><vh>Geometric Series</vh></v>
 <v t="fil.20140120032538.12"><vh>Power Series</vh></v>
@@ -82,20 +82,20 @@
         &lt;meta name="description" content=""&gt;
         &lt;meta name="viewport" content="width=device-width"&gt;
         &lt;!-- Place favicon.ico and apple-touch-icon.png in the root directory --&gt;
-        &lt;link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="/favicon.ico"&gt;
-	    &lt;link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"&gt;
+        &lt;link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="favicon.ico"&gt;
+	    &lt;link rel="shortcut icon" type="image/x-icon" href="favicon.ico"&gt;
 	    &lt;!--[if IE]&gt;&lt;link rel="shortcut icon" href="/favicon.ico"&gt;&lt;![endif]--&gt;
-	    &lt;link rel="icon" type="image/png" sizes="195x195" href="/favicon-195.png"&gt;
-	    &lt;link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png"&gt;
-	    &lt;link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png"&gt;
-	    &lt;link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png"&gt;
-	    &lt;link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png"&gt;
-	    &lt;link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png"&gt;
-	    &lt;link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png"&gt;
-	    &lt;link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png"&gt;
+	    &lt;link rel="icon" type="image/png" sizes="195x195" href="favicon-195.png"&gt;
+	    &lt;link rel="apple-touch-icon" sizes="152x152" href="favicon-152.png"&gt;
+	    &lt;link rel="apple-touch-icon" sizes="144x144" href="favicon-144.png"&gt;
+	    &lt;link rel="apple-touch-icon" sizes="120x120" href="favicon-120.png"&gt;
+	    &lt;link rel="apple-touch-icon" sizes="114x114" href="favicon-114.png"&gt;
+	    &lt;link rel="icon" type="image/png" sizes="96x96" href="favicon-96.png"&gt;
+	    &lt;link rel="apple-touch-icon" sizes="76x76" href="favicon-76.png"&gt;
+	    &lt;link rel="apple-touch-icon" sizes="72x72" href="favicon-72.png"&gt;
 	    &lt;link rel="apple-touch-icon" href="favicon-57.png"&gt;
 	    &lt;meta name="msapplication-TileColor" content="#FFFFFF"&gt;
-	    &lt;meta name="msapplication-TileImage" content="/favicon-144.png"&gt;
+	    &lt;meta name="msapplication-TileImage" content="favicon-144.png"&gt;
         &lt;!-- build:css styles/vendor.css --&gt;
         &lt;!-- bower:css --&gt;
         &lt;link rel="stylesheet" href="styles/jqmath-0.4.0.css"&gt;
@@ -1137,20 +1137,22 @@ clear:both;
 &lt;div class="image-left"&gt;
 &lt;img src="images/cavalieri_Principle.svg" &gt;
 &lt;p&gt;
-A shape sliced by lines parallel to its base keeps the same area 
-when the pieces are moved parallel to this same base line. Similarly,
-a volume sliced by planes parallel to its base keeps the same volume
-when the pieces are moved parallel its base plane.
+A sliced shape has the same total area 
+as the cumulative area of its pieces. 
 &lt;/p&gt;
 &lt;p&gt;
-The area of a rectangle is the lenght of the base, multiplied by its height perpendicular to the base,
-$\b⋅\h$. By increasing the number of slices to infinity, it is obvious that for any parallelogram,
-the formula is also:
+Similarly,
+a volume sliced by planes has the same total volume
+as the volume of the individual pieces.
+&lt;/p&gt;
+&lt;p&gt;
+The area of a parallelogram, or that of a rectangle, is calculated with the lenght of the base b,
+ times the length of the height h, perpendicular to the base.
 $$A=\b\h$$
 &lt;/p&gt;
 &lt;p&gt;
-Half of a rectangle, split in a straight line from opposite vertices, is a right triangle.
-By Cavalieri's principle stated above, all triangles with the same base and height
+A rectangle split in half by a straight line crossing two of it's opposing vertices is a right triangle.
+By Cavalieri's principle, all triangles with the same base and height
  have the same area: Half a parallelogram.
 $$A={1/2}\b\h$$
 &lt;/p&gt;
@@ -1160,16 +1162,18 @@ $$A={1/2}\b\h$$
 &lt;p&gt;
 The constant $π$ is defined as the ratio between the perimeter P and the diameter D.
 &lt;/p&gt;
-&lt;p class="centered-content" &gt;
+&lt;p class="centered-content"&gt;
 $π=\P/\D$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $\D=2\r$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $\P=2π\r$
 &lt;/p&gt;
 &lt;p&gt;
-For a regular &lt;i&gt;n&lt;/i&gt;-sided polygon the perimeter is the lenght of a base b, times n: $\P=\b⋅{n}$
+The perimeter of a regular polygon is the lenght of its base b, times the number of sides n: $$\P=\b⋅{n}$$
 &lt;br /&gt;
-Factor the area of one of its triangles to get $A={1/2}\b\h⋅{n}$, equivalent to $A={1/2}\h⋅\P$.
-&lt;br /&gt;
-Letting n reach infinity to get a circle, sides s and h tend to a radius r, so $A={1/2}\r⋅\P$.
-&lt;br /&gt;
+Its area is the area of one of its triangle part times the number of sides n. 
+$$A={1/2}\b\h⋅{n}$$ 
+The perimeter previously defined can be factored out. 
+$$A={1/2}\h⋅\P$$
+Letting n reach infinity to get a circle, sides s and h tend to a radius r.
+$$A={1/2}\r⋅\P$$
 Using the formula for the perimeter of a circle, we can write the area as
 &lt;/p&gt;
 &lt;p class="centered-content" &gt;

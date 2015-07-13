@@ -10,20 +10,20 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="/favicon.ico">
-	    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="favicon.ico">
+	    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	    <!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
-	    <link rel="icon" type="image/png" sizes="195x195" href="/favicon-195.png">
-	    <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
-	    <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
-	    <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
-	    <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
-	    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
-	    <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
-	    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+	    <link rel="icon" type="image/png" sizes="195x195" href="favicon-195.png">
+	    <link rel="apple-touch-icon" sizes="152x152" href="favicon-152.png">
+	    <link rel="apple-touch-icon" sizes="144x144" href="favicon-144.png">
+	    <link rel="apple-touch-icon" sizes="120x120" href="favicon-120.png">
+	    <link rel="apple-touch-icon" sizes="114x114" href="favicon-114.png">
+	    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96.png">
+	    <link rel="apple-touch-icon" sizes="76x76" href="favicon-76.png">
+	    <link rel="apple-touch-icon" sizes="72x72" href="favicon-72.png">
 	    <link rel="apple-touch-icon" href="favicon-57.png">
 	    <meta name="msapplication-TileColor" content="#FFFFFF">
-	    <meta name="msapplication-TileImage" content="/favicon-144.png">
+	    <meta name="msapplication-TileImage" content="favicon-144.png">
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
         <link rel="stylesheet" href="styles/jqmath-0.4.0.css">
@@ -94,20 +94,22 @@
 <div class="image-left">
 <img src="images/cavalieri_Principle.svg" >
 <p>
-A shape sliced by lines parallel to its base keeps the same area 
-when the pieces are moved parallel to this same base line. Similarly,
-a volume sliced by planes parallel to its base keeps the same volume
-when the pieces are moved parallel its base plane.
+A sliced shape has the same total area 
+as the cumulative area of its pieces. 
 </p>
 <p>
-The area of a rectangle is the lenght of the base, multiplied by its height perpendicular to the base,
-$\b⋅\h$. By increasing the number of slices to infinity, it is obvious that for any parallelogram,
-the formula is also:
+Similarly,
+a volume sliced by planes has the same total volume
+as the volume of the individual pieces.
+</p>
+<p>
+The area of a parallelogram, or that of a rectangle, is calculated with the lenght of the base b,
+ times the length of the height h, perpendicular to the base.
 $$A=\b\h$$
 </p>
 <p>
-Half of a rectangle, split in a straight line from opposite vertices, is a right triangle.
-By Cavalieri's principle stated above, all triangles with the same base and height
+A rectangle split in half by a straight line crossing two of it's opposing vertices is a right triangle.
+By Cavalieri's principle, all triangles with the same base and height
  have the same area: Half a parallelogram.
 $$A={1/2}\b\h$$
 </p>
@@ -117,16 +119,18 @@ $$A={1/2}\b\h$$
 <p>
 The constant $π$ is defined as the ratio between the perimeter P and the diameter D.
 </p>
-<p class="centered-content" >
+<p class="centered-content">
 $π=\P/\D$ &nbsp;&nbsp;&nbsp;&nbsp; $\D=2\r$ &nbsp;&nbsp;&nbsp;&nbsp; $\P=2π\r$
 </p>
 <p>
-For a regular <i>n</i>-sided polygon the perimeter is the lenght of a base b, times n: $\P=\b⋅{n}$
+The perimeter of a regular polygon is the lenght of its base b, times the number of sides n: $$\P=\b⋅{n}$$
 <br />
-Factor the area of one of its triangles to get $A={1/2}\b\h⋅{n}$, equivalent to $A={1/2}\h⋅\P$.
-<br />
-Letting n reach infinity to get a circle, sides s and h tend to a radius r, so $A={1/2}\r⋅\P$.
-<br />
+Its area is the area of one of its triangle part times the number of sides n. 
+$$A={1/2}\b\h⋅{n}$$ 
+The perimeter previously defined can be factored out. 
+$$A={1/2}\h⋅\P$$
+Letting n reach infinity to get a circle, sides s and h tend to a radius r.
+$$A={1/2}\r⋅\P$$
 Using the formula for the perimeter of a circle, we can write the area as
 </p>
 <p class="centered-content" >
