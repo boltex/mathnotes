@@ -2,6 +2,10 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+
+
 .ui-accordion-header{
   text-align: left;
 }
@@ -26,6 +30,11 @@ font-size: inherit;
 }
 
 .startsUgly { display: none; }
+
+
+.top-spacer{
+  margin-top:20px;
+}
 
 .medium-spacer { 
     margin-left:15px;
@@ -55,14 +64,31 @@ margin-right:0px;
 }
 
 
-.container h1 {
-margin-top:0;
-margin-bottom:15px;
-font-family: 'IM Fell English', serif;
-color:#7C6849;
-text-shadow:1px 1px 9px #FFFFFF, 0px 0px 6px #FFFFFF;
+.container{
+
+  h1 {
+    margin-top:0;
+    margin-bottom:15px;
+    font-family: 'IM Fell English', serif;
+    color:#7C6849;
+    text-shadow:1px 1px 9px #FFFFFF, 0px 0px 6px #FFFFFF;
+  }
+
+  h2, h3, h4, h5 {
+    
+    font-family: 'IM Fell English', serif;
+    color:#7C6849;
+    
+  }
+
+
 
 }
+
+
+
+
+
 
 @media (min-width: 768px){
 .container {

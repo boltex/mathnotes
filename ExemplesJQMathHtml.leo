@@ -61,7 +61,7 @@
 <v t="fil.20140120032538.20"><vh>More Identities</vh></v>
 </v>
 </v>
-<v t="fil.20140120215236"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215236" a="E"><vh>@nosent app/styles/custommath.scss</vh>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
 <v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
@@ -930,6 +930,10 @@ Solve for x:
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+
+
 .ui-accordion-header{
   text-align: left;
 }
@@ -954,6 +958,11 @@ font-size: inherit;
 }
 
 .startsUgly { display: none; }
+
+
+.top-spacer{
+  margin-top:20px;
+}
 
 .medium-spacer { 
     margin-left:15px;
@@ -983,14 +992,31 @@ margin-right:0px;
 }
 
 
-.container h1 {
-margin-top:0;
-margin-bottom:15px;
-font-family: 'IM Fell English', serif;
-color:#7C6849;
-text-shadow:1px 1px 9px #FFFFFF, 0px 0px 6px #FFFFFF;
+.container{
+
+  h1 {
+    margin-top:0;
+    margin-bottom:15px;
+    font-family: 'IM Fell English', serif;
+    color:#7C6849;
+    text-shadow:1px 1px 9px #FFFFFF, 0px 0px 6px #FFFFFF;
+  }
+
+  h2, h3, h4, h5 {
+    
+    font-family: 'IM Fell English', serif;
+    color:#7C6849;
+    
+  }
+
+
 
 }
+
+
+
+
+
 
 @media (min-width: 768px){
 .container {
@@ -1133,26 +1159,24 @@ clear:both;
 }</t>
 <t tx="fil.20140121031006">&lt;div id="cavalieri1"&gt;
 
-
 &lt;div class="image-left"&gt;
 &lt;img src="images/cavalieri_Principle.svg" &gt;
 &lt;p&gt;
-A sliced shape has the same total area 
-as the cumulative area of its pieces. 
-&lt;/p&gt;
-&lt;p&gt;
+A fragmented shape has the same total area 
+as the cumulative areas of the pieces.
 Similarly,
-a volume sliced by planes has the same total volume
-as the volume of the individual pieces.
+a broken object has the same total volume
+as the sum of the volume of its pieces.
 &lt;/p&gt;
 &lt;p&gt;
-The area of a parallelogram, or that of a rectangle, is calculated with the lenght of the base b,
- times the length of the height h, perpendicular to the base.
+The area of a rectangle, and by this principle that of any parallelogram, is calculated by the lenght
+ of the base b, times the length of the height perpendicular to the base, h.
 $$A=\b\h$$
 &lt;/p&gt;
 &lt;p&gt;
-A rectangle split in half by a straight line crossing two of it's opposing vertices is a right triangle.
-By Cavalieri's principle, all triangles with the same base and height
+A rectangle split in half by a segment joining two of it's corners
+ makes two right triangles.
+Triangles with the same base and height then
  have the same area: Half a parallelogram.
 $$A={1/2}\b\h$$
 &lt;/p&gt;
@@ -1166,7 +1190,8 @@ The constant $π$ is defined as the ratio between the perimeter P and the diamet
 $π=\P/\D$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $\D=2\r$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $\P=2π\r$
 &lt;/p&gt;
 &lt;p&gt;
-The perimeter of a regular polygon is the lenght of its base b, times the number of sides n: $$\P=\b⋅{n}$$
+The perimeter of a regular polygon is the lenght of its base b,
+ times the number of sides n: $$\P=\b⋅{n}$$
 &lt;br /&gt;
 Its area is the area of one of its triangle part times the number of sides n. 
 $$A={1/2}\b\h⋅{n}$$ 
