@@ -344,7 +344,7 @@ module.exports = function (grunt) {
                 '<%= yeoman.dist %>/styles/{,*/}*.css',
                 '!<%= yeoman.dist %>/scripts/vendor/*'
             ],
-            uglify: true
+            uglify: false
         },
 
         // Run some tasks in parallel to speed up build process

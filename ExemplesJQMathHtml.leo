@@ -62,9 +62,9 @@
 </v>
 </v>
 <v t="fil.20140120215236" a="E"><vh>@nosent app/styles/custommath.scss</vh>
+<v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
 <v t="fil.20140120215510"><vh>Exponent and logs figures</vh></v>
 <v t="fil.20140120215510.1"><vh>series tables</vh></v>
-<v t="fil.20140120215510.2"><vh>cavalieri images divs</vh></v>
 <v t="fil.20140222183703.1708"><vh>Justified</vh></v>
 </v>
 </vnodes>
@@ -1162,11 +1162,13 @@ clear:both;
 &lt;div class="image-left"&gt;
 &lt;img src="images/cavalieri_Principle.svg" &gt;
 &lt;p&gt;
-A fragmented shape has the same total area 
-as the cumulative areas of the pieces.
-Similarly,
-a broken object has the same total volume
-as the sum of the volume of its pieces.
+If at every height, two shapes have the same width, their areas are equal.
+&lt;/p&gt;
+&lt;p&gt;
+Fragmented shapes have the same total area 
+as the cumulative areas of their pieces. 
+Objects have a volume equal to
+the sum of the volume of their pieces.
 &lt;/p&gt;
 &lt;p&gt;
 The area of a rectangle, and by this principle that of any parallelogram, is calculated by the lenght
@@ -1184,7 +1186,7 @@ $$A={1/2}\b\h$$
 &lt;div class="image-left"&gt;
 &lt;img src="images/cavalieri_Circle.svg" &gt;
 &lt;p&gt;
-The constant $π$ is defined as the ratio between the perimeter P and the diameter D.
+The constant π is defined as the ratio between the perimeter P and the diameter D.
 &lt;/p&gt;
 &lt;p class="centered-content"&gt;
 $π=\P/\D$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $\D=2\r$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $\P=2π\r$
@@ -1193,12 +1195,26 @@ $π=\P/\D$ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; $\D=2\r$ &amp;nbsp;&amp;nbsp
 The perimeter of a regular polygon is the lenght of its base b,
  times the number of sides n: $$\P=\b⋅{n}$$
 &lt;br /&gt;
-Its area is the area of one of its triangle part times the number of sides n. 
+Its area is the area of one of its triangle section, times the number of sides n. 
+&lt;/p&gt;
+&lt;p&gt;
 $$A={1/2}\b\h⋅{n}$$ 
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="centered-content"&gt;
+&lt;p&gt;
 The perimeter previously defined can be factored out. 
+&lt;/p&gt;
+&lt;p&gt;
 $$A={1/2}\h⋅\P$$
+&lt;/p&gt;
+&lt;p&gt;
 Letting n reach infinity to get a circle, sides s and h tend to a radius r.
+&lt;/p&gt;
+&lt;p&gt;
 $$A={1/2}\r⋅\P$$
+&lt;/p&gt;
+&lt;p&gt;
 Using the formula for the perimeter of a circle, we can write the area as
 &lt;/p&gt;
 &lt;p class="centered-content" &gt;
@@ -1212,12 +1228,12 @@ The volume of an n-sided polygonal prism is: $V=\text"Base Area"⋅\h$, &lt;br /
 its surface area is: $A=(\text"Base Perimeter"⋅\h) + (2⋅\text"Base Area")$.
 &lt;/p&gt;
 &lt;p&gt;
-A circular prism, (a cylinder) has volume $V=π\r^2⋅\h$ 
-and a surface area of $A=(2π\r⋅\h) + (2⋅π\r^2)$.
+Circular prisms (cylinders) have volume $V=π\r^2⋅\h$ 
+and surface area $A=(2π\r⋅\h) + (2⋅π\r^2)$.
 &lt;/p&gt;
 &lt;p&gt;
 Note that if a cylinder has the same height as its width, $(\text"Height"=\text"Diameter"=2\r)$, 
- then the volume could be written as: $V=π\r^2⋅2\r= 2π\r^3$, 
+ then its volume can be written as: $V=π\r^2⋅2\r= 2π\r^3$, 
 its surface area: $A=(4π\r^2) + (2⋅π\r^2) = 6π\r^2$.
 &lt;/p&gt;
 &lt;/div&gt;

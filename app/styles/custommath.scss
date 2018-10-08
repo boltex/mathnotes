@@ -134,6 +134,32 @@ clear:both;
 	height: 0;
 }
 
+
+.image-left{
+    clear:both;
+    img{
+        float:left;
+        margin-right:15px;
+    }
+
+}
+
+.image-right{
+    clear:both;
+    img{
+        float:right;
+        margin-left:10px;
+    }
+
+}
+
+.image-center{
+    text-align:center;
+    clear:both;
+    img{
+        display:inline-block;
+    }
+}
 .figure-border {
   background-color: #efefef;
   border: 1px solid #7a7;
@@ -196,32 +222,6 @@ clear:both;
 #power-table > thead > tr + tr > th {
   font-style: italic;
   color: gray;
-}
-
-.image-left{
-    clear:both;
-    img{
-        float:left;
-        margin-right:15px;
-    }
-
-}
-
-.image-right{
-    clear:both;
-    img{
-        float:right;
-        margin-left:10px;
-    }
-
-}
-
-.image-center{
-    text-align:center;
-    clear:both;
-    img{
-        display:inline-block;
-    }
 }
 .container-just {
     text-align: justify;
