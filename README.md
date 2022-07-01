@@ -22,4 +22,5 @@ TODO
 - Add material to the Min/Max section!
 - Use this project to test *MathJax* instead of *JQmath* for math rendering.
 
+some changes
 
